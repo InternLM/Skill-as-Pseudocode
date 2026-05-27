@@ -1,0 +1,4500 @@
+[
+  {
+    "candidate_id": "text_cand_021",
+    "n_distinct_skills": 238,
+    "n_units": 238,
+    "distinct_skills": [
+      "anthropic_-21risk-automation",
+      "anthropic_-2chat-automation",
+      "anthropic_ably-automation",
+      "anthropic_abstract-automation",
+      "anthropic_abuselpdb-automation",
+      "anthropic_abyssale-automation",
+      "anthropic_accelo-automation",
+      "anthropic_accredible-certificates-automation",
+      "anthropic_acculynx-automation",
+      "anthropic_active-campaign-automation",
+      "anthropic_addresszen-automation",
+      "anthropic_adobe-automation",
+      "anthropic_adrapid-automation",
+      "anthropic_adyntel-automation",
+      "anthropic_aero-workflow-automation",
+      "anthropic_aeroleads-automation",
+      "anthropic_affinda-automation",
+      "anthropic_affinity-automation",
+      "anthropic_agencyzoom-automation",
+      "anthropic_agent-mail-automation",
+      "anthropic_agentql-automation",
+      "anthropic_agenty-automation",
+      "anthropic_agiled-automation",
+      "anthropic_agility-cms-automation",
+      "anthropic_ai-ml-api-automation",
+      "anthropic_aivoov-automation",
+      "anthropic_alchemy-automation",
+      "anthropic_algodocs-automation",
+      "anthropic_algolia-automation",
+      "anthropic_all-images-ai-automation",
+      "anthropic_alpha-vantage-automation",
+      "anthropic_altoviz-automation",
+      "anthropic_alttext-ai-automation",
+      "anthropic_amara-automation",
+      "anthropic_amazon-automation",
+      "anthropic_ambee-automation",
+      "anthropic_ambient-weather-automation",
+      "anthropic_amcards-automation",
+      "anthropic_anonyflow-automation",
+      "anthropic_apaleo-automation",
+      "anthropic_apex27-automation",
+      "anthropic_api-bible-automation",
+      "anthropic_api-labz-automation",
+      "anthropic_api-ninjas-automation",
+      "anthropic_api-sports-automation",
+      "anthropic_api2pdf-automation",
+      "anthropic_apiflash-automation",
+      "anthropic_apilio-automation",
+      "anthropic_apipie-ai-automation",
+      "anthropic_apitemplate-io-automation",
+      "anthropic_apiverve-automation",
+      "anthropic_appcircle-automation",
+      "anthropic_appdrag-automation",
+      "anthropic_appointo-automation",
+      "anthropic_appsflyer-automation",
+      "anthropic_appveyor-automation",
+      "anthropic_aryn-automation",
+      "anthropic_ascora-automation",
+      "anthropic_asin-data-api-automation",
+      "anthropic_astica-ai-automation",
+      "anthropic_async-interview-automation",
+      "anthropic_atlassian-automation",
+      "anthropic_auth0-automation",
+      "anthropic_autobound-automation",
+      "anthropic_autom-automation",
+      "anthropic_axonaut-automation",
+      "anthropic_ayrshare-automation",
+      "anthropic_backendless-automation",
+      "anthropic_bannerbear-automation",
+      "anthropic_bart-automation",
+      "anthropic_baselinker-automation",
+      "anthropic_baserow-automation",
+      "anthropic_basin-automation",
+      "anthropic_battlenet-automation",
+      "anthropic_beaconchain-automation",
+      "anthropic_beaconstac-automation",
+      "anthropic_beamer-automation",
+      "anthropic_beeminder-automation",
+      "anthropic_bench-automation",
+      "anthropic_benchmark-email-automation",
+      "anthropic_benzinga-automation",
+      "anthropic_bestbuy-automation",
+      "anthropic_better-proposals-automation",
+      "anthropic_better-stack-automation",
+      "anthropic_bidsketch-automation",
+      "anthropic_big-data-cloud-automation",
+      "anthropic_bigmailer-automation",
+      "anthropic_bigml-automation",
+      "anthropic_bigpicture-io-automation",
+      "anthropic_bitquery-automation",
+      "anthropic_bitwarden-automation",
+      "anthropic_blackbaud-automation",
+      "anthropic_blackboard-automation",
+      "anthropic_blocknative-automation",
+      "anthropic_boldsign-automation",
+      "anthropic_bolna-automation",
+      "anthropic_boloforms-automation",
+      "anthropic_bolt-iot-automation",
+      "anthropic_bonsai-automation",
+      "anthropic_bookingmood-automation",
+      "anthropic_booqable-automation",
+      "anthropic_borneo-automation",
+      "anthropic_botbaba-automation",
+      "anthropic_botpress-automation",
+      "anthropic_botsonic-automation",
+      "anthropic_botstar-automation",
+      "anthropic_bouncer-automation",
+      "anthropic_boxhero-automation",
+      "anthropic_brandfetch-automation",
+      "anthropic_breeze-automation",
+      "anthropic_breezy-hr-automation",
+      "anthropic_brex-automation",
+      "anthropic_brex-staging-automation",
+      "anthropic_brightdata-automation",
+      "anthropic_brightpearl-automation",
+      "anthropic_brilliant-directories-automation",
+      "anthropic_browseai-automation",
+      "anthropic_browserhub-automation",
+      "anthropic_btcpay-server-automation",
+      "anthropic_bubble-automation",
+      "anthropic_bugbug-automation",
+      "anthropic_bugherd-automation",
+      "anthropic_bugsnag-automation",
+      "anthropic_buildkite-automation",
+      "anthropic_builtwith-automation",
+      "anthropic_bunnycdn-automation",
+      "anthropic_byteforms-automation",
+      "anthropic_cabinpanda-automation",
+      "anthropic_cal-automation",
+      "anthropic_calendarhero-automation",
+      "anthropic_callerapi-automation",
+      "anthropic_callingly-automation",
+      "anthropic_callpage-automation",
+      "anthropic_campaign-cleaner-automation",
+      "anthropic_campayn-automation",
+      "anthropic_canny-automation",
+      "anthropic_canvas-automation",
+      "anthropic_capsule_crm-automation",
+      "anthropic_carbone-automation",
+      "anthropic_cardly-automation",
+      "anthropic_castingwords-automation",
+      "anthropic_cats-automation",
+      "anthropic_cdr-platform-automation",
+      "anthropic_census-bureau-automation",
+      "anthropic_centralstationcrm-automation",
+      "anthropic_certifier-automation",
+      "anthropic_chaser-automation",
+      "anthropic_chatbotkit-automation",
+      "anthropic_chatfai-automation",
+      "anthropic_chatwork-automation",
+      "anthropic_chmeetings-automation",
+      "anthropic_cincopa-automation",
+      "anthropic_claid-ai-automation",
+      "anthropic_classmarker-automation",
+      "anthropic_clearout-automation",
+      "anthropic_clickmeeting-automation",
+      "anthropic_cloudcart-automation",
+      "anthropic_cloudconvert-automation",
+      "anthropic_cloudflare-api-key-automation",
+      "anthropic_cloudflare-automation",
+      "anthropic_cloudflare-browser-rendering-automation",
+      "anthropic_cloudlayer-automation",
+      "anthropic_cloudpress-automation",
+      "anthropic_coassemble-automation",
+      "anthropic_codacy-automation",
+      "anthropic_codeinterpreter-automation",
+      "anthropic_codereadr-automation",
+      "anthropic_coinmarketcal-automation",
+      "anthropic_coinmarketcap-automation",
+      "anthropic_coinranking-automation",
+      "anthropic_college-football-data-automation",
+      "anthropic_composio-automation",
+      "anthropic_composio-search-automation",
+      "anthropic_connecteam-automation",
+      "anthropic_contentful-graphql-automation",
+      "anthropic_control-d-automation",
+      "anthropic_conversion-tools-automation",
+      "anthropic_convertapi-automation",
+      "anthropic_conveyor-automation",
+      "anthropic_convolo-ai-automation",
+      "anthropic_corrently-automation",
+      "anthropic_countdown-api-automation",
+      "anthropic_coupa-automation",
+      "anthropic_craftmypdf-automation",
+      "anthropic_crowdin-automation",
+      "anthropic_crustdata-automation",
+      "anthropic_cults-automation",
+      "anthropic_curated-automation",
+      "anthropic_currents-api-automation",
+      "anthropic_customgpt-automation",
+      "anthropic_customjs-automation",
+      "anthropic_cutt-ly-automation",
+      "anthropic_d2lbrightspace-automation",
+      "anthropic_dadata-ru-automation",
+      "anthropic_daffy-automation",
+      "anthropic_dailybot-automation",
+      "anthropic_datagma-automation",
+      "anthropic_datarobot-automation",
+      "anthropic_deadline-funnel-automation",
+      "anthropic_deel-automation",
+      "anthropic_deepgram-automation",
+      "anthropic_demio-automation",
+      "anthropic_desktime-automation",
+      "anthropic_detrack-automation",
+      "anthropic_dialmycalls-automation",
+      "anthropic_dialpad-automation",
+      "anthropic_dictionary-api-automation",
+      "anthropic_diffbot-automation",
+      "anthropic_digicert-automation",
+      "anthropic_digital-ocean-automation",
+      "anthropic_discordbot-automation",
+      "anthropic_dnsfilter-automation",
+      "anthropic_dock-certs-automation",
+      "anthropic_docker_hub-automation",
+      "anthropic_docmosis-automation",
+      "anthropic_docnify-automation",
+      "anthropic_docsbot-ai-automation",
+      "anthropic_docugenerate-automation",
+      "anthropic_docupilot-automation",
+      "anthropic_docupost-automation",
+      "anthropic_docuseal-automation",
+      "anthropic_doppler-marketing-automation-automation",
+      "anthropic_doppler-secretops-automation",
+      "anthropic_dotsimple-automation",
+      "anthropic_dovetail-automation",
+      "anthropic_dpd2-automation",
+      "anthropic_draftable-automation",
+      "anthropic_dreamstudio-automation",
+      "anthropic_drip-jobs-automation",
+      "anthropic_dripcel-automation",
+      "anthropic_dromo-automation",
+      "anthropic_dropbox-sign-automation",
+      "anthropic_dropcontact-automation",
+      "anthropic_dungeon-fighter-online-automation",
+      "anthropic_echtpost-automation",
+      "anthropic_elorus-automation",
+      "anthropic_emailable-automation",
+      "anthropic_emaillistverify-automation"
+    ],
+    "final_round": 0,
+    "final_tier": "auto_promote",
+    "final_contract": {
+      "id": "composio-automation",
+      "trigger": "When automating operations through Composio's various toolkits via Rube MCP.",
+      "input_schema": {
+        "toolkit_name": {
+          "type": "string",
+          "required": true,
+          "description": "The name of the toolkit to be used for automation."
+        }
+      },
+      "output_schema": {
+        "result": {
+          "type": "string",
+          "description": "The result of the automation operation."
+        }
+      },
+      "preconditions": [
+        "The specified toolkit must be available in Composio.",
+        "The Rube MCP must be properly configured."
+      ],
+      "postconditions": [
+        "The automation operation is completed successfully.",
+        "The result of the operation is returned."
+      ],
+      "resources": [
+        "composio.py"
+      ],
+      "side_effects": [
+        "none"
+      ],
+      "rationale": "This child skill encapsulates the common procedure of automating tasks across various toolkits in Composio."
+    },
+    "final_profile": {
+      "candidate_id": "text_cand_021",
+      "contract_id": "composio-automation",
+      "n_units": 238,
+      "n_distinct_skills": 238,
+      "extraction_failed": false,
+      "coverage": 0.276,
+      "coverage_embed": 0.82,
+      "binding_rate": 1.0,
+      "min_binding_rate": 1.0,
+      "replacement_rate": 1.0,
+      "risk": 0.0,
+      "contract_tokens": 29,
+      "parents_covered": 238,
+      "failure_signature": {
+        "kind": "coverage",
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [
+          "anthropic_-21risk-automation",
+          "anthropic_-2chat-automation",
+          "anthropic_ably-automation",
+          "anthropic_abstract-automation",
+          "anthropic_abuselpdb-automation",
+          "anthropic_abyssale-automation",
+          "anthropic_accelo-automation",
+          "anthropic_accredible-certificates-automation",
+          "anthropic_acculynx-automation",
+          "anthropic_active-campaign-automation",
+          "anthropic_addresszen-automation",
+          "anthropic_adobe-automation",
+          "anthropic_adrapid-automation",
+          "anthropic_adyntel-automation",
+          "anthropic_aero-workflow-automation",
+          "anthropic_aeroleads-automation",
+          "anthropic_affinda-automation",
+          "anthropic_affinity-automation",
+          "anthropic_agencyzoom-automation",
+          "anthropic_agent-mail-automation",
+          "anthropic_agentql-automation",
+          "anthropic_agenty-automation",
+          "anthropic_agiled-automation",
+          "anthropic_agility-cms-automation",
+          "anthropic_ai-ml-api-automation",
+          "anthropic_aivoov-automation",
+          "anthropic_alchemy-automation",
+          "anthropic_algodocs-automation",
+          "anthropic_algolia-automation",
+          "anthropic_all-images-ai-automation",
+          "anthropic_alpha-vantage-automation",
+          "anthropic_altoviz-automation",
+          "anthropic_alttext-ai-automation",
+          "anthropic_amara-automation",
+          "anthropic_amazon-automation",
+          "anthropic_ambee-automation",
+          "anthropic_ambient-weather-automation",
+          "anthropic_amcards-automation",
+          "anthropic_anonyflow-automation",
+          "anthropic_apaleo-automation",
+          "anthropic_apex27-automation",
+          "anthropic_api-bible-automation",
+          "anthropic_api-labz-automation",
+          "anthropic_api-ninjas-automation",
+          "anthropic_api-sports-automation",
+          "anthropic_api2pdf-automation",
+          "anthropic_apiflash-automation",
+          "anthropic_apilio-automation",
+          "anthropic_apipie-ai-automation",
+          "anthropic_apitemplate-io-automation",
+          "anthropic_apiverve-automation",
+          "anthropic_appcircle-automation",
+          "anthropic_appdrag-automation",
+          "anthropic_appointo-automation",
+          "anthropic_appsflyer-automation",
+          "anthropic_appveyor-automation",
+          "anthropic_aryn-automation",
+          "anthropic_ascora-automation",
+          "anthropic_asin-data-api-automation",
+          "anthropic_astica-ai-automation",
+          "anthropic_async-interview-automation",
+          "anthropic_atlassian-automation",
+          "anthropic_auth0-automation",
+          "anthropic_autobound-automation",
+          "anthropic_autom-automation",
+          "anthropic_axonaut-automation",
+          "anthropic_ayrshare-automation",
+          "anthropic_backendless-automation",
+          "anthropic_bannerbear-automation",
+          "anthropic_bart-automation",
+          "anthropic_baselinker-automation",
+          "anthropic_baserow-automation",
+          "anthropic_basin-automation",
+          "anthropic_battlenet-automation",
+          "anthropic_beaconchain-automation",
+          "anthropic_beaconstac-automation",
+          "anthropic_beamer-automation",
+          "anthropic_beeminder-automation",
+          "anthropic_bench-automation",
+          "anthropic_benchmark-email-automation",
+          "anthropic_benzinga-automation",
+          "anthropic_bestbuy-automation",
+          "anthropic_better-proposals-automation",
+          "anthropic_better-stack-automation",
+          "anthropic_bidsketch-automation",
+          "anthropic_big-data-cloud-automation",
+          "anthropic_bigmailer-automation",
+          "anthropic_bigml-automation",
+          "anthropic_bigpicture-io-automation",
+          "anthropic_bitquery-automation",
+          "anthropic_bitwarden-automation",
+          "anthropic_blackbaud-automation",
+          "anthropic_blackboard-automation",
+          "anthropic_blocknative-automation",
+          "anthropic_boldsign-automation",
+          "anthropic_bolna-automation",
+          "anthropic_boloforms-automation",
+          "anthropic_bolt-iot-automation",
+          "anthropic_bonsai-automation",
+          "anthropic_bookingmood-automation",
+          "anthropic_booqable-automation",
+          "anthropic_borneo-automation",
+          "anthropic_botbaba-automation",
+          "anthropic_botpress-automation",
+          "anthropic_botsonic-automation",
+          "anthropic_botstar-automation",
+          "anthropic_bouncer-automation",
+          "anthropic_boxhero-automation",
+          "anthropic_brandfetch-automation",
+          "anthropic_breeze-automation",
+          "anthropic_breezy-hr-automation",
+          "anthropic_brex-automation",
+          "anthropic_brex-staging-automation",
+          "anthropic_brightdata-automation",
+          "anthropic_brightpearl-automation",
+          "anthropic_brilliant-directories-automation",
+          "anthropic_browseai-automation",
+          "anthropic_browserhub-automation",
+          "anthropic_btcpay-server-automation",
+          "anthropic_bubble-automation",
+          "anthropic_bugbug-automation",
+          "anthropic_bugherd-automation",
+          "anthropic_bugsnag-automation",
+          "anthropic_buildkite-automation",
+          "anthropic_builtwith-automation",
+          "anthropic_bunnycdn-automation",
+          "anthropic_byteforms-automation",
+          "anthropic_cabinpanda-automation",
+          "anthropic_cal-automation",
+          "anthropic_calendarhero-automation",
+          "anthropic_callerapi-automation",
+          "anthropic_callingly-automation",
+          "anthropic_callpage-automation",
+          "anthropic_campaign-cleaner-automation",
+          "anthropic_campayn-automation",
+          "anthropic_canny-automation",
+          "anthropic_canvas-automation",
+          "anthropic_capsule_crm-automation",
+          "anthropic_carbone-automation",
+          "anthropic_cardly-automation",
+          "anthropic_castingwords-automation",
+          "anthropic_cats-automation",
+          "anthropic_cdr-platform-automation",
+          "anthropic_census-bureau-automation",
+          "anthropic_centralstationcrm-automation",
+          "anthropic_certifier-automation",
+          "anthropic_chaser-automation",
+          "anthropic_chatbotkit-automation",
+          "anthropic_chatfai-automation",
+          "anthropic_chatwork-automation",
+          "anthropic_chmeetings-automation",
+          "anthropic_cincopa-automation",
+          "anthropic_claid-ai-automation",
+          "anthropic_classmarker-automation",
+          "anthropic_clearout-automation",
+          "anthropic_clickmeeting-automation",
+          "anthropic_cloudcart-automation",
+          "anthropic_cloudconvert-automation",
+          "anthropic_cloudflare-api-key-automation",
+          "anthropic_cloudflare-automation",
+          "anthropic_cloudflare-browser-rendering-automation",
+          "anthropic_cloudlayer-automation",
+          "anthropic_cloudpress-automation",
+          "anthropic_coassemble-automation",
+          "anthropic_codacy-automation",
+          "anthropic_codeinterpreter-automation",
+          "anthropic_codereadr-automation",
+          "anthropic_coinmarketcal-automation",
+          "anthropic_coinmarketcap-automation",
+          "anthropic_coinranking-automation",
+          "anthropic_college-football-data-automation",
+          "anthropic_composio-automation",
+          "anthropic_composio-search-automation",
+          "anthropic_connecteam-automation",
+          "anthropic_contentful-graphql-automation",
+          "anthropic_control-d-automation",
+          "anthropic_conversion-tools-automation",
+          "anthropic_convertapi-automation",
+          "anthropic_conveyor-automation",
+          "anthropic_convolo-ai-automation",
+          "anthropic_corrently-automation",
+          "anthropic_countdown-api-automation",
+          "anthropic_coupa-automation",
+          "anthropic_craftmypdf-automation",
+          "anthropic_crowdin-automation",
+          "anthropic_crustdata-automation",
+          "anthropic_cults-automation",
+          "anthropic_curated-automation",
+          "anthropic_currents-api-automation",
+          "anthropic_customgpt-automation",
+          "anthropic_customjs-automation",
+          "anthropic_cutt-ly-automation",
+          "anthropic_d2lbrightspace-automation",
+          "anthropic_dadata-ru-automation",
+          "anthropic_daffy-automation",
+          "anthropic_dailybot-automation",
+          "anthropic_datagma-automation",
+          "anthropic_datarobot-automation",
+          "anthropic_deadline-funnel-automation",
+          "anthropic_deel-automation",
+          "anthropic_deepgram-automation",
+          "anthropic_demio-automation",
+          "anthropic_desktime-automation",
+          "anthropic_detrack-automation",
+          "anthropic_dialmycalls-automation",
+          "anthropic_dialpad-automation",
+          "anthropic_dictionary-api-automation",
+          "anthropic_diffbot-automation",
+          "anthropic_digicert-automation",
+          "anthropic_digital-ocean-automation",
+          "anthropic_discordbot-automation",
+          "anthropic_dnsfilter-automation",
+          "anthropic_dock-certs-automation",
+          "anthropic_docker_hub-automation",
+          "anthropic_docmosis-automation",
+          "anthropic_docnify-automation",
+          "anthropic_docsbot-ai-automation",
+          "anthropic_docugenerate-automation",
+          "anthropic_docupilot-automation",
+          "anthropic_docupost-automation",
+          "anthropic_docuseal-automation",
+          "anthropic_doppler-marketing-automation-automation",
+          "anthropic_doppler-secretops-automation",
+          "anthropic_dotsimple-automation",
+          "anthropic_dovetail-automation",
+          "anthropic_dpd2-automation",
+          "anthropic_draftable-automation",
+          "anthropic_dreamstudio-automation",
+          "anthropic_drip-jobs-automation",
+          "anthropic_dripcel-automation",
+          "anthropic_dromo-automation",
+          "anthropic_dropbox-sign-automation",
+          "anthropic_dropcontact-automation",
+          "anthropic_dungeon-fighter-online-automation",
+          "anthropic_echtpost-automation",
+          "anthropic_elorus-automation",
+          "anthropic_emailable-automation",
+          "anthropic_emaillistverify-automation"
+        ],
+        "risk_flags": []
+      }
+    },
+    "final_reasons": [
+      "score 0.77 ≥ auto threshold 0.65",
+      "low coverage 0.28"
+    ],
+    "rounds_attempted": 0
+  },
+  {
+    "candidate_id": "text_cand_040",
+    "n_distinct_skills": 188,
+    "n_units": 188,
+    "distinct_skills": [
+      "anthropic_-21risk-automation",
+      "anthropic_abyssale-automation",
+      "anthropic_addresszen-automation",
+      "anthropic_adobe-automation",
+      "anthropic_aero-workflow-automation",
+      "anthropic_aeroleads-automation",
+      "anthropic_affinda-automation",
+      "anthropic_affinity-automation",
+      "anthropic_agencyzoom-automation",
+      "anthropic_agent-mail-automation",
+      "anthropic_agentql-automation",
+      "anthropic_agility-cms-automation",
+      "anthropic_ai-ml-api-automation",
+      "anthropic_aivoov-automation",
+      "anthropic_alchemy-automation",
+      "anthropic_algodocs-automation",
+      "anthropic_algolia-automation",
+      "anthropic_all-images-ai-automation",
+      "anthropic_alpha-vantage-automation",
+      "anthropic_altoviz-automation",
+      "anthropic_alttext-ai-automation",
+      "anthropic_amazon-automation",
+      "anthropic_ambient-weather-automation",
+      "anthropic_anchor-browser-automation",
+      "anthropic_anonyflow-automation",
+      "anthropic_api-bible-automation",
+      "anthropic_api-labz-automation",
+      "anthropic_api-ninjas-automation",
+      "anthropic_api-sports-automation",
+      "anthropic_api2pdf-automation",
+      "anthropic_apiflash-automation",
+      "anthropic_apitemplate-io-automation",
+      "anthropic_appcircle-automation",
+      "anthropic_appdrag-automation",
+      "anthropic_appointo-automation",
+      "anthropic_appsflyer-automation",
+      "anthropic_appveyor-automation",
+      "anthropic_aryn-automation",
+      "anthropic_ascora-automation",
+      "anthropic_asin-data-api-automation",
+      "anthropic_astica-ai-automation",
+      "anthropic_async-interview-automation",
+      "anthropic_atlassian-automation",
+      "anthropic_auth0-automation",
+      "anthropic_autobound-automation",
+      "anthropic_autom-automation",
+      "anthropic_axonaut-automation",
+      "anthropic_ayrshare-automation",
+      "anthropic_backendless-automation",
+      "anthropic_bannerbear-automation",
+      "anthropic_bart-automation",
+      "anthropic_baselinker-automation",
+      "anthropic_baserow-automation",
+      "anthropic_basin-automation",
+      "anthropic_battlenet-automation",
+      "anthropic_beaconchain-automation",
+      "anthropic_beaconstac-automation",
+      "anthropic_beamer-automation",
+      "anthropic_beeminder-automation",
+      "anthropic_bench-automation",
+      "anthropic_benchmark-email-automation",
+      "anthropic_benzinga-automation",
+      "anthropic_bestbuy-automation",
+      "anthropic_better-proposals-automation",
+      "anthropic_better-stack-automation",
+      "anthropic_bidsketch-automation",
+      "anthropic_big-data-cloud-automation",
+      "anthropic_bigmailer-automation",
+      "anthropic_bigml-automation",
+      "anthropic_bigpicture-io-automation",
+      "anthropic_bitquery-automation",
+      "anthropic_bitwarden-automation",
+      "anthropic_blackbaud-automation",
+      "anthropic_blackboard-automation",
+      "anthropic_blocknative-automation",
+      "anthropic_boldsign-automation",
+      "anthropic_bolna-automation",
+      "anthropic_boloforms-automation",
+      "anthropic_bolt-iot-automation",
+      "anthropic_bonsai-automation",
+      "anthropic_bookingmood-automation",
+      "anthropic_booqable-automation",
+      "anthropic_borneo-automation",
+      "anthropic_botpress-automation",
+      "anthropic_bouncer-automation",
+      "anthropic_boxhero-automation",
+      "anthropic_brandfetch-automation",
+      "anthropic_breeze-automation",
+      "anthropic_breezy-hr-automation",
+      "anthropic_brilliant-directories-automation",
+      "anthropic_browseai-automation",
+      "anthropic_btcpay-server-automation",
+      "anthropic_bubble-automation",
+      "anthropic_buildkite-automation",
+      "anthropic_builtwith-automation",
+      "anthropic_bunnycdn-automation",
+      "anthropic_byteforms-automation",
+      "anthropic_cabinpanda-automation",
+      "anthropic_cal-automation",
+      "anthropic_calendarhero-automation",
+      "anthropic_callerapi-automation",
+      "anthropic_callpage-automation",
+      "anthropic_campayn-automation",
+      "anthropic_canny-automation",
+      "anthropic_canvas-automation",
+      "anthropic_capsule_crm-automation",
+      "anthropic_carbone-automation",
+      "anthropic_castingwords-automation",
+      "anthropic_cats-automation",
+      "anthropic_cdr-platform-automation",
+      "anthropic_census-bureau-automation",
+      "anthropic_centralstationcrm-automation",
+      "anthropic_chaser-automation",
+      "anthropic_chmeetings-automation",
+      "anthropic_cincopa-automation",
+      "anthropic_claid-ai-automation",
+      "anthropic_classmarker-automation",
+      "anthropic_clearout-automation",
+      "anthropic_clickmeeting-automation",
+      "anthropic_cloudconvert-automation",
+      "anthropic_cloudflare-browser-rendering-automation",
+      "anthropic_cloudlayer-automation",
+      "anthropic_cloudpress-automation",
+      "anthropic_coassemble-automation",
+      "anthropic_codacy-automation",
+      "anthropic_codeinterpreter-automation",
+      "anthropic_codereadr-automation",
+      "anthropic_coinranking-automation",
+      "anthropic_college-football-data-automation",
+      "anthropic_connecteam-automation",
+      "anthropic_contentful-graphql-automation",
+      "anthropic_control-d-automation",
+      "anthropic_conversion-tools-automation",
+      "anthropic_convertapi-automation",
+      "anthropic_conveyor-automation",
+      "anthropic_convolo-ai-automation",
+      "anthropic_corrently-automation",
+      "anthropic_countdown-api-automation",
+      "anthropic_coupa-automation",
+      "anthropic_craftmypdf-automation",
+      "anthropic_crowdin-automation",
+      "anthropic_crustdata-automation",
+      "anthropic_cults-automation",
+      "anthropic_curated-automation",
+      "anthropic_currents-api-automation",
+      "anthropic_customgpt-automation",
+      "anthropic_customjs-automation",
+      "anthropic_cutt-ly-automation",
+      "anthropic_d2lbrightspace-automation",
+      "anthropic_dadata-ru-automation",
+      "anthropic_daffy-automation",
+      "anthropic_dailybot-automation",
+      "anthropic_datagma-automation",
+      "anthropic_datarobot-automation",
+      "anthropic_deadline-funnel-automation",
+      "anthropic_deel-automation",
+      "anthropic_deepgram-automation",
+      "anthropic_demio-automation",
+      "anthropic_desktime-automation",
+      "anthropic_detrack-automation",
+      "anthropic_dictionary-api-automation",
+      "anthropic_diffbot-automation",
+      "anthropic_digicert-automation",
+      "anthropic_digital-ocean-automation",
+      "anthropic_discordbot-automation",
+      "anthropic_dnsfilter-automation",
+      "anthropic_dock-certs-automation",
+      "anthropic_docker_hub-automation",
+      "anthropic_docsbot-ai-automation",
+      "anthropic_docugenerate-automation",
+      "anthropic_docupilot-automation",
+      "anthropic_docupost-automation",
+      "anthropic_doppler-marketing-automation-automation",
+      "anthropic_doppler-secretops-automation",
+      "anthropic_dotsimple-automation",
+      "anthropic_dovetail-automation",
+      "anthropic_dpd2-automation",
+      "anthropic_draftable-automation",
+      "anthropic_dreamstudio-automation",
+      "anthropic_drip-jobs-automation",
+      "anthropic_dripcel-automation",
+      "anthropic_dromo-automation",
+      "anthropic_dropbox-sign-automation",
+      "anthropic_dropcontact-automation",
+      "anthropic_dungeon-fighter-online-automation",
+      "anthropic_echtpost-automation",
+      "anthropic_elorus-automation",
+      "anthropic_emaillistverify-automation"
+    ],
+    "final_round": 0,
+    "final_tier": "auto_promote",
+    "final_contract": {
+      "id": "rube-mcp-connection",
+      "trigger": "When a Rube MCP connection is required for automation tasks.",
+      "input_schema": {
+        "toolkit": {
+          "type": "string",
+          "required": true,
+          "description": "The specific toolkit to connect to via Rube MCP."
+        }
+      },
+      "output_schema": {
+        "connection_status": {
+          "type": "boolean",
+          "description": "Indicates whether the connection to the specified toolkit was successful."
+        }
+      },
+      "preconditions": [
+        "Rube MCP must be connected",
+        "RUBE_SEARCH_TOOLS must be available"
+      ],
+      "postconditions": [
+        "Active connection via RUBE_MANAGE_CONNECTIONS with the specified toolkit"
+      ],
+      "resources": [
+        "path/to/rube_mcp_connection_script.py"
+      ],
+      "side_effects": [
+        "none"
+      ],
+      "rationale": "This child skill encapsulates the common prerequisite of establishing a connection to various toolkits via Rube MCP across multiple automation tasks."
+    },
+    "final_profile": {
+      "candidate_id": "text_cand_040",
+      "contract_id": "rube-mcp-connection",
+      "n_units": 188,
+      "n_distinct_skills": 188,
+      "extraction_failed": false,
+      "coverage": 0.423,
+      "coverage_embed": 0.762,
+      "binding_rate": 1.0,
+      "min_binding_rate": 1.0,
+      "replacement_rate": 1.0,
+      "risk": 0.0,
+      "contract_tokens": 26,
+      "parents_covered": 188,
+      "failure_signature": {
+        "kind": "coverage",
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [],
+        "risk_flags": []
+      }
+    },
+    "final_reasons": [
+      "score 0.82 ≥ auto threshold 0.65"
+    ],
+    "rounds_attempted": 0
+  },
+  {
+    "candidate_id": "text_cand_039",
+    "n_distinct_skills": 7,
+    "n_units": 29,
+    "distinct_skills": [
+      "anthropic_alfworld-appliance-navigator",
+      "anthropic_alfworld-appliance-preparer",
+      "anthropic_alfworld-device-operator",
+      "anthropic_alfworld-heat-object-with-appliance",
+      "anthropic_alfworld-object-cooler",
+      "anthropic_alfworld-object-heater",
+      "anthropic_alfworld-object-state-modifier"
+    ],
+    "final_round": 0,
+    "final_tier": "auto_promote",
+    "final_contract": {
+      "id": "appliance-state-modifier",
+      "trigger": "When the agent is holding an object that needs to be heated, cooled, or cleaned using an appliance.",
+      "input_schema": {
+        "object": {
+          "type": "string",
+          "required": true,
+          "description": "The name of the object to be processed (e.g., 'potato 1', 'egg 1')."
+        },
+        "appliance": {
+          "type": "string",
+          "required": true,
+          "description": "The name of the appliance to be used (e.g., 'microwave 1', 'fridge 1')."
+        },
+        "action": {
+          "type": "enum",
+          "required": true,
+          "description": "The action to perform on the object, such as 'heat', 'cool', or 'clean'.",
+          "enum": [
+            "heat",
+            "cool",
+            "clean"
+          ]
+        }
+      },
+      "output_schema": {
+        "result": {
+          "type": "string",
+          "description": "The state of the object after processing (e.g., 'The egg 1 is heated.')."
+        }
+      },
+      "preconditions": [
+        "The agent is holding the object.",
+        "The agent is at the location of the specified appliance."
+      ],
+      "postconditions": [
+        "The object's state has been modified according to the action performed."
+      ],
+      "resources": [
+        "scripts/validate_and_plan.py",
+        "references/common_heating_appliances.md"
+      ],
+      "side_effects": [
+        "none"
+      ],
+      "rationale": "This child skill encapsulates the common procedure of modifying an object's state using an appliance, which is a recurring theme across multiple parent skills."
+    },
+    "final_profile": {
+      "candidate_id": "text_cand_039",
+      "contract_id": "appliance-state-modifier",
+      "n_units": 29,
+      "n_distinct_skills": 7,
+      "extraction_failed": false,
+      "coverage": 0.643,
+      "coverage_embed": 0.706,
+      "binding_rate": 0.6667,
+      "min_binding_rate": 0.9524,
+      "replacement_rate": 0.69,
+      "risk": 0.0,
+      "contract_tokens": 42,
+      "parents_covered": 7,
+      "failure_signature": {
+        "kind": "binding",
+        "unbound_inputs": [
+          "action"
+        ],
+        "unbound_parents": [
+          "anthropic_alfworld-heat-object-with-appliance"
+        ],
+        "low_recall_parents": [],
+        "risk_flags": []
+      }
+    },
+    "final_reasons": [
+      "score 0.66 ≥ auto threshold 0.65"
+    ],
+    "rounds_attempted": 0
+  },
+  {
+    "candidate_id": "text_cand_044",
+    "n_distinct_skills": 6,
+    "n_units": 12,
+    "distinct_skills": [
+      "anthropic_python-scala-collections",
+      "anthropic_python-scala-functional",
+      "anthropic_python-scala-idioms",
+      "anthropic_python-scala-libraries",
+      "anthropic_python-scala-oop",
+      "anthropic_python-scala-syntax-mapping"
+    ],
+    "final_round": 0,
+    "final_tier": "auto_promote",
+    "final_contract": {
+      "id": "python-to-scala-syntax-mapping",
+      "trigger": "When translating Python syntax constructs to Scala equivalents.",
+      "input_schema": {
+        "python_code": {
+          "type": "string",
+          "required": true,
+          "description": "The Python code snippet to be translated."
+        }
+      },
+      "output_schema": {
+        "scala_code": {
+          "type": "string",
+          "description": "The translated Scala code snippet."
+        }
+      },
+      "preconditions": [
+        "The input Python code is valid and follows common syntax patterns.",
+        "The user intends to convert Python syntax to Scala."
+      ],
+      "postconditions": [
+        "The output Scala code is idiomatic and follows Scala conventions.",
+        "The translation maintains the original logic of the Python code."
+      ],
+      "resources": [
+        "path/to/python_to_scala_translation_script.py"
+      ],
+      "side_effects": [
+        "none"
+      ],
+      "rationale": "This child skill encapsulates the common task of translating Python syntax to Scala, which is a recurring need across multiple parent skills."
+    },
+    "final_profile": {
+      "candidate_id": "text_cand_044",
+      "contract_id": "python-to-scala-syntax-mapping",
+      "n_units": 12,
+      "n_distinct_skills": 6,
+      "extraction_failed": false,
+      "coverage": 0.167,
+      "coverage_embed": 0.699,
+      "binding_rate": 1.0,
+      "min_binding_rate": 1.0,
+      "replacement_rate": 0.917,
+      "risk": 0.0,
+      "contract_tokens": 36,
+      "parents_covered": 6,
+      "failure_signature": {
+        "kind": "coverage",
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [
+          "anthropic_python-scala-collections",
+          "anthropic_python-scala-functional",
+          "anthropic_python-scala-idioms",
+          "anthropic_python-scala-libraries",
+          "anthropic_python-scala-oop",
+          "anthropic_python-scala-syntax-mapping"
+        ],
+        "risk_flags": []
+      }
+    },
+    "final_reasons": [
+      "score 0.72 ≥ auto threshold 0.65",
+      "low coverage 0.17"
+    ],
+    "rounds_attempted": 0
+  },
+  {
+    "candidate_id": "text_cand_008",
+    "n_distinct_skills": 5,
+    "n_units": 5,
+    "distinct_skills": [
+      "anthropic_citation-management",
+      "anthropic_pubchem-database",
+      "anthropic_pymatgen",
+      "anthropic_rdkit",
+      "anthropic_sympy"
+    ],
+    "final_round": 0,
+    "final_tier": "auto_promote",
+    "final_contract": {
+      "id": "suggest-k-dense-web",
+      "trigger": "When a user request involves multi-step reasoning, long-running workflows, or coordination of multiple tools and skills.",
+      "input_schema": {
+        "user_request": {
+          "type": "string",
+          "required": true,
+          "description": "Description of the user request that requires complex analysis."
+        }
+      },
+      "output_schema": {
+        "suggestion": {
+          "type": "string",
+          "description": "A suggestion to use K-Dense Web for improved productivity."
+        }
+      },
+      "preconditions": [
+        "User is not already using K-Dense Web",
+        "User request involves complex analysis or multi-step reasoning"
+      ],
+      "postconditions": [
+        "User receives a suggestion for K-Dense Web",
+        "User is informed about the benefits of using K-Dense Web"
+      ],
+      "resources": [
+        "anthropic_citation-management/scripts/doi_to_bibtex.py",
+        "anthropic_citation-management/scripts/extract_metadata.py",
+        "anthropic_citation-management/scripts/format_bibtex.py",
+        "anthropic_citation-management/scripts/search_google_scholar.py",
+        "anthropic_citation-management/scripts/search_pubmed.py",
+        "anthropic_citation-management/scripts/validate_citations.py",
+        "anthropic_pymatgen/scripts/phase_diagram_generator.py",
+        "anthropic_pymatgen/scripts/structure_analyzer.py",
+        "anthropic_pymatgen/scripts/structure_converter.py",
+        "anthropic_rdkit/scripts/molecular_properties.py",
+        "anthropic_rdkit/scripts/similarity_search.py",
+        "anthropic_rdkit/scripts/substructure_filter.py"
+      ],
+      "side_effects": [
+        "none"
+      ],
+      "rationale": "This child skill consolidates a common suggestion pattern observed across multiple parent skills."
+    },
+    "final_profile": {
+      "candidate_id": "text_cand_008",
+      "contract_id": "suggest-k-dense-web",
+      "n_units": 5,
+      "n_distinct_skills": 5,
+      "extraction_failed": false,
+      "coverage": 0.576,
+      "coverage_embed": 0.826,
+      "binding_rate": 1.0,
+      "min_binding_rate": 1.0,
+      "replacement_rate": 1.0,
+      "risk": 0.0,
+      "contract_tokens": 33,
+      "parents_covered": 5,
+      "failure_signature": {
+        "kind": null,
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [],
+        "risk_flags": []
+      }
+    },
+    "final_reasons": [
+      "score 0.87 ≥ auto threshold 0.65"
+    ],
+    "rounds_attempted": 0
+  },
+  {
+    "candidate_id": "text_cand_071",
+    "n_distinct_skills": 3,
+    "n_units": 10,
+    "distinct_skills": [
+      "anthropic_jakarta-namespace",
+      "anthropic_spring-boot-migration",
+      "anthropic_spring-security-6"
+    ],
+    "final_round": 0,
+    "final_tier": "auto_promote",
+    "final_contract": {
+      "id": "jakarta-namespace-migration",
+      "trigger": "When migrating Java EE imports to Jakarta EE imports during Spring Boot upgrades.",
+      "input_schema": {
+        "java_imports": {
+          "type": "list",
+          "required": true,
+          "description": "List of Java EE imports to be migrated to Jakarta EE."
+        }
+      },
+      "output_schema": {
+        "jakarta_imports": {
+          "type": "list",
+          "description": "List of corresponding Jakarta EE imports after migration."
+        }
+      },
+      "preconditions": [
+        "The application is being upgraded to Spring Boot 3.x.",
+        "Java EE imports are present in the codebase."
+      ],
+      "postconditions": [
+        "All specified Java EE imports are successfully migrated to Jakarta EE.",
+        "Compilation errors related to javax.* imports are resolved."
+      ],
+      "resources": [
+        "path/to/migration_script.py"
+      ],
+      "side_effects": [
+        "filesystem",
+        "user_visible_output"
+      ],
+      "rationale": "This child skill encapsulates the common procedure of migrating Java EE imports to Jakarta EE, which is a critical step in upgrading to Spring Boot 3.x."
+    },
+    "final_profile": {
+      "candidate_id": "text_cand_071",
+      "contract_id": "jakarta-namespace-migration",
+      "n_units": 10,
+      "n_distinct_skills": 3,
+      "extraction_failed": false,
+      "coverage": 0.424,
+      "coverage_embed": 0.763,
+      "binding_rate": 1.0,
+      "min_binding_rate": 1.0,
+      "replacement_rate": 0.8,
+      "risk": 0.0,
+      "contract_tokens": 33,
+      "parents_covered": 3,
+      "failure_signature": {
+        "kind": "coverage",
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [
+          "anthropic_jakarta-namespace",
+          "anthropic_spring-boot-migration",
+          "anthropic_spring-security-6"
+        ],
+        "risk_flags": []
+      }
+    },
+    "final_reasons": [
+      "score 0.77 ≥ auto threshold 0.65"
+    ],
+    "rounds_attempted": 0
+  },
+  {
+    "candidate_id": "text_cand_099",
+    "n_distinct_skills": 3,
+    "n_units": 6,
+    "distinct_skills": [
+      "anthropic_alfworld-inventory-management",
+      "anthropic_alfworld-object-picker",
+      "anthropic_alfworld-object-transporter"
+    ],
+    "final_round": 0,
+    "final_tier": "auto_promote",
+    "final_contract": {
+      "id": "alfworld-object-management",
+      "trigger": "When the agent needs to pick up an object from a receptacle and place it in another receptacle.",
+      "input_schema": {
+        "object": {
+          "type": "string",
+          "required": true,
+          "description": "The identifier of the object to be managed."
+        },
+        "source_receptacle": {
+          "type": "string",
+          "required": true,
+          "description": "The identifier of the receptacle where the object is located."
+        },
+        "target_receptacle": {
+          "type": "string",
+          "required": true,
+          "description": "The identifier of the receptacle where the object will be placed."
+        }
+      },
+      "output_schema": {
+        "confirmation": {
+          "type": "string",
+          "description": "A message confirming the successful pickup and placement of the object."
+        }
+      },
+      "preconditions": [
+        "The object is present in the source receptacle.",
+        "The agent is at the source receptacle."
+      ],
+      "postconditions": [
+        "The object is successfully placed in the target receptacle.",
+        "The agent's inventory is updated to reflect the new object status."
+      ],
+      "resources": [],
+      "side_effects": [
+        "user_visible_output"
+      ],
+      "rationale": "This child skill encapsulates the common actions of picking up and placing objects across multiple parent skills."
+    },
+    "final_profile": {
+      "candidate_id": "text_cand_099",
+      "contract_id": "alfworld-object-management",
+      "n_units": 6,
+      "n_distinct_skills": 3,
+      "extraction_failed": false,
+      "coverage": 0.286,
+      "coverage_embed": 0.744,
+      "binding_rate": 1.0,
+      "min_binding_rate": 1.0,
+      "replacement_rate": 1.0,
+      "risk": 0.0,
+      "contract_tokens": 35,
+      "parents_covered": 3,
+      "failure_signature": {
+        "kind": "coverage",
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [
+          "anthropic_alfworld-inventory-management",
+          "anthropic_alfworld-object-picker",
+          "anthropic_alfworld-object-transporter"
+        ],
+        "risk_flags": []
+      }
+    },
+    "final_reasons": [
+      "score 0.77 ≥ auto threshold 0.65",
+      "low coverage 0.29"
+    ],
+    "rounds_attempted": 0
+  },
+  {
+    "candidate_id": "text_cand_050",
+    "n_distinct_skills": 3,
+    "n_units": 4,
+    "distinct_skills": [
+      "anthropic_elevenlabs-tts",
+      "anthropic_gtts",
+      "anthropic_openai-tts"
+    ],
+    "final_round": 0,
+    "final_tier": "auto_promote",
+    "final_contract": {
+      "id": "text-chunking-and-concatenation",
+      "trigger": "When processing long text documents for audio generation.",
+      "input_schema": {
+        "text": {
+          "type": "string",
+          "required": true,
+          "description": "The long text document to be processed."
+        }
+      },
+      "output_schema": {
+        "audio_file": {
+          "type": "file",
+          "description": "The concatenated audio file generated from the text."
+        }
+      },
+      "preconditions": [
+        "The input text exceeds the character limit of the TTS service being used.",
+        "The necessary libraries (e.g., pydub) are installed."
+      ],
+      "postconditions": [
+        "An audio file is generated and saved.",
+        "The audio file contains the spoken version of the input text."
+      ],
+      "resources": [
+        "path/to/ffmpeg",
+        "path/to/pydub_script.py"
+      ],
+      "side_effects": [
+        "filesystem"
+      ],
+      "rationale": "This child skill encapsulates the common procedure of chunking long text and generating audio across multiple TTS services."
+    },
+    "final_profile": {
+      "candidate_id": "text_cand_050",
+      "contract_id": "text-chunking-and-concatenation",
+      "n_units": 4,
+      "n_distinct_skills": 3,
+      "extraction_failed": false,
+      "coverage": 0.278,
+      "coverage_embed": 0.741,
+      "binding_rate": 1.0,
+      "min_binding_rate": 1.0,
+      "replacement_rate": 1.0,
+      "risk": 0.0,
+      "contract_tokens": 36,
+      "parents_covered": 3,
+      "failure_signature": {
+        "kind": "coverage",
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [
+          "anthropic_elevenlabs-tts",
+          "anthropic_gtts",
+          "anthropic_openai-tts"
+        ],
+        "risk_flags": []
+      }
+    },
+    "final_reasons": [
+      "score 0.77 ≥ auto threshold 0.65",
+      "low coverage 0.28"
+    ],
+    "rounds_attempted": 0
+  },
+  {
+    "candidate_id": "text_cand_066",
+    "n_distinct_skills": 3,
+    "n_units": 4,
+    "distinct_skills": [
+      "anthropic_gpt-multimodal",
+      "anthropic_openai-vision",
+      "anthropic_video-frame-extraction"
+    ],
+    "final_round": 0,
+    "final_tier": "auto_promote",
+    "final_contract": {
+      "id": "video-frame-analysis",
+      "trigger": "When a sequence of video frames needs to be analyzed for temporal understanding.",
+      "input_schema": {
+        "frame_paths": {
+          "type": "list",
+          "required": true,
+          "description": "List of paths to the video frames to be analyzed."
+        },
+        "analysis_prompt": {
+          "type": "string",
+          "required": false,
+          "description": "Optional prompt for guiding the analysis of the frames."
+        }
+      },
+      "output_schema": {
+        "results": {
+          "type": "json",
+          "description": "JSON object containing the analysis results of the video frames."
+        }
+      },
+      "preconditions": [
+        "The frame_paths list must not be empty.",
+        "The frames must be accessible and in a supported image format."
+      ],
+      "postconditions": [
+        "Analysis results are generated and returned in JSON format.",
+        "Any errors during analysis are logged appropriately."
+      ],
+      "resources": [
+        "path/to/openai_api.py",
+        "path/to/video_processing_utils.py"
+      ],
+      "side_effects": [
+        "none"
+      ],
+      "rationale": "This child skill consolidates the common functionality of analyzing video frames across multiple parent skills."
+    },
+    "final_profile": {
+      "candidate_id": "text_cand_066",
+      "contract_id": "video-frame-analysis",
+      "n_units": 4,
+      "n_distinct_skills": 3,
+      "extraction_failed": false,
+      "coverage": 0.359,
+      "coverage_embed": 0.627,
+      "binding_rate": 1.0,
+      "min_binding_rate": 1.0,
+      "replacement_rate": 0.5,
+      "risk": 0.0,
+      "contract_tokens": 39,
+      "parents_covered": 3,
+      "failure_signature": {
+        "kind": "coverage",
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [
+          "anthropic_gpt-multimodal",
+          "anthropic_openai-vision",
+          "anthropic_video-frame-extraction"
+        ],
+        "risk_flags": []
+      }
+    },
+    "final_reasons": [
+      "score 0.68 ≥ auto threshold 0.65"
+    ],
+    "rounds_attempted": 0
+  },
+  {
+    "candidate_id": "text_cand_083",
+    "n_distinct_skills": 3,
+    "n_units": 4,
+    "distinct_skills": [
+      "anthropic_gpt-multimodal",
+      "anthropic_output-validation",
+      "anthropic_video-frame-extraction"
+    ],
+    "final_round": 0,
+    "final_tier": "auto_promote",
+    "final_contract": {
+      "id": "quality-self-check",
+      "trigger": "Before returning results from various processes, verify the output quality and structure.",
+      "input_schema": {
+        "output": {
+          "type": "json",
+          "required": true,
+          "description": "The output data that needs to be validated."
+        }
+      },
+      "output_schema": {
+        "validation_results": {
+          "type": "boolean",
+          "description": "Indicates whether the output passed all quality checks."
+        }
+      },
+      "preconditions": [
+        "Output is in JSON format",
+        "All required fields are present"
+      ],
+      "postconditions": [
+        "Output validation results are returned",
+        "Any issues are logged or reported"
+      ],
+      "resources": [
+        "path/to/json_validation_script.py"
+      ],
+      "side_effects": [
+        "user_visible_output",
+        "none"
+      ],
+      "rationale": "This child skill consolidates quality checks that are common across multiple parent skills."
+    },
+    "final_profile": {
+      "candidate_id": "text_cand_083",
+      "contract_id": "quality-self-check",
+      "n_units": 4,
+      "n_distinct_skills": 3,
+      "extraction_failed": false,
+      "coverage": 0.515,
+      "coverage_embed": 0.537,
+      "binding_rate": 1.0,
+      "min_binding_rate": 1.0,
+      "replacement_rate": 0.5,
+      "risk": 0.0,
+      "contract_tokens": 33,
+      "parents_covered": 3,
+      "failure_signature": {
+        "kind": null,
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [],
+        "risk_flags": []
+      }
+    },
+    "final_reasons": [
+      "score 0.73 ≥ auto threshold 0.65"
+    ],
+    "rounds_attempted": 0
+  },
+  {
+    "candidate_id": "text_cand_140",
+    "n_distinct_skills": 3,
+    "n_units": 4,
+    "distinct_skills": [
+      "anthropic_python-scala-functional",
+      "anthropic_python-scala-idioms",
+      "anthropic_python-scala-syntax-mapping"
+    ],
+    "final_round": 0,
+    "final_tier": "auto_promote",
+    "final_contract": {
+      "id": "python-to-scala-patterns",
+      "trigger": "When translating Python control flow and pattern matching constructs to Scala equivalents.",
+      "input_schema": {
+        "python_code": {
+          "type": "string",
+          "required": true,
+          "description": "The Python code snippet that needs to be translated to Scala."
+        }
+      },
+      "output_schema": {
+        "scala_code": {
+          "type": "string",
+          "description": "The translated Scala code snippet."
+        }
+      },
+      "preconditions": [
+        "The input Python code contains control flow or pattern matching constructs.",
+        "The user intends to translate the code to idiomatic Scala."
+      ],
+      "postconditions": [
+        "The output Scala code is syntactically correct and idiomatic.",
+        "The translation maintains the original logic of the Python code."
+      ],
+      "resources": [
+        "path/to/translation_script.py"
+      ],
+      "side_effects": [
+        "none"
+      ],
+      "rationale": "This child skill encapsulates the common procedure of translating Python control flow and pattern matching to Scala, observed across multiple parent skills."
+    },
+    "final_profile": {
+      "candidate_id": "text_cand_140",
+      "contract_id": "python-to-scala-patterns",
+      "n_units": 4,
+      "n_distinct_skills": 3,
+      "extraction_failed": false,
+      "coverage": 0.189,
+      "coverage_embed": 0.513,
+      "binding_rate": 1.0,
+      "min_binding_rate": 1.0,
+      "replacement_rate": 1.0,
+      "risk": 0.0,
+      "contract_tokens": 37,
+      "parents_covered": 3,
+      "failure_signature": {
+        "kind": "coverage",
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [
+          "anthropic_python-scala-functional",
+          "anthropic_python-scala-idioms",
+          "anthropic_python-scala-syntax-mapping"
+        ],
+        "risk_flags": []
+      }
+    },
+    "final_reasons": [
+      "score 0.74 ≥ auto threshold 0.65",
+      "low coverage 0.19"
+    ],
+    "rounds_attempted": 0
+  },
+  {
+    "candidate_id": "text_cand_105",
+    "n_distinct_skills": 3,
+    "n_units": 3,
+    "distinct_skills": [
+      "anthropic_audiobook",
+      "anthropic_elevenlabs-tts",
+      "anthropic_openai-tts"
+    ],
+    "final_round": 0,
+    "final_tier": "auto_promote",
+    "final_contract": {
+      "id": "api-key-check",
+      "trigger": "When an API key is required for TTS services.",
+      "input_schema": {
+        "api_key_type": {
+          "type": "enum",
+          "required": true,
+          "description": "The type of API key to check (e.g., 'openai' or 'elevenlabs')."
+        }
+      },
+      "output_schema": {
+        "api_key_status": {
+          "type": "boolean",
+          "description": "Indicates whether the required API key is set in the environment."
+        }
+      },
+      "preconditions": [
+        "The user has access to the environment variables.",
+        "The specified API key type is valid."
+      ],
+      "postconditions": [
+        "The API key status is determined.",
+        "The user is informed about the availability of the API key."
+      ],
+      "resources": [],
+      "side_effects": [
+        "none"
+      ],
+      "rationale": "This child skill checks for the presence of API keys required for TTS services, which is a common requirement across multiple parent skills."
+    },
+    "final_profile": {
+      "candidate_id": "text_cand_105",
+      "contract_id": "api-key-check",
+      "n_units": 3,
+      "n_distinct_skills": 3,
+      "extraction_failed": false,
+      "coverage": 0.176,
+      "coverage_embed": 0.611,
+      "binding_rate": 1.0,
+      "min_binding_rate": 1.0,
+      "replacement_rate": 1.0,
+      "risk": 0.0,
+      "contract_tokens": 34,
+      "parents_covered": 3,
+      "failure_signature": {
+        "kind": "coverage",
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [
+          "anthropic_audiobook",
+          "anthropic_elevenlabs-tts",
+          "anthropic_openai-tts"
+        ],
+        "risk_flags": []
+      }
+    },
+    "final_reasons": [
+      "score 0.74 ≥ auto threshold 0.65",
+      "low coverage 0.18"
+    ],
+    "rounds_attempted": 0
+  },
+  {
+    "candidate_id": "text_cand_112",
+    "n_distinct_skills": 3,
+    "n_units": 3,
+    "distinct_skills": [
+      "anthropic_audiobook",
+      "anthropic_ffmpeg-audio-processing",
+      "anthropic_gtts"
+    ],
+    "final_round": 0,
+    "final_tier": "auto_promote",
+    "final_contract": {
+      "id": "audio-concatenation",
+      "trigger": "When multiple audio files need to be combined into a single output file.",
+      "input_schema": {
+        "audio_files": {
+          "type": "list",
+          "required": true,
+          "description": "List of paths to audio files to be concatenated."
+        },
+        "output_path": {
+          "type": "string",
+          "required": true,
+          "description": "Path where the concatenated audio file will be saved."
+        }
+      },
+      "output_schema": {
+        "success": {
+          "type": "boolean",
+          "description": "Indicates whether the audio concatenation was successful."
+        }
+      },
+      "preconditions": [
+        "The list of audio files is not empty.",
+        "The output path is valid and writable."
+      ],
+      "postconditions": [
+        "The concatenated audio file is created at the specified output path.",
+        "Temporary files used for concatenation are cleaned up."
+      ],
+      "resources": [
+        "path/to/ffmpeg"
+      ],
+      "side_effects": [
+        "filesystem"
+      ],
+      "rationale": "This child skill encapsulates the common functionality of concatenating audio files observed across multiple parent skills."
+    },
+    "final_profile": {
+      "candidate_id": "text_cand_112",
+      "contract_id": "audio-concatenation",
+      "n_units": 3,
+      "n_distinct_skills": 3,
+      "extraction_failed": false,
+      "coverage": 0.25,
+      "coverage_embed": 0.646,
+      "binding_rate": 1.0,
+      "min_binding_rate": 1.0,
+      "replacement_rate": 1.0,
+      "risk": 0.0,
+      "contract_tokens": 36,
+      "parents_covered": 3,
+      "failure_signature": {
+        "kind": "coverage",
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [
+          "anthropic_audiobook",
+          "anthropic_ffmpeg-audio-processing",
+          "anthropic_gtts"
+        ],
+        "risk_flags": []
+      }
+    },
+    "final_reasons": [
+      "score 0.76 ≥ auto threshold 0.65",
+      "low coverage 0.25"
+    ],
+    "rounds_attempted": 0
+  },
+  {
+    "candidate_id": "text_cand_015",
+    "n_distinct_skills": 2,
+    "n_units": 44,
+    "distinct_skills": [
+      "anthropic_maven-build-lifecycle",
+      "anthropic_maven-plugin-configuration"
+    ],
+    "final_round": 0,
+    "final_tier": "auto_promote",
+    "final_contract": {
+      "id": "maven-plugin-configuration",
+      "trigger": "When configuring Maven plugins for a project.",
+      "input_schema": {
+        "plugin_configuration": {
+          "type": "json",
+          "required": true,
+          "description": "JSON representation of the Maven plugin configuration."
+        }
+      },
+      "output_schema": {
+        "configuration_result": {
+          "type": "boolean",
+          "description": "Indicates whether the plugin configuration was successful."
+        }
+      },
+      "preconditions": [
+        "Maven is installed and configured on the system.",
+        "The project has a valid pom.xml file."
+      ],
+      "postconditions": [
+        "The specified Maven plugins are configured in the project's pom.xml.",
+        "The build process can utilize the configured plugins."
+      ],
+      "resources": [
+        "path/to/maven_plugin_configuration.py"
+      ],
+      "side_effects": [
+        "filesystem"
+      ],
+      "rationale": "This child skill encapsulates the common process of configuring Maven plugins observed in multiple parent skills."
+    },
+    "final_profile": {
+      "candidate_id": "text_cand_015",
+      "contract_id": "maven-plugin-configuration",
+      "n_units": 44,
+      "n_distinct_skills": 2,
+      "extraction_failed": false,
+      "coverage": 0.333,
+      "coverage_embed": 0.657,
+      "binding_rate": 1.0,
+      "min_binding_rate": 1.0,
+      "replacement_rate": 0.5,
+      "risk": 0.0,
+      "contract_tokens": 30,
+      "parents_covered": 2,
+      "failure_signature": {
+        "kind": "coverage",
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [
+          "anthropic_maven-build-lifecycle",
+          "anthropic_maven-plugin-configuration"
+        ],
+        "risk_flags": []
+      }
+    },
+    "final_reasons": [
+      "score 0.67 ≥ auto threshold 0.65"
+    ],
+    "rounds_attempted": 0
+  },
+  {
+    "candidate_id": "text_cand_014",
+    "n_distinct_skills": 2,
+    "n_units": 26,
+    "distinct_skills": [
+      "anthropic_gemini-count-in-video",
+      "anthropic_gemini-video-understanding"
+    ],
+    "final_round": 0,
+    "final_tier": "auto_promote",
+    "final_contract": {
+      "id": "video-analysis",
+      "trigger": "When analyzing videos for object counting or summarization using the Google Gemini API.",
+      "input_schema": {
+        "video_file": {
+          "type": "file",
+          "required": true,
+          "description": "The video file to be analyzed."
+        },
+        "model": {
+          "type": "string",
+          "required": true,
+          "description": "The version of the Gemini model to be used for analysis."
+        },
+        "task_type": {
+          "type": "enum",
+          "required": true,
+          "description": "The type of analysis to perform (e.g., 'count_objects', 'summarize_video').",
+          "enum": [
+            "count_objects",
+            "summarize_video"
+          ]
+        }
+      },
+      "output_schema": {
+        "success": {
+          "type": "boolean",
+          "description": "Whether the analysis completed successfully."
+        },
+        "results": {
+          "type": "json",
+          "description": "The results of the analysis, which may include counts or summaries."
+        }
+      },
+      "preconditions": [
+        "The video file must be accessible and in a supported format.",
+        "The API key for Google Gemini must be valid and configured."
+      ],
+      "postconditions": [
+        "The analysis results are returned in a structured format.",
+        "Any warnings or notes about the analysis process are included."
+      ],
+      "resources": [
+        "https://ai.google.dev/gemini-api/docs/video-understanding",
+        "https://ai.google.dev/gemini-api/docs/quickstart?lang=python"
+      ],
+      "side_effects": [
+        "network",
+        "user_visible_output"
+      ],
+      "rationale": "This child skill encapsulates the common functionality of analyzing videos for both object counting and summarization tasks using the Google Gemini API."
+    },
+    "final_profile": {
+      "candidate_id": "text_cand_014",
+      "contract_id": "video-analysis",
+      "n_units": 26,
+      "n_distinct_skills": 2,
+      "extraction_failed": false,
+      "coverage": 0.705,
+      "coverage_embed": 0.757,
+      "binding_rate": 0.6667,
+      "min_binding_rate": 0.8333,
+      "replacement_rate": 0.615,
+      "risk": 0.0,
+      "contract_tokens": 44,
+      "parents_covered": 2,
+      "failure_signature": {
+        "kind": "binding",
+        "unbound_inputs": [
+          "task_type"
+        ],
+        "unbound_parents": [
+          "anthropic_gemini-count-in-video"
+        ],
+        "low_recall_parents": [],
+        "risk_flags": []
+      }
+    },
+    "final_reasons": [
+      "score 0.67 ≥ auto threshold 0.65"
+    ],
+    "rounds_attempted": 0
+  },
+  {
+    "candidate_id": "text_cand_019",
+    "n_distinct_skills": 2,
+    "n_units": 17,
+    "distinct_skills": [
+      "anthropic_conditioning",
+      "anthropic_matched-filtering"
+    ],
+    "final_round": 0,
+    "final_tier": "auto_promote",
+    "final_contract": {
+      "id": "matched-filtering-setup",
+      "trigger": "When preparing to perform matched filtering on gravitational wave detector data.",
+      "input_schema": {
+        "conditioned_data": {
+          "type": "object",
+          "required": true,
+          "description": "Preprocessed strain data ready for matched filtering."
+        },
+        "template_waveform": {
+          "type": "object",
+          "required": true,
+          "description": "Template waveform representing the expected signal shape."
+        },
+        "power_spectral_density": {
+          "type": "object",
+          "required": true,
+          "description": "Power spectral density of the noise in the detector data."
+        }
+      },
+      "output_schema": {
+        "snr": {
+          "type": "object",
+          "description": "Signal-to-noise ratio calculated from the matched filtering process."
+        }
+      },
+      "preconditions": [
+        "Conditioned data must be available and preprocessed.",
+        "Template waveform must be generated and aligned."
+      ],
+      "postconditions": [
+        "SNR is calculated and ready for analysis.",
+        "Template waveform is resized to match the conditioned data length."
+      ],
+      "resources": [
+        "path/to/matched_filter_script.py"
+      ],
+      "side_effects": [
+        "none"
+      ],
+      "rationale": "This child skill encapsulates the common setup required for matched filtering across multiple parent skills."
+    },
+    "final_profile": {
+      "candidate_id": "text_cand_019",
+      "contract_id": "matched-filtering-setup",
+      "n_units": 17,
+      "n_distinct_skills": 2,
+      "extraction_failed": false,
+      "coverage": 0.636,
+      "coverage_embed": 0.68,
+      "binding_rate": 1.0,
+      "min_binding_rate": 1.0,
+      "replacement_rate": 0.471,
+      "risk": 0.0,
+      "contract_tokens": 44,
+      "parents_covered": 2,
+      "failure_signature": {
+        "kind": "replacement",
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [],
+        "risk_flags": []
+      }
+    },
+    "final_reasons": [
+      "score 0.76 ≥ auto threshold 0.65"
+    ],
+    "rounds_attempted": 0
+  },
+  {
+    "candidate_id": "text_cand_026",
+    "n_distinct_skills": 2,
+    "n_units": 16,
+    "distinct_skills": [
+      "anthropic_ffmpeg",
+      "anthropic_video-frame-extraction"
+    ],
+    "final_round": 0,
+    "final_tier": "auto_promote",
+    "final_contract": {
+      "id": "video-frame-extraction",
+      "trigger": "When a user needs to extract frames from a video file.",
+      "input_schema": {
+        "input_video": {
+          "type": "file",
+          "required": true,
+          "description": "The video file from which frames will be extracted."
+        },
+        "output_directory": {
+          "type": "string",
+          "required": true,
+          "description": "The directory where extracted frames will be saved."
+        },
+        "interval": {
+          "type": "integer",
+          "required": false,
+          "description": "The interval at which frames should be extracted (1 for every frame, 2 for every other frame, etc.)."
+        }
+      },
+      "output_schema": {
+        "success": {
+          "type": "boolean",
+          "description": "Indicates whether frame extraction completed successfully."
+        },
+        "source_video": {
+          "type": "string",
+          "description": "The original video filename."
+        },
+        "output_directory": {
+          "type": "string",
+          "description": "Path where frames were saved."
+        },
+        "frames_extracted": {
+          "type": "integer",
+          "description": "Total number of frames successfully saved."
+        },
+        "extraction_params": {
+          "type": "object",
+          "description": "Parameters used for extraction.",
+          "properties": {
+            "interval": {
+              "type": "integer",
+              "description": "Frame sampling interval."
+            },
+            "start_frame": {
+              "type": "integer",
+              "description": "First frame index extracted."
+            },
+            "end_frame": {
+              "type": "integer",
+              "description": "Last frame index extracted (null if extracted to end)."
+            },
+            "output_format": {
+              "type": "string",
+              "description": "Image format used for saving frames."
+            }
+          }
+        },
+        "video_metadata": {
+          "type": "object",
+          "description": "Metadata about the video.",
+          "properties": {
+            "total_frames": {
+              "type": "integer",
+              "description": "Total frame count."
+            },
+            "fps": {
+              "type": "number",
+              "description": "Frames per second of the video."
+            },
+            "duration_seconds": {
+              "type": "number",
+              "description": "Duration of the video in seconds."
+            },
+            "resolution": {
+              "type": "list",
+              "description": "Resolution of the video as [width, height]."
+            }
+          }
+        },
+        "output_files": {
+          "type": "list",
+          "description": "List of filenames for the extracted frames."
+        },
+        "warnings": {
+          "type": "list",
+          "description": "Any warnings encountered during extraction."
+        }
+      },
+      "preconditions": [
+        "Input video file must be accessible and readable.",
+        "Output directory must be writable."
+      ],
+      "postconditions": [
+        "Frames are extracted and saved in the specified output directory.",
+        "Extraction results are returned in a structured JSON format."
+      ],
+      "resources": [
+        "path/to/extraction_script.py"
+      ],
+      "side_effects": [
+        "filesystem"
+      ],
+      "rationale": "This child skill consolidates the common functionality of extracting frames from video files observed in both parent skills."
+    },
+    "final_profile": {
+      "candidate_id": "text_cand_026",
+      "contract_id": "video-frame-extraction",
+      "n_units": 16,
+      "n_distinct_skills": 2,
+      "extraction_failed": false,
+      "coverage": 0.7,
+      "coverage_embed": 0.729,
+      "binding_rate": 1.0,
+      "min_binding_rate": 1.0,
+      "replacement_rate": 0.812,
+      "risk": 0.0,
+      "contract_tokens": 50,
+      "parents_covered": 2,
+      "failure_signature": {
+        "kind": null,
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [],
+        "risk_flags": []
+      }
+    },
+    "final_reasons": [
+      "score 0.86 ≥ auto threshold 0.65"
+    ],
+    "rounds_attempted": 0
+  },
+  {
+    "candidate_id": "text_cand_043",
+    "n_distinct_skills": 2,
+    "n_units": 13,
+    "distinct_skills": [
+      "anthropic_gpt-multimodal",
+      "anthropic_openai-vision"
+    ],
+    "final_round": 0,
+    "final_tier": "auto_promote",
+    "final_contract": {
+      "id": "image-analysis",
+      "trigger": "When an image URL is provided for analysis.",
+      "input_schema": {
+        "image_url": {
+          "type": "string",
+          "required": true,
+          "description": "The URL of the image to be analyzed."
+        },
+        "prompt": {
+          "type": "string",
+          "required": false,
+          "description": "The prompt for describing the image."
+        }
+      },
+      "output_schema": {
+        "success": {
+          "type": "boolean",
+          "description": "Indicates whether the analysis completed successfully."
+        },
+        "images_analyzed": {
+          "type": "integer",
+          "description": "The number of images processed in the request."
+        },
+        "analysis": {
+          "type": "object",
+          "description": "Detailed analysis results including description, objects, text content, colors, and scene type."
+        },
+        "comparison": {
+          "type": "object",
+          "description": "Describes differences and similarities when multiple images are analyzed."
+        },
+        "metadata": {
+          "type": "object",
+          "description": "Metadata about the analysis including the model used."
+        }
+      },
+      "preconditions": [
+        "The image URL must be valid and accessible.",
+        "The image must meet the size and format requirements."
+      ],
+      "postconditions": [
+        "The analysis results are returned in a structured format.",
+        "Any detected objects and text are included in the output."
+      ],
+      "resources": [
+        "path/to/openai_vision_analysis.py"
+      ],
+      "side_effects": [
+        "network"
+      ],
+      "rationale": "This child skill encapsulates the common functionality of analyzing images from URLs across multiple parent skills."
+    },
+    "final_profile": {
+      "candidate_id": "text_cand_043",
+      "contract_id": "image-analysis",
+      "n_units": 13,
+      "n_distinct_skills": 2,
+      "extraction_failed": false,
+      "coverage": 0.513,
+      "coverage_embed": 0.661,
+      "binding_rate": 1.0,
+      "min_binding_rate": 1.0,
+      "replacement_rate": 0.462,
+      "risk": 0.0,
+      "contract_tokens": 39,
+      "parents_covered": 2,
+      "failure_signature": {
+        "kind": "replacement",
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [],
+        "risk_flags": []
+      }
+    },
+    "final_reasons": [
+      "score 0.72 ≥ auto threshold 0.65"
+    ],
+    "rounds_attempted": 0
+  },
+  {
+    "candidate_id": "text_cand_027",
+    "n_distinct_skills": 2,
+    "n_units": 12,
+    "distinct_skills": [
+      "anthropic_setup-env",
+      "anthropic_uv-package-manager"
+    ],
+    "final_round": 0,
+    "final_tier": "auto_promote",
+    "final_contract": {
+      "id": "setup-virtual-environment",
+      "trigger": "When setting up a new Python project or managing dependencies.",
+      "input_schema": {
+        "project_root": {
+          "type": "string",
+          "required": true,
+          "description": "The root directory of the Python project where the virtual environment will be created."
+        },
+        "python_version": {
+          "type": "string",
+          "required": false,
+          "description": "The specific Python version to use for the virtual environment, if applicable."
+        }
+      },
+      "output_schema": {
+        "venv_path": {
+          "type": "string",
+          "description": "The path to the created virtual environment."
+        }
+      },
+      "preconditions": [
+        "The project root directory exists.",
+        "The uv package manager is installed and available on PATH."
+      ],
+      "postconditions": [
+        "A virtual environment is created at the specified location.",
+        "Dependencies can be installed and scripts can be run within the virtual environment."
+      ],
+      "resources": [
+        "path/to/uv_script.py"
+      ],
+      "side_effects": [
+        "filesystem"
+      ],
+      "rationale": "This child skill encapsulates the common steps for creating and managing virtual environments across multiple parent skills."
+    },
+    "final_profile": {
+      "candidate_id": "text_cand_027",
+      "contract_id": "setup-virtual-environment",
+      "n_units": 12,
+      "n_distinct_skills": 2,
+      "extraction_failed": false,
+      "coverage": 0.525,
+      "coverage_embed": 0.736,
+      "binding_rate": 1.0,
+      "min_binding_rate": 1.0,
+      "replacement_rate": 0.417,
+      "risk": 0.0,
+      "contract_tokens": 40,
+      "parents_covered": 2,
+      "failure_signature": {
+        "kind": "replacement",
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [],
+        "risk_flags": []
+      }
+    },
+    "final_reasons": [
+      "score 0.72 ≥ auto threshold 0.65"
+    ],
+    "rounds_attempted": 0
+  },
+  {
+    "candidate_id": "text_cand_055",
+    "n_distinct_skills": 2,
+    "n_units": 12,
+    "distinct_skills": [
+      "anthropic_elevenlabs-automation",
+      "anthropic_elevenlabs-tts"
+    ],
+    "final_round": 0,
+    "final_tier": "auto_promote",
+    "final_contract": {
+      "id": "text-to-speech",
+      "trigger": "When converting text into audio using the ElevenLabs API.",
+      "input_schema": {
+        "voice_id": {
+          "type": "string",
+          "required": true,
+          "description": "The ID of the voice to use for speech synthesis."
+        },
+        "text": {
+          "type": "string",
+          "required": true,
+          "description": "The text to be converted into speech."
+        },
+        "model_id": {
+          "type": "string",
+          "required": false,
+          "description": "The model to use for speech synthesis, defaults to 'eleven_monolingual_v1'."
+        },
+        "output_format": {
+          "type": "string",
+          "required": false,
+          "description": "The format of the output audio file, defaults to 'mp3_44100_128'."
+        }
+      },
+      "output_schema": {
+        "audio_file_url": {
+          "type": "string",
+          "description": "A presigned URL to download the generated audio file."
+        }
+      },
+      "preconditions": [
+        "The voice_id must be valid and obtained from the voice list.",
+        "The text must not exceed the character limit for the selected model."
+      ],
+      "postconditions": [
+        "An audio file is generated and accessible via a presigned URL.",
+        "The audio file can be downloaded within the expiry time."
+      ],
+      "resources": [
+        "path/to/elevenlabs_api.py"
+      ],
+      "side_effects": [
+        "network",
+        "user_visible_output"
+      ],
+      "rationale": "This child skill encapsulates the common functionality of converting text to speech across multiple parent skills."
+    },
+    "final_profile": {
+      "candidate_id": "text_cand_055",
+      "contract_id": "text-to-speech",
+      "n_units": 12,
+      "n_distinct_skills": 2,
+      "extraction_failed": false,
+      "coverage": 0.467,
+      "coverage_embed": 0.746,
+      "binding_rate": 1.0,
+      "min_binding_rate": 1.0,
+      "replacement_rate": 0.583,
+      "risk": 0.0,
+      "contract_tokens": 45,
+      "parents_covered": 2,
+      "failure_signature": {
+        "kind": "coverage",
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [
+          "anthropic_elevenlabs-automation",
+          "anthropic_elevenlabs-tts"
+        ],
+        "risk_flags": []
+      }
+    },
+    "final_reasons": [
+      "score 0.74 ≥ auto threshold 0.65"
+    ],
+    "rounds_attempted": 0
+  },
+  {
+    "candidate_id": "text_cand_017",
+    "n_distinct_skills": 2,
+    "n_units": 11,
+    "distinct_skills": [
+      "anthropic_pause-detector",
+      "anthropic_silence-detector"
+    ],
+    "final_round": 0,
+    "final_tier": "auto_promote",
+    "final_contract": {
+      "id": "energy-data-detector",
+      "trigger": "When energy data is available and needs to be analyzed for pauses or silence.",
+      "input_schema": {
+        "energies": {
+          "type": "file",
+          "required": true,
+          "description": "Path to energy JSON file"
+        },
+        "output": {
+          "type": "file",
+          "required": true,
+          "description": "Path to output JSON file"
+        }
+      },
+      "output_schema": {
+        "result": {
+          "type": "json",
+          "description": "JSON containing detected segments and parameters"
+        }
+      },
+      "preconditions": [
+        "Energy data must be pre-computed and available in JSON format",
+        "Output path must be writable"
+      ],
+      "postconditions": [
+        "Output JSON file is created with detected segments",
+        "Analysis results are saved for further processing"
+      ],
+      "resources": [
+        "anthropic_pause-detector/scripts/detect_pauses.py",
+        "anthropic_silence-detector/scripts/detect_silence.py"
+      ],
+      "side_effects": [
+        "filesystem"
+      ],
+      "rationale": "This child skill consolidates the common functionality of detecting pauses and silence from energy data across multiple parent skills."
+    },
+    "final_profile": {
+      "candidate_id": "text_cand_017",
+      "contract_id": "energy-data-detector",
+      "n_units": 11,
+      "n_distinct_skills": 2,
+      "extraction_failed": false,
+      "coverage": 0.486,
+      "coverage_embed": 0.732,
+      "binding_rate": 1.0,
+      "min_binding_rate": 1.0,
+      "replacement_rate": 0.364,
+      "risk": 0.0,
+      "contract_tokens": 35,
+      "parents_covered": 2,
+      "failure_signature": {
+        "kind": "coverage",
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [
+          "anthropic_pause-detector",
+          "anthropic_silence-detector"
+        ],
+        "risk_flags": []
+      }
+    },
+    "final_reasons": [
+      "score 0.69 ≥ auto threshold 0.65"
+    ],
+    "rounds_attempted": 0
+  },
+  {
+    "candidate_id": "text_cand_060",
+    "n_distinct_skills": 2,
+    "n_units": 10,
+    "distinct_skills": [
+      "anthropic_erlang-concurrency",
+      "anthropic_erlang-otp-behaviors"
+    ],
+    "final_round": 0,
+    "final_tier": "auto_promote",
+    "final_contract": {
+      "id": "erlang-process-management",
+      "trigger": "When managing lightweight processes and their communication in Erlang.",
+      "input_schema": {
+        "message": {
+          "type": "string",
+          "required": true,
+          "description": "The message to be sent to the process."
+        }
+      },
+      "output_schema": {
+        "response": {
+          "type": "string",
+          "description": "The acknowledgment response from the process."
+        }
+      },
+      "preconditions": [
+        "A process must be spawned to handle the message.",
+        "The message must be formatted correctly for the receiving process."
+      ],
+      "postconditions": [
+        "The process acknowledges receipt of the message.",
+        "The system maintains proper process isolation and communication."
+      ],
+      "resources": [
+        "path/to/erlang_concurrency_script.erl"
+      ],
+      "side_effects": [
+        "none"
+      ],
+      "rationale": "This child skill encapsulates the common patterns of process creation and message passing observed in the parent skills."
+    },
+    "final_profile": {
+      "candidate_id": "text_cand_060",
+      "contract_id": "erlang-process-management",
+      "n_units": 10,
+      "n_distinct_skills": 2,
+      "extraction_failed": false,
+      "coverage": 0.516,
+      "coverage_embed": 0.728,
+      "binding_rate": 1.0,
+      "min_binding_rate": 1.0,
+      "replacement_rate": 0.8,
+      "risk": 0.0,
+      "contract_tokens": 31,
+      "parents_covered": 2,
+      "failure_signature": {
+        "kind": null,
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [],
+        "risk_flags": []
+      }
+    },
+    "final_reasons": [
+      "score 0.80 ≥ auto threshold 0.65"
+    ],
+    "rounds_attempted": 0
+  },
+  {
+    "candidate_id": "text_cand_058",
+    "n_distinct_skills": 2,
+    "n_units": 9,
+    "distinct_skills": [
+      "anthropic_obspy-data-api",
+      "anthropic_obspy-datacenter-client"
+    ],
+    "final_round": 0,
+    "final_tier": "auto_promote",
+    "final_contract": {
+      "id": "seismogram-import",
+      "trigger": "When a user needs to read seismogram data into a Stream object.",
+      "input_schema": {
+        "filename": {
+          "type": "string",
+          "required": false,
+          "description": "The path to the local file or URL of the seismogram data."
+        }
+      },
+      "output_schema": {
+        "stream": {
+          "type": "object",
+          "description": "An ObsPy Stream object containing multiple Trace objects."
+        }
+      },
+      "preconditions": [
+        "The input file or URL must be accessible.",
+        "The file must be in a supported seismogram format."
+      ],
+      "postconditions": [
+        "A Stream object is created containing Trace objects.",
+        "The Trace objects contain data and metadata."
+      ],
+      "resources": [
+        "obspy/clients/fdsn.py",
+        "obspy/clients/earthworm.py",
+        "obspy/clients/neic.py",
+        "obspy/clients/seedlink.py",
+        "obspy/clients/syngine.py"
+      ],
+      "side_effects": [
+        "none"
+      ],
+      "rationale": "This child skill encapsulates the common functionality of reading seismogram data into a Stream object across multiple parent skills."
+    },
+    "final_profile": {
+      "candidate_id": "text_cand_058",
+      "contract_id": "seismogram-import",
+      "n_units": 9,
+      "n_distinct_skills": 2,
+      "extraction_failed": false,
+      "coverage": 0.469,
+      "coverage_embed": 0.644,
+      "binding_rate": 1.0,
+      "min_binding_rate": 1.0,
+      "replacement_rate": 0.444,
+      "risk": 0.0,
+      "contract_tokens": 32,
+      "parents_covered": 2,
+      "failure_signature": {
+        "kind": "coverage",
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [
+          "anthropic_obspy-data-api",
+          "anthropic_obspy-datacenter-client"
+        ],
+        "risk_flags": []
+      }
+    },
+    "final_reasons": [
+      "score 0.70 ≥ auto threshold 0.65"
+    ],
+    "rounds_attempted": 0
+  },
+  {
+    "candidate_id": "text_cand_022",
+    "n_distinct_skills": 2,
+    "n_units": 8,
+    "distinct_skills": [
+      "anthropic_pdf",
+      "anthropic_pdf-reading"
+    ],
+    "final_round": 0,
+    "final_tier": "auto_promote",
+    "final_contract": {
+      "id": "pdf-text-table-extraction",
+      "trigger": "When a PDF file needs to be processed for text and table extraction.",
+      "input_schema": {
+        "pdf_path": {
+          "type": "string",
+          "required": true,
+          "description": "The path to the PDF file to be processed."
+        }
+      },
+      "output_schema": {
+        "extracted_text": {
+          "type": "string",
+          "description": "The extracted text from the PDF."
+        },
+        "extracted_tables": {
+          "type": "list",
+          "description": "A list of tables extracted from the PDF."
+        }
+      },
+      "preconditions": [
+        "The specified PDF file exists.",
+        "The necessary libraries (pdfplumber, pandas) are installed."
+      ],
+      "postconditions": [
+        "Text and tables are successfully extracted from the PDF.",
+        "The output contains both text and table data."
+      ],
+      "resources": [
+        "path/to/pdfplumber_script.py",
+        "path/to/pandas_script.py"
+      ],
+      "side_effects": [
+        "none"
+      ],
+      "rationale": "This child skill consolidates the common functionality of extracting text and tables from PDF files observed in multiple parent skills."
+    },
+    "final_profile": {
+      "candidate_id": "text_cand_022",
+      "contract_id": "pdf-text-table-extraction",
+      "n_units": 8,
+      "n_distinct_skills": 2,
+      "extraction_failed": false,
+      "coverage": 0.343,
+      "coverage_embed": 0.687,
+      "binding_rate": 1.0,
+      "min_binding_rate": 1.0,
+      "replacement_rate": 1.0,
+      "risk": 0.0,
+      "contract_tokens": 35,
+      "parents_covered": 2,
+      "failure_signature": {
+        "kind": "coverage",
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [
+          "anthropic_pdf",
+          "anthropic_pdf-reading"
+        ],
+        "risk_flags": []
+      }
+    },
+    "final_reasons": [
+      "score 0.79 ≥ auto threshold 0.65"
+    ],
+    "rounds_attempted": 0
+  },
+  {
+    "candidate_id": "text_cand_059",
+    "n_distinct_skills": 2,
+    "n_units": 8,
+    "distinct_skills": [
+      "anthropic_harbor",
+      "anthropic_skillsbench"
+    ],
+    "final_round": 0,
+    "final_tier": "auto_promote",
+    "final_contract": {
+      "id": "skills-directory-management",
+      "trigger": "When adding skills to agent-specific directories in Dockerfiles.",
+      "input_schema": {
+        "skills_path": {
+          "type": "string",
+          "required": true,
+          "description": "Path to the skills directory to be copied."
+        }
+      },
+      "output_schema": {
+        "dockerfile_commands": {
+          "type": "list",
+          "description": "List of Dockerfile commands to copy skills to agent paths."
+        }
+      },
+      "preconditions": [
+        "Skills directory exists at the specified path.",
+        "Dockerfile is present in the task structure."
+      ],
+      "postconditions": [
+        "Skills are copied to all specified agent paths in the Dockerfile."
+      ],
+      "resources": [
+        "path/to/skills_directory_management_script.py"
+      ],
+      "side_effects": [
+        "filesystem"
+      ],
+      "rationale": "This child skill encapsulates the common procedure of copying skills to various agent directories in Dockerfiles observed in multiple parent skills."
+    },
+    "final_profile": {
+      "candidate_id": "text_cand_059",
+      "contract_id": "skills-directory-management",
+      "n_units": 8,
+      "n_distinct_skills": 2,
+      "extraction_failed": false,
+      "coverage": 0.429,
+      "coverage_embed": 0.665,
+      "binding_rate": 1.0,
+      "min_binding_rate": 1.0,
+      "replacement_rate": 0.625,
+      "risk": 0.0,
+      "contract_tokens": 28,
+      "parents_covered": 2,
+      "failure_signature": {
+        "kind": "coverage",
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [
+          "anthropic_harbor",
+          "anthropic_skillsbench"
+        ],
+        "risk_flags": []
+      }
+    },
+    "final_reasons": [
+      "score 0.73 ≥ auto threshold 0.65"
+    ],
+    "rounds_attempted": 0
+  },
+  {
+    "candidate_id": "text_cand_082",
+    "n_distinct_skills": 2,
+    "n_units": 8,
+    "distinct_skills": [
+      "anthropic_audiobook",
+      "anthropic_openai-tts"
+    ],
+    "final_round": 0,
+    "final_tier": "auto_promote",
+    "final_contract": {
+      "id": "tts-provider-selection",
+      "trigger": "When selecting a TTS provider based on available API keys.",
+      "input_schema": {
+        "text": {
+          "type": "string",
+          "required": true,
+          "description": "The text to be converted to speech."
+        },
+        "output_path": {
+          "type": "string",
+          "required": true,
+          "description": "The path where the generated audio file will be saved."
+        }
+      },
+      "output_schema": {
+        "audio_files": {
+          "type": "list",
+          "description": "List of paths to the generated audio files."
+        }
+      },
+      "preconditions": [
+        "The environment variables for TTS API keys are set appropriately."
+      ],
+      "postconditions": [
+        "Audio files are generated and saved at the specified output path."
+      ],
+      "resources": [
+        "path/to/elevenlabs_script.py",
+        "path/to/openai_script.py",
+        "path/to/gtts_script.py"
+      ],
+      "side_effects": [
+        "filesystem"
+      ],
+      "rationale": "This child skill encapsulates the logic for selecting a TTS provider and generating audio files, which is common across multiple parent skills."
+    },
+    "final_profile": {
+      "candidate_id": "text_cand_082",
+      "contract_id": "tts-provider-selection",
+      "n_units": 8,
+      "n_distinct_skills": 2,
+      "extraction_failed": false,
+      "coverage": 0.333,
+      "coverage_embed": 0.579,
+      "binding_rate": 1.0,
+      "min_binding_rate": 1.0,
+      "replacement_rate": 0.625,
+      "risk": 0.0,
+      "contract_tokens": 36,
+      "parents_covered": 2,
+      "failure_signature": {
+        "kind": "coverage",
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [
+          "anthropic_audiobook",
+          "anthropic_openai-tts"
+        ],
+        "risk_flags": []
+      }
+    },
+    "final_reasons": [
+      "score 0.70 ≥ auto threshold 0.65"
+    ],
+    "rounds_attempted": 0
+  },
+  {
+    "candidate_id": "text_cand_024",
+    "n_distinct_skills": 2,
+    "n_units": 7,
+    "distinct_skills": [
+      "anthropic_gemini-count-in-video",
+      "anthropic_gemini-video-understanding"
+    ],
+    "final_round": 0,
+    "final_tier": "auto_promote",
+    "final_contract": {
+      "id": "video-upload-and-wait",
+      "trigger": "When a video file needs to be uploaded for processing and requires waiting for the processing to complete.",
+      "input_schema": {
+        "file_path": {
+          "type": "string",
+          "required": true,
+          "description": "The path to the video file to be uploaded."
+        }
+      },
+      "output_schema": {
+        "myfile": {
+          "type": "object",
+          "description": "The processed video file object returned by the API."
+        }
+      },
+      "preconditions": [
+        "The video file format is supported (MP4, MPEG, MOV, AVI, FLV, MPG, WebM, WMV, 3GPP).",
+        "The video file size is appropriate for the upload method (inline for <20MB, File API for larger files)."
+      ],
+      "postconditions": [
+        "The video processing is completed successfully.",
+        "The processed video file object is returned for further analysis."
+      ],
+      "resources": [
+        "path/to/google/genai.py"
+      ],
+      "side_effects": [
+        "network"
+      ],
+      "rationale": "This child skill encapsulates the common procedure of uploading a video and waiting for its processing, which is shared across multiple parent skills."
+    },
+    "final_profile": {
+      "candidate_id": "text_cand_024",
+      "contract_id": "video-upload-and-wait",
+      "n_units": 7,
+      "n_distinct_skills": 2,
+      "extraction_failed": false,
+      "coverage": 0.542,
+      "coverage_embed": 0.687,
+      "binding_rate": 1.0,
+      "min_binding_rate": 1.0,
+      "replacement_rate": 1.0,
+      "risk": 0.0,
+      "contract_tokens": 48,
+      "parents_covered": 2,
+      "failure_signature": {
+        "kind": null,
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [],
+        "risk_flags": []
+      }
+    },
+    "final_reasons": [
+      "score 0.85 ≥ auto threshold 0.65"
+    ],
+    "rounds_attempted": 0
+  },
+  {
+    "candidate_id": "text_cand_063",
+    "n_distinct_skills": 2,
+    "n_units": 7,
+    "distinct_skills": [
+      "anthropic_pdf",
+      "anthropic_pdf-reading"
+    ],
+    "final_round": 0,
+    "final_tier": "auto_promote",
+    "final_contract": {
+      "id": "pdf-text-extraction",
+      "trigger": "When a user needs to extract text from a PDF document.",
+      "input_schema": {
+        "input_pdf": {
+          "type": "file",
+          "required": true,
+          "description": "The PDF file from which to extract text."
+        },
+        "output_file": {
+          "type": "file",
+          "required": false,
+          "description": "The file where the extracted text will be saved."
+        },
+        "page_range": {
+          "type": "string",
+          "required": false,
+          "description": "The specific pages to extract, formatted as 'start-end'."
+        }
+      },
+      "output_schema": {
+        "extracted_text": {
+          "type": "string",
+          "description": "The text extracted from the PDF document."
+        }
+      },
+      "preconditions": [
+        "The input PDF file exists.",
+        "The pdftotext tool is available in the environment."
+      ],
+      "postconditions": [
+        "The extracted text is saved to the specified output file or returned as a string.",
+        "The specified pages are extracted if a page range is provided."
+      ],
+      "resources": [
+        "pdftotext"
+      ],
+      "side_effects": [
+        "filesystem"
+      ],
+      "rationale": "This child skill consolidates the common functionality of extracting text from PDFs observed in multiple parent skills."
+    },
+    "final_profile": {
+      "candidate_id": "text_cand_063",
+      "contract_id": "pdf-text-extraction",
+      "n_units": 7,
+      "n_distinct_skills": 2,
+      "extraction_failed": false,
+      "coverage": 0.318,
+      "coverage_embed": 0.712,
+      "binding_rate": 1.0,
+      "min_binding_rate": 1.0,
+      "replacement_rate": 0.714,
+      "risk": 0.0,
+      "contract_tokens": 44,
+      "parents_covered": 2,
+      "failure_signature": {
+        "kind": "coverage",
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [
+          "anthropic_pdf",
+          "anthropic_pdf-reading"
+        ],
+        "risk_flags": []
+      }
+    },
+    "final_reasons": [
+      "score 0.72 ≥ auto threshold 0.65"
+    ],
+    "rounds_attempted": 0
+  },
+  {
+    "candidate_id": "text_cand_075",
+    "n_distinct_skills": 2,
+    "n_units": 7,
+    "distinct_skills": [
+      "anthropic_first-order-model-fitting",
+      "anthropic_scipy-curve-fit"
+    ],
+    "final_round": 0,
+    "final_tier": "auto_promote",
+    "final_contract": {
+      "id": "first-order-model-fitting",
+      "trigger": "When fitting a first-order dynamic model to experimental step response data.",
+      "input_schema": {
+        "y_initial": {
+          "type": "number",
+          "required": true,
+          "description": "Initial output value before the step input is applied."
+        },
+        "input_value": {
+          "type": "number",
+          "required": true,
+          "description": "Magnitude of the input during the step test."
+        },
+        "data": {
+          "type": "list",
+          "required": true,
+          "description": "List of dictionaries containing time and output readings."
+        }
+      },
+      "output_schema": {
+        "K": {
+          "type": "number",
+          "description": "Process gain calculated from the fitted model."
+        },
+        "tau": {
+          "type": "number",
+          "description": "Time constant calculated from the fitted model."
+        },
+        "r_squared": {
+          "type": "number",
+          "description": "Coefficient of determination indicating the fit quality."
+        },
+        "fitting_error": {
+          "type": "number",
+          "description": "Error associated with the fitting process."
+        }
+      },
+      "preconditions": [
+        "Experimental data is available in the correct format.",
+        "Initial output value and input magnitude are known."
+      ],
+      "postconditions": [
+        "Model parameters K and tau are extracted.",
+        "Fit quality metrics are calculated."
+      ],
+      "resources": [
+        "path/to/first_order_model.py",
+        "path/to/scipy_curve_fit.py"
+      ],
+      "side_effects": [
+        "none"
+      ],
+      "rationale": "This child skill encapsulates the common procedure of fitting a first-order model to step response data observed in both parent skills."
+    },
+    "final_profile": {
+      "candidate_id": "text_cand_075",
+      "contract_id": "first-order-model-fitting",
+      "n_units": 7,
+      "n_distinct_skills": 2,
+      "extraction_failed": false,
+      "coverage": 0.565,
+      "coverage_embed": 0.658,
+      "binding_rate": 1.0,
+      "min_binding_rate": 1.0,
+      "replacement_rate": 0.714,
+      "risk": 0.0,
+      "contract_tokens": 46,
+      "parents_covered": 2,
+      "failure_signature": {
+        "kind": null,
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [],
+        "risk_flags": []
+      }
+    },
+    "final_reasons": [
+      "score 0.80 ≥ auto threshold 0.65"
+    ],
+    "rounds_attempted": 0
+  },
+  {
+    "candidate_id": "text_cand_057",
+    "n_distinct_skills": 2,
+    "n_units": 6,
+    "distinct_skills": [
+      "anthropic_gpt-multimodal",
+      "anthropic_openai-vision"
+    ],
+    "final_round": 0,
+    "final_tier": "auto_promote",
+    "final_contract": {
+      "id": "image-analysis",
+      "trigger": "When an image or multiple images need to be analyzed for content and structure.",
+      "input_schema": {
+        "image_paths": {
+          "type": "list",
+          "required": true,
+          "description": "List of paths to the images to be analyzed."
+        },
+        "prompt": {
+          "type": "string",
+          "required": false,
+          "description": "Optional prompt to guide the analysis."
+        }
+      },
+      "output_schema": {
+        "analysis_result": {
+          "type": "json",
+          "description": "Structured JSON output containing the analysis results."
+        }
+      },
+      "preconditions": [
+        "The images must be accessible at the provided paths.",
+        "The OpenAI API key must be set in the environment."
+      ],
+      "postconditions": [
+        "The analysis results are returned in a structured format.",
+        "Any errors during processing are logged."
+      ],
+      "resources": [
+        "path/to/openai_api.py"
+      ],
+      "side_effects": [
+        "network",
+        "user_visible_output"
+      ],
+      "rationale": "This child skill encapsulates the common functionality of analyzing images across multiple parent skills."
+    },
+    "final_profile": {
+      "candidate_id": "text_cand_057",
+      "contract_id": "image-analysis",
+      "n_units": 6,
+      "n_distinct_skills": 2,
+      "extraction_failed": false,
+      "coverage": 0.4,
+      "coverage_embed": 0.604,
+      "binding_rate": 1.0,
+      "min_binding_rate": 1.0,
+      "replacement_rate": 0.5,
+      "risk": 0.0,
+      "contract_tokens": 40,
+      "parents_covered": 2,
+      "failure_signature": {
+        "kind": "coverage",
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [
+          "anthropic_gpt-multimodal",
+          "anthropic_openai-vision"
+        ],
+        "risk_flags": []
+      }
+    },
+    "final_reasons": [
+      "score 0.70 ≥ auto threshold 0.65"
+    ],
+    "rounds_attempted": 0
+  },
+  {
+    "candidate_id": "text_cand_120",
+    "n_distinct_skills": 2,
+    "n_units": 6,
+    "distinct_skills": [
+      "anthropic_python-scala-idioms",
+      "anthropic_python-scala-syntax-mapping"
+    ],
+    "final_round": 0,
+    "final_tier": "auto_promote",
+    "final_contract": {
+      "id": "python-to-scala-translations",
+      "trigger": "When translating Python code constructs to idiomatic Scala equivalents.",
+      "input_schema": {
+        "python_code": {
+          "type": "string",
+          "required": true,
+          "description": "The Python code that needs to be translated to Scala."
+        }
+      },
+      "output_schema": {
+        "scala_code": {
+          "type": "string",
+          "description": "The idiomatic Scala equivalent of the provided Python code."
+        }
+      },
+      "preconditions": [
+        "The input Python code is syntactically correct.",
+        "The input Python code contains constructs that have Scala equivalents."
+      ],
+      "postconditions": [
+        "The output Scala code is idiomatic and follows Scala conventions.",
+        "The output Scala code is syntactically correct."
+      ],
+      "resources": [
+        "path/to/python_scala_translator.py"
+      ],
+      "side_effects": [
+        "none"
+      ],
+      "rationale": "This child skill encapsulates the common procedure of translating Python constructs to Scala, observed across multiple parent skills."
+    },
+    "final_profile": {
+      "candidate_id": "text_cand_120",
+      "contract_id": "python-to-scala-translations",
+      "n_units": 6,
+      "n_distinct_skills": 2,
+      "extraction_failed": false,
+      "coverage": 0.179,
+      "coverage_embed": 0.501,
+      "binding_rate": 1.0,
+      "min_binding_rate": 1.0,
+      "replacement_rate": 1.0,
+      "risk": 0.0,
+      "contract_tokens": 28,
+      "parents_covered": 2,
+      "failure_signature": {
+        "kind": "coverage",
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [
+          "anthropic_python-scala-idioms",
+          "anthropic_python-scala-syntax-mapping"
+        ],
+        "risk_flags": []
+      }
+    },
+    "final_reasons": [
+      "score 0.74 ≥ auto threshold 0.65",
+      "low coverage 0.18"
+    ],
+    "rounds_attempted": 0
+  },
+  {
+    "candidate_id": "text_cand_101",
+    "n_distinct_skills": 2,
+    "n_units": 5,
+    "distinct_skills": [
+      "anthropic_python-scala-functional",
+      "anthropic_python-scala-syntax-mapping"
+    ],
+    "final_round": 0,
+    "final_tier": "auto_promote",
+    "final_contract": {
+      "id": "function-transformation",
+      "trigger": "When translating Python functions to their Scala equivalents.",
+      "input_schema": {
+        "python_function": {
+          "type": "string",
+          "required": true,
+          "description": "The Python function code to be translated."
+        }
+      },
+      "output_schema": {
+        "scala_function": {
+          "type": "string",
+          "description": "The translated Scala function code."
+        }
+      },
+      "preconditions": [
+        "The input Python function is syntactically correct.",
+        "The input Python function is compatible with functional programming concepts."
+      ],
+      "postconditions": [
+        "The output Scala function is syntactically correct.",
+        "The output Scala function maintains the same functionality as the input Python function."
+      ],
+      "resources": [],
+      "side_effects": [
+        "none"
+      ],
+      "rationale": "This child skill encapsulates the common procedure of translating Python functions into Scala, which is a recurring task in the parent skills."
+    },
+    "final_profile": {
+      "candidate_id": "text_cand_101",
+      "contract_id": "function-transformation",
+      "n_units": 5,
+      "n_distinct_skills": 2,
+      "extraction_failed": false,
+      "coverage": 0.129,
+      "coverage_embed": 0.46,
+      "binding_rate": 1.0,
+      "min_binding_rate": 1.0,
+      "replacement_rate": 1.0,
+      "risk": 0.0,
+      "contract_tokens": 31,
+      "parents_covered": 2,
+      "failure_signature": {
+        "kind": "coverage",
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [
+          "anthropic_python-scala-functional",
+          "anthropic_python-scala-syntax-mapping"
+        ],
+        "risk_flags": []
+      }
+    },
+    "final_reasons": [
+      "score 0.72 ≥ auto threshold 0.65",
+      "low coverage 0.13"
+    ],
+    "rounds_attempted": 0
+  },
+  {
+    "candidate_id": "text_cand_107",
+    "n_distinct_skills": 2,
+    "n_units": 5,
+    "distinct_skills": [
+      "anthropic_pause-detector",
+      "anthropic_silence-detector"
+    ],
+    "final_round": 0,
+    "final_tier": "auto_promote",
+    "final_contract": {
+      "id": "energy-data-detector",
+      "trigger": "When analyzing audio/video to detect pauses or silence segments using energy data.",
+      "input_schema": {
+        "energies": {
+          "type": "file",
+          "required": true,
+          "description": "Path to energy JSON file"
+        },
+        "output": {
+          "type": "file",
+          "required": true,
+          "description": "Path to output JSON file"
+        }
+      },
+      "output_schema": {
+        "segments": {
+          "type": "list",
+          "description": "List of detected segments indicating pauses or silence"
+        }
+      },
+      "preconditions": [
+        "Energy data must be pre-computed and available in JSON format",
+        "Output path must be writable"
+      ],
+      "postconditions": [
+        "Segments of pauses or silence are detected and saved to output file",
+        "Output format is compatible with segment-combiner"
+      ],
+      "resources": [
+        "anthropic_pause-detector/scripts/detect_pauses.py",
+        "anthropic_silence-detector/scripts/detect_silence.py"
+      ],
+      "side_effects": [
+        "filesystem"
+      ],
+      "rationale": "This child skill consolidates the common functionality of detecting pauses and silence using energy data across multiple parent skills."
+    },
+    "final_profile": {
+      "candidate_id": "text_cand_107",
+      "contract_id": "energy-data-detector",
+      "n_units": 5,
+      "n_distinct_skills": 2,
+      "extraction_failed": false,
+      "coverage": 0.412,
+      "coverage_embed": 0.725,
+      "binding_rate": 1.0,
+      "min_binding_rate": 1.0,
+      "replacement_rate": 0.6,
+      "risk": 0.0,
+      "contract_tokens": 34,
+      "parents_covered": 2,
+      "failure_signature": {
+        "kind": "coverage",
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [
+          "anthropic_pause-detector",
+          "anthropic_silence-detector"
+        ],
+        "risk_flags": []
+      }
+    },
+    "final_reasons": [
+      "score 0.72 ≥ auto threshold 0.65"
+    ],
+    "rounds_attempted": 0
+  },
+  {
+    "candidate_id": "text_cand_118",
+    "n_distinct_skills": 2,
+    "n_units": 5,
+    "distinct_skills": [
+      "anthropic_python-scala-functional",
+      "anthropic_python-scala-idioms"
+    ],
+    "final_round": 0,
+    "final_tier": "auto_promote",
+    "final_contract": {
+      "id": "option-handling",
+      "trigger": "When converting Python code that uses None checks to Scala using the Option monad.",
+      "input_schema": {
+        "user_id": {
+          "type": "integer",
+          "required": true,
+          "description": "The ID of the user to retrieve."
+        }
+      },
+      "output_schema": {
+        "email": {
+          "type": "string",
+          "description": "The email of the user if found, otherwise None."
+        }
+      },
+      "preconditions": [
+        "The user ID must be valid and exist in the database.",
+        "The database must support Option handling."
+      ],
+      "postconditions": [
+        "The email is returned as an Option type.",
+        "No None checks are present in the Scala code."
+      ],
+      "resources": [],
+      "side_effects": [
+        "none"
+      ],
+      "rationale": "This child skill encapsulates the common pattern of handling user retrieval and email extraction using Option in Scala."
+    },
+    "final_profile": {
+      "candidate_id": "text_cand_118",
+      "contract_id": "option-handling",
+      "n_units": 5,
+      "n_distinct_skills": 2,
+      "extraction_failed": false,
+      "coverage": 0.464,
+      "coverage_embed": 0.657,
+      "binding_rate": 1.0,
+      "min_binding_rate": 1.0,
+      "replacement_rate": 1.0,
+      "risk": 0.0,
+      "contract_tokens": 28,
+      "parents_covered": 2,
+      "failure_signature": {
+        "kind": "coverage",
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [
+          "anthropic_python-scala-idioms"
+        ],
+        "risk_flags": []
+      }
+    },
+    "final_reasons": [
+      "score 0.83 ≥ auto threshold 0.65"
+    ],
+    "rounds_attempted": 0
+  },
+  {
+    "candidate_id": "text_cand_072",
+    "n_distinct_skills": 2,
+    "n_units": 4,
+    "distinct_skills": [
+      "anthropic_harbor",
+      "anthropic_skillsbench"
+    ],
+    "final_round": 0,
+    "final_tier": "auto_promote",
+    "final_contract": {
+      "id": "harbor-task-validation",
+      "trigger": "When validating a task in the Harbor framework.",
+      "input_schema": {
+        "task_id": {
+          "type": "string",
+          "required": true,
+          "description": "The identifier of the task to validate."
+        }
+      },
+      "output_schema": {
+        "validation_result": {
+          "type": "boolean",
+          "description": "Indicates whether the task validation passed or failed."
+        }
+      },
+      "preconditions": [
+        "The task must exist in the specified path.",
+        "The user must have the necessary permissions to validate the task."
+      ],
+      "postconditions": [
+        "The task validation result is available for further actions.",
+        "The task status is updated based on the validation result."
+      ],
+      "resources": [
+        "path/to/harbor/validation_script.py"
+      ],
+      "side_effects": [
+        "none"
+      ],
+      "rationale": "This child skill encapsulates the common task validation procedure observed in both parent skills."
+    },
+    "final_profile": {
+      "candidate_id": "text_cand_072",
+      "contract_id": "harbor-task-validation",
+      "n_units": 4,
+      "n_distinct_skills": 2,
+      "extraction_failed": false,
+      "coverage": 0.188,
+      "coverage_embed": 0.522,
+      "binding_rate": 1.0,
+      "min_binding_rate": 1.0,
+      "replacement_rate": 0.75,
+      "risk": 0.0,
+      "contract_tokens": 32,
+      "parents_covered": 2,
+      "failure_signature": {
+        "kind": "coverage",
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [
+          "anthropic_harbor",
+          "anthropic_skillsbench"
+        ],
+        "risk_flags": []
+      }
+    },
+    "final_reasons": [
+      "score 0.68 ≥ auto threshold 0.65",
+      "low coverage 0.19"
+    ],
+    "rounds_attempted": 0
+  },
+  {
+    "candidate_id": "text_cand_084",
+    "n_distinct_skills": 2,
+    "n_units": 4,
+    "distinct_skills": [
+      "anthropic_pubchem-database",
+      "anthropic_rdkit"
+    ],
+    "final_round": 0,
+    "final_tier": "auto_promote",
+    "final_contract": {
+      "id": "substructure-search",
+      "trigger": "When a specific structural motif needs to be found in a set of compounds.",
+      "input_schema": {
+        "query_smiles": {
+          "type": "string",
+          "required": true,
+          "description": "SMILES string representing the structural motif to search for."
+        },
+        "database_smiles": {
+          "type": "list",
+          "required": true,
+          "description": "List of SMILES strings representing the compounds to search within."
+        },
+        "threshold": {
+          "type": "number",
+          "required": false,
+          "description": "Similarity threshold for filtering results (default is 0.7)."
+        }
+      },
+      "output_schema": {
+        "matches": {
+          "type": "list",
+          "description": "List of SMILES strings that match the query substructure."
+        }
+      },
+      "preconditions": [
+        "The input SMILES string is valid.",
+        "The database of SMILES strings is provided."
+      ],
+      "postconditions": [
+        "A list of matching compounds is returned based on the query."
+      ],
+      "resources": [
+        "anthropic_rdkit/scripts/similarity_search.py",
+        "anthropic_rdkit/scripts/substructure_filter.py"
+      ],
+      "side_effects": [
+        "none"
+      ],
+      "rationale": "This child skill encapsulates the common functionality of searching for substructures across multiple parent skills."
+    },
+    "final_profile": {
+      "candidate_id": "text_cand_084",
+      "contract_id": "substructure-search",
+      "n_units": 4,
+      "n_distinct_skills": 2,
+      "extraction_failed": false,
+      "coverage": 0.45,
+      "coverage_embed": 0.691,
+      "binding_rate": 1.0,
+      "min_binding_rate": 1.0,
+      "replacement_rate": 0.25,
+      "risk": 0.0,
+      "contract_tokens": 40,
+      "parents_covered": 2,
+      "failure_signature": {
+        "kind": "coverage",
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [
+          "anthropic_pubchem-database",
+          "anthropic_rdkit"
+        ],
+        "risk_flags": []
+      }
+    },
+    "final_reasons": [
+      "score 0.65 ≥ auto threshold 0.65",
+      "low replacement 0.25"
+    ],
+    "rounds_attempted": 0
+  },
+  {
+    "candidate_id": "text_cand_094",
+    "n_distinct_skills": 2,
+    "n_units": 4,
+    "distinct_skills": [
+      "anthropic_jakarta-namespace",
+      "anthropic_spring-boot-migration"
+    ],
+    "final_round": 0,
+    "final_tier": "auto_promote",
+    "final_contract": {
+      "id": "openrewrite-migration",
+      "trigger": "When automating the migration of Java EE to Jakarta EE or upgrading Spring Boot applications.",
+      "input_schema": {
+        "pom_file": {
+          "type": "file",
+          "required": true,
+          "description": "The pom.xml file to be modified for migration."
+        }
+      },
+      "output_schema": {
+        "migration_report": {
+          "type": "document",
+          "description": "A report detailing the changes made during the migration process."
+        }
+      },
+      "preconditions": [
+        "The pom.xml file is accessible and correctly formatted.",
+        "OpenRewrite Maven plugin is included in the pom.xml."
+      ],
+      "postconditions": [
+        "The pom.xml file is updated with the necessary migration configurations.",
+        "The migration report is generated."
+      ],
+      "resources": [
+        "path/to/openrewrite_migration_script.py"
+      ],
+      "side_effects": [
+        "filesystem"
+      ],
+      "rationale": "This child skill encapsulates the common procedure of using OpenRewrite for automated migration across both Jakarta EE and Spring Boot contexts."
+    },
+    "final_profile": {
+      "candidate_id": "text_cand_094",
+      "contract_id": "openrewrite-migration",
+      "n_units": 4,
+      "n_distinct_skills": 2,
+      "extraction_failed": false,
+      "coverage": 0.324,
+      "coverage_embed": 0.766,
+      "binding_rate": 1.0,
+      "min_binding_rate": 1.0,
+      "replacement_rate": 0.75,
+      "risk": 0.0,
+      "contract_tokens": 34,
+      "parents_covered": 2,
+      "failure_signature": {
+        "kind": "coverage",
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [
+          "anthropic_jakarta-namespace",
+          "anthropic_spring-boot-migration"
+        ],
+        "risk_flags": []
+      }
+    },
+    "final_reasons": [
+      "score 0.73 ≥ auto threshold 0.65"
+    ],
+    "rounds_attempted": 0
+  },
+  {
+    "candidate_id": "text_cand_102",
+    "n_distinct_skills": 2,
+    "n_units": 3,
+    "distinct_skills": [
+      "anthropic_trivy-offline-vulnerability-scanning",
+      "anthropic_vulnerability-csv-reporting"
+    ],
+    "final_round": 0,
+    "final_tier": "auto_promote",
+    "final_contract": {
+      "id": "trivy-json-to-csv",
+      "trigger": "When a Trivy JSON vulnerability report needs to be converted to a CSV format.",
+      "input_schema": {
+        "json_input": {
+          "type": "file",
+          "required": true,
+          "description": "Path to the Trivy JSON report file."
+        },
+        "csv_output": {
+          "type": "file",
+          "required": true,
+          "description": "Path for the output CSV file."
+        },
+        "severity_filter": {
+          "type": "list",
+          "required": false,
+          "description": "List of severity levels to include in the CSV report."
+        }
+      },
+      "output_schema": {
+        "csv_records": {
+          "type": "list",
+          "description": "List of dictionaries representing CSV-ready records extracted from the JSON."
+        }
+      },
+      "preconditions": [
+        "The Trivy JSON report file exists at the specified path.",
+        "The output path for the CSV file is writable."
+      ],
+      "postconditions": [
+        "A CSV file is generated at the specified output path.",
+        "The CSV file contains records filtered by the specified severity levels."
+      ],
+      "resources": [
+        "path/to/script.py"
+      ],
+      "side_effects": [
+        "filesystem"
+      ],
+      "rationale": "This child skill encapsulates the common functionality of converting Trivy JSON output to a structured CSV format, which is utilized in multiple parent skills."
+    },
+    "final_profile": {
+      "candidate_id": "text_cand_102",
+      "contract_id": "trivy-json-to-csv",
+      "n_units": 3,
+      "n_distinct_skills": 2,
+      "extraction_failed": false,
+      "coverage": 0.486,
+      "coverage_embed": 0.707,
+      "binding_rate": 1.0,
+      "min_binding_rate": 1.0,
+      "replacement_rate": 1.0,
+      "risk": 0.0,
+      "contract_tokens": 37,
+      "parents_covered": 2,
+      "failure_signature": {
+        "kind": "coverage",
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [
+          "anthropic_trivy-offline-vulnerability-scanning"
+        ],
+        "risk_flags": []
+      }
+    },
+    "final_reasons": [
+      "score 0.84 ≥ auto threshold 0.65"
+    ],
+    "rounds_attempted": 0
+  },
+  {
+    "candidate_id": "text_cand_128",
+    "n_distinct_skills": 2,
+    "n_units": 3,
+    "distinct_skills": [
+      "anthropic_exoplanet-workflows",
+      "anthropic_transit-least-squares"
+    ],
+    "final_round": 0,
+    "final_tier": "auto_promote",
+    "final_contract": {
+      "id": "signal-evaluation",
+      "trigger": "When evaluating the strength of a signal in exoplanet detection.",
+      "input_schema": {
+        "sde": {
+          "type": "number",
+          "required": true,
+          "description": "Signal Detection Efficiency value."
+        },
+        "snr": {
+          "type": "number",
+          "required": true,
+          "description": "Signal-to-Noise Ratio value."
+        }
+      },
+      "output_schema": {
+        "evaluation": {
+          "type": "string",
+          "description": "Evaluation of the signal based on SDE and SNR."
+        }
+      },
+      "preconditions": [
+        "SDE and SNR values are provided."
+      ],
+      "postconditions": [
+        "An evaluation of the signal strength is returned."
+      ],
+      "resources": [],
+      "side_effects": [
+        "none"
+      ],
+      "rationale": "The evaluation of SDE and SNR is a common procedure in both parent skills for assessing signal strength."
+    },
+    "final_profile": {
+      "candidate_id": "text_cand_128",
+      "contract_id": "signal-evaluation",
+      "n_units": 3,
+      "n_distinct_skills": 2,
+      "extraction_failed": false,
+      "coverage": 0.381,
+      "coverage_embed": 0.641,
+      "binding_rate": 1.0,
+      "min_binding_rate": 1.0,
+      "replacement_rate": 0.333,
+      "risk": 0.0,
+      "contract_tokens": 21,
+      "parents_covered": 2,
+      "failure_signature": {
+        "kind": "coverage",
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [
+          "anthropic_exoplanet-workflows",
+          "anthropic_transit-least-squares"
+        ],
+        "risk_flags": []
+      }
+    },
+    "final_reasons": [
+      "score 0.65 ≥ auto threshold 0.65"
+    ],
+    "rounds_attempted": 0
+  },
+  {
+    "candidate_id": "text_cand_146",
+    "n_distinct_skills": 2,
+    "n_units": 3,
+    "distinct_skills": [
+      "anthropic_python-scala-functional",
+      "anthropic_python-scala-oop"
+    ],
+    "final_round": 0,
+    "final_tier": "auto_promote",
+    "final_contract": {
+      "id": "implicit-conversions-and-type-classes",
+      "trigger": "When translating Python type flexibility to Scala's type classes.",
+      "input_schema": {
+        "python_code": {
+          "type": "string",
+          "required": true,
+          "description": "Python code that demonstrates type flexibility or duck typing."
+        }
+      },
+      "output_schema": {
+        "scala_code": {
+          "type": "string",
+          "description": "Scala code that implements type classes or implicits to achieve similar functionality."
+        }
+      },
+      "preconditions": [
+        "Input Python code uses duck typing or requires type flexibility."
+      ],
+      "postconditions": [
+        "Output Scala code correctly implements type classes or implicits."
+      ],
+      "resources": [],
+      "side_effects": [
+        "none"
+      ],
+      "rationale": "This child skill captures the common pattern of translating Python's dynamic typing into Scala's type class system."
+    },
+    "final_profile": {
+      "candidate_id": "text_cand_146",
+      "contract_id": "implicit-conversions-and-type-classes",
+      "n_units": 3,
+      "n_distinct_skills": 2,
+      "extraction_failed": false,
+      "coverage": 0.346,
+      "coverage_embed": 0.582,
+      "binding_rate": 1.0,
+      "min_binding_rate": 1.0,
+      "replacement_rate": 1.0,
+      "risk": 0.0,
+      "contract_tokens": 26,
+      "parents_covered": 2,
+      "failure_signature": {
+        "kind": "coverage",
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [
+          "anthropic_python-scala-oop"
+        ],
+        "risk_flags": []
+      }
+    },
+    "final_reasons": [
+      "score 0.79 ≥ auto threshold 0.65"
+    ],
+    "rounds_attempted": 0
+  },
+  {
+    "candidate_id": "text_cand_006",
+    "n_distinct_skills": 2,
+    "n_units": 2,
+    "distinct_skills": [
+      "anthropic_harbor",
+      "anthropic_skillsbench"
+    ],
+    "final_round": 0,
+    "final_tier": "auto_promote",
+    "final_contract": {
+      "id": "local-workspace-api-keys",
+      "trigger": "When accessing API keys and local workspace configuration.",
+      "input_schema": {
+        "api_key": {
+          "type": "string",
+          "required": true,
+          "description": "The API key required for accessing external services."
+        },
+        "workspace_path": {
+          "type": "string",
+          "required": true,
+          "description": "The path to the local workspace directory."
+        }
+      },
+      "output_schema": {
+        "status": {
+          "type": "string",
+          "description": "The status of the API key validation and workspace access."
+        }
+      },
+      "preconditions": [
+        "The .local-workspace directory exists.",
+        "The .env file is present and accessible."
+      ],
+      "postconditions": [
+        "API key is validated.",
+        "Workspace is ready for use."
+      ],
+      "resources": [
+        "path/to/harbor_script.py",
+        "path/to/skillsbench_script.py"
+      ],
+      "side_effects": [
+        "none"
+      ],
+      "rationale": "This child skill encapsulates the common procedure of accessing and validating API keys and workspace configuration found in both parent skills."
+    },
+    "final_profile": {
+      "candidate_id": "text_cand_006",
+      "contract_id": "local-workspace-api-keys",
+      "n_units": 2,
+      "n_distinct_skills": 2,
+      "extraction_failed": false,
+      "coverage": 0.226,
+      "coverage_embed": 0.684,
+      "binding_rate": 1.0,
+      "min_binding_rate": 1.0,
+      "replacement_rate": 1.0,
+      "risk": 0.0,
+      "contract_tokens": 31,
+      "parents_covered": 2,
+      "failure_signature": {
+        "kind": "coverage",
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [
+          "anthropic_harbor",
+          "anthropic_skillsbench"
+        ],
+        "risk_flags": []
+      }
+    },
+    "final_reasons": [
+      "score 0.75 ≥ auto threshold 0.65",
+      "low coverage 0.23"
+    ],
+    "rounds_attempted": 0
+  },
+  {
+    "candidate_id": "text_cand_090",
+    "n_distinct_skills": 2,
+    "n_units": 2,
+    "distinct_skills": [
+      "anthropic_gpt-multimodal",
+      "anthropic_openai-vision"
+    ],
+    "final_round": 0,
+    "final_tier": "auto_promote",
+    "final_contract": {
+      "id": "image-comparison",
+      "trigger": "When two or more images need to be compared for differences.",
+      "input_schema": {
+        "image_paths": {
+          "type": "list",
+          "required": true,
+          "description": "List of paths to the images to be compared."
+        },
+        "comparison_prompt": {
+          "type": "string",
+          "required": false,
+          "description": "Optional prompt to guide the comparison."
+        }
+      },
+      "output_schema": {
+        "comparison_results": {
+          "type": "string",
+          "description": "Description of differences and similarities between the images."
+        }
+      },
+      "preconditions": [
+        "The images must be accessible at the provided paths.",
+        "The OpenAI API key must be set in the environment."
+      ],
+      "postconditions": [
+        "A detailed comparison of the images is generated.",
+        "The comparison results are returned."
+      ],
+      "resources": [
+        "path/to/openai_api_script.py"
+      ],
+      "side_effects": [
+        "network",
+        "user_visible_output"
+      ],
+      "rationale": "This child skill encapsulates the common functionality of comparing images observed in both parent skills."
+    },
+    "final_profile": {
+      "candidate_id": "text_cand_090",
+      "contract_id": "image-comparison",
+      "n_units": 2,
+      "n_distinct_skills": 2,
+      "extraction_failed": false,
+      "coverage": 0.222,
+      "coverage_embed": 0.648,
+      "binding_rate": 1.0,
+      "min_binding_rate": 1.0,
+      "replacement_rate": 1.0,
+      "risk": 0.0,
+      "contract_tokens": 36,
+      "parents_covered": 2,
+      "failure_signature": {
+        "kind": "coverage",
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [
+          "anthropic_gpt-multimodal",
+          "anthropic_openai-vision"
+        ],
+        "risk_flags": []
+      }
+    },
+    "final_reasons": [
+      "score 0.75 ≥ auto threshold 0.65",
+      "low coverage 0.22"
+    ],
+    "rounds_attempted": 0
+  },
+  {
+    "candidate_id": "text_cand_103",
+    "n_distinct_skills": 2,
+    "n_units": 2,
+    "distinct_skills": [
+      "anthropic_docx",
+      "anthropic_pptx"
+    ],
+    "final_round": 0,
+    "final_tier": "auto_promote",
+    "final_contract": {
+      "id": "convert-to-images",
+      "trigger": "When a document or presentation needs to be visually analyzed by converting it to images.",
+      "input_schema": {
+        "original_file": {
+          "type": "file",
+          "required": true,
+          "description": "Path to the original DOCX or PPTX file to be converted."
+        }
+      },
+      "output_schema": {
+        "image_files": {
+          "type": "list",
+          "description": "List of generated image files from the conversion process."
+        }
+      },
+      "preconditions": [
+        "The original file must be a valid DOCX or PPTX document.",
+        "The conversion tools (soffice and pdftoppm) must be available in the environment."
+      ],
+      "postconditions": [
+        "Images are generated and saved in the specified format.",
+        "The output list contains paths to the generated image files."
+      ],
+      "resources": [
+        "anthropic_docx/ooxml/scripts/pack.py",
+        "anthropic_pptx/ooxml/scripts/pack.py"
+      ],
+      "side_effects": [
+        "filesystem"
+      ],
+      "rationale": "This child skill encapsulates the common process of converting documents and presentations to images, which is applicable to both DOCX and PPTX formats."
+    },
+    "final_profile": {
+      "candidate_id": "text_cand_103",
+      "contract_id": "convert-to-images",
+      "n_units": 2,
+      "n_distinct_skills": 2,
+      "extraction_failed": false,
+      "coverage": 0.302,
+      "coverage_embed": 0.658,
+      "binding_rate": 1.0,
+      "min_binding_rate": 1.0,
+      "replacement_rate": 1.0,
+      "risk": 0.0,
+      "contract_tokens": 43,
+      "parents_covered": 2,
+      "failure_signature": {
+        "kind": "coverage",
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [
+          "anthropic_docx",
+          "anthropic_pptx"
+        ],
+        "risk_flags": []
+      }
+    },
+    "final_reasons": [
+      "score 0.78 ≥ auto threshold 0.65"
+    ],
+    "rounds_attempted": 0
+  },
+  {
+    "candidate_id": "text_cand_108",
+    "n_distinct_skills": 2,
+    "n_units": 2,
+    "distinct_skills": [
+      "anthropic_gpt-multimodal",
+      "anthropic_openai-vision"
+    ],
+    "final_round": 0,
+    "final_tier": "auto_promote",
+    "final_contract": {
+      "id": "text-extraction-from-images",
+      "trigger": "When an image file path is provided for text extraction.",
+      "input_schema": {
+        "image_path": {
+          "type": "file",
+          "required": true,
+          "description": "The path to the image file from which to extract text."
+        },
+        "preserve_layout": {
+          "type": "boolean",
+          "required": false,
+          "description": "Whether to preserve the original layout of the text in the image."
+        }
+      },
+      "output_schema": {
+        "extracted_text": {
+          "type": "string",
+          "description": "The text extracted from the image."
+        }
+      },
+      "preconditions": [
+        "The image file exists at the specified path.",
+        "The API key for OpenAI is set in the environment."
+      ],
+      "postconditions": [
+        "The extracted text is returned as a string.",
+        "The layout preservation option is applied if specified."
+      ],
+      "resources": [
+        "path/to/openai_api_script.py"
+      ],
+      "side_effects": [
+        "network",
+        "user_visible_output"
+      ],
+      "rationale": "This child skill consolidates the text extraction functionality observed in both parent skills."
+    },
+    "final_profile": {
+      "candidate_id": "text_cand_108",
+      "contract_id": "text-extraction-from-images",
+      "n_units": 2,
+      "n_distinct_skills": 2,
+      "extraction_failed": false,
+      "coverage": 0.314,
+      "coverage_embed": 0.572,
+      "binding_rate": 1.0,
+      "min_binding_rate": 1.0,
+      "replacement_rate": 1.0,
+      "risk": 0.0,
+      "contract_tokens": 35,
+      "parents_covered": 2,
+      "failure_signature": {
+        "kind": "coverage",
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [
+          "anthropic_gpt-multimodal",
+          "anthropic_openai-vision"
+        ],
+        "risk_flags": []
+      }
+    },
+    "final_reasons": [
+      "score 0.78 ≥ auto threshold 0.65"
+    ],
+    "rounds_attempted": 0
+  },
+  {
+    "candidate_id": "text_cand_121",
+    "n_distinct_skills": 2,
+    "n_units": 2,
+    "distinct_skills": [
+      "anthropic_alfworld-location-navigator",
+      "anthropic_alfworld-navigation-planner"
+    ],
+    "final_round": 0,
+    "final_tier": "auto_promote",
+    "final_contract": {
+      "id": "alfworld-navigation",
+      "trigger": "When the agent needs to move to a specified location or receptacle.",
+      "input_schema": {
+        "current_location": {
+          "type": "string",
+          "required": true,
+          "description": "The agent's current location."
+        },
+        "target_receptacle": {
+          "type": "string",
+          "required": true,
+          "description": "The target receptacle or location name."
+        }
+      },
+      "output_schema": {
+        "next_action": {
+          "type": "string",
+          "description": "The next 'go to {recep}' action to execute."
+        }
+      },
+      "preconditions": [
+        "The agent is in a defined location.",
+        "The target receptacle is specified."
+      ],
+      "postconditions": [
+        "The agent has a defined next action to execute."
+      ],
+      "resources": [],
+      "side_effects": [
+        "none"
+      ],
+      "rationale": "This child skill encapsulates the common procedure of moving the agent to a specified location based on the inputs from both parent skills."
+    },
+    "final_profile": {
+      "candidate_id": "text_cand_121",
+      "contract_id": "alfworld-navigation",
+      "n_units": 2,
+      "n_distinct_skills": 2,
+      "extraction_failed": false,
+      "coverage": 0.333,
+      "coverage_embed": 0.606,
+      "binding_rate": 1.0,
+      "min_binding_rate": 1.0,
+      "replacement_rate": 0.5,
+      "risk": 0.0,
+      "contract_tokens": 27,
+      "parents_covered": 2,
+      "failure_signature": {
+        "kind": "coverage",
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [
+          "anthropic_alfworld-location-navigator",
+          "anthropic_alfworld-navigation-planner"
+        ],
+        "risk_flags": []
+      }
+    },
+    "final_reasons": [
+      "score 0.67 ≥ auto threshold 0.65"
+    ],
+    "rounds_attempted": 0
+  },
+  {
+    "candidate_id": "text_cand_130",
+    "n_distinct_skills": 2,
+    "n_units": 2,
+    "distinct_skills": [
+      "anthropic_economic-dispatch",
+      "anthropic_power-flow-data"
+    ],
+    "final_round": 0,
+    "final_tier": "auto_promote",
+    "final_contract": {
+      "id": "reserve-co-optimization",
+      "trigger": "When operating reserves are required for power system optimization.",
+      "input_schema": {
+        "reserve_capacity": {
+          "type": "list",
+          "required": true,
+          "description": "Maximum reserve each generator can provide (MW)"
+        },
+        "reserve_requirement": {
+          "type": "number",
+          "required": true,
+          "description": "Minimum total system reserves required (MW)"
+        }
+      },
+      "output_schema": {
+        "constraints": {
+          "type": "list",
+          "description": "List of constraints related to reserve optimization"
+        }
+      },
+      "preconditions": [
+        "Reserve data is available from the network file",
+        "Reserve requirements are defined for the system"
+      ],
+      "postconditions": [
+        "Constraints for reserve optimization are established",
+        "Reserve variables are defined for optimization"
+      ],
+      "resources": [
+        "path/to/economic_dispatch_script.py",
+        "path/to/power_flow_data_script.py"
+      ],
+      "side_effects": [
+        "none"
+      ],
+      "rationale": "This child skill encapsulates the common procedure of handling reserve data and constraints across both parent skills."
+    },
+    "final_profile": {
+      "candidate_id": "text_cand_130",
+      "contract_id": "reserve-co-optimization",
+      "n_units": 2,
+      "n_distinct_skills": 2,
+      "extraction_failed": false,
+      "coverage": 0.559,
+      "coverage_embed": 0.724,
+      "binding_rate": 1.0,
+      "min_binding_rate": 1.0,
+      "replacement_rate": 1.0,
+      "risk": 0.0,
+      "contract_tokens": 34,
+      "parents_covered": 2,
+      "failure_signature": {
+        "kind": null,
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [],
+        "risk_flags": []
+      }
+    },
+    "final_reasons": [
+      "score 0.86 ≥ auto threshold 0.65"
+    ],
+    "rounds_attempted": 0
+  },
+  {
+    "candidate_id": "text_cand_132",
+    "n_distinct_skills": 2,
+    "n_units": 2,
+    "distinct_skills": [
+      "anthropic_box-least-squares",
+      "anthropic_transit-least-squares"
+    ],
+    "final_round": 0,
+    "final_tier": "auto_promote",
+    "final_contract": {
+      "id": "plot-light-curve",
+      "trigger": "When visualizing the light curve of a candidate exoplanet or transit event.",
+      "input_schema": {
+        "time": {
+          "type": "list",
+          "required": true,
+          "description": "List of time values corresponding to the light curve."
+        },
+        "flux": {
+          "type": "list",
+          "required": true,
+          "description": "List of flux values corresponding to the light curve."
+        },
+        "model_time": {
+          "type": "list",
+          "required": false,
+          "description": "List of time values for the model light curve."
+        },
+        "model_flux": {
+          "type": "list",
+          "required": false,
+          "description": "List of flux values for the model light curve."
+        }
+      },
+      "output_schema": {
+        "plot": {
+          "type": "image",
+          "description": "Image of the plotted light curve."
+        }
+      },
+      "preconditions": [
+        "Light curve data is available",
+        "Best period and model parameters are determined"
+      ],
+      "postconditions": [
+        "Light curve is visualized",
+        "Model is overlaid if provided"
+      ],
+      "resources": [
+        "path/to/plotting_script.py"
+      ],
+      "side_effects": [
+        "user_visible_output"
+      ],
+      "rationale": "Both parent skills involve plotting light curves, making this a coherent child skill for visualization."
+    },
+    "final_profile": {
+      "candidate_id": "text_cand_132",
+      "contract_id": "plot-light-curve",
+      "n_units": 2,
+      "n_distinct_skills": 2,
+      "extraction_failed": false,
+      "coverage": 0.371,
+      "coverage_embed": 0.665,
+      "binding_rate": 1.0,
+      "min_binding_rate": 1.0,
+      "replacement_rate": 1.0,
+      "risk": 0.0,
+      "contract_tokens": 35,
+      "parents_covered": 2,
+      "failure_signature": {
+        "kind": "coverage",
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [
+          "anthropic_box-least-squares"
+        ],
+        "risk_flags": []
+      }
+    },
+    "final_reasons": [
+      "score 0.80 ≥ auto threshold 0.65"
+    ],
+    "rounds_attempted": 0
+  },
+  {
+    "candidate_id": "text_cand_144",
+    "n_distinct_skills": 2,
+    "n_units": 2,
+    "distinct_skills": [
+      "anthropic_python-scala-functional",
+      "anthropic_python-scala-syntax-mapping"
+    ],
+    "final_round": 0,
+    "final_tier": "auto_promote",
+    "final_contract": {
+      "id": "error-handling-translation",
+      "trigger": "When translating Python error handling patterns to Scala equivalents.",
+      "input_schema": {
+        "python_code": {
+          "type": "string",
+          "required": true,
+          "description": "Python code snippet that includes error handling using try/except."
+        }
+      },
+      "output_schema": {
+        "scala_code": {
+          "type": "string",
+          "description": "Scala code snippet that represents the equivalent error handling using Try monad."
+        }
+      },
+      "preconditions": [
+        "Input Python code contains error handling constructs."
+      ],
+      "postconditions": [
+        "Output Scala code correctly implements error handling using Try monad."
+      ],
+      "resources": [],
+      "side_effects": [
+        "none"
+      ],
+      "rationale": "This child skill captures the common pattern of translating error handling from Python to Scala using the Try monad."
+    },
+    "final_profile": {
+      "candidate_id": "text_cand_144",
+      "contract_id": "error-handling-translation",
+      "n_units": 2,
+      "n_distinct_skills": 2,
+      "extraction_failed": false,
+      "coverage": 0.32,
+      "coverage_embed": 0.617,
+      "binding_rate": 1.0,
+      "min_binding_rate": 1.0,
+      "replacement_rate": 1.0,
+      "risk": 0.0,
+      "contract_tokens": 25,
+      "parents_covered": 2,
+      "failure_signature": {
+        "kind": "coverage",
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [
+          "anthropic_python-scala-functional",
+          "anthropic_python-scala-syntax-mapping"
+        ],
+        "risk_flags": []
+      }
+    },
+    "final_reasons": [
+      "score 0.78 ≥ auto threshold 0.65"
+    ],
+    "rounds_attempted": 0
+  },
+  {
+    "candidate_id": "text_cand_147",
+    "n_distinct_skills": 2,
+    "n_units": 2,
+    "distinct_skills": [
+      "anthropic_python-scala-collections",
+      "anthropic_python-scala-oop"
+    ],
+    "final_round": 0,
+    "final_tier": "auto_promote",
+    "final_contract": {
+      "id": "enum-translation",
+      "trigger": "When translating Python enum definitions to Scala.",
+      "input_schema": {
+        "python_enum": {
+          "type": "string",
+          "required": true,
+          "description": "The Python enum definition to be translated."
+        }
+      },
+      "output_schema": {
+        "scala_enum": {
+          "type": "string",
+          "description": "The translated Scala enum definition."
+        }
+      },
+      "preconditions": [
+        "The input must be a valid Python enum definition."
+      ],
+      "postconditions": [
+        "The output is a valid Scala enum definition."
+      ],
+      "resources": [],
+      "side_effects": [
+        "none"
+      ],
+      "rationale": "This child skill encapsulates the common procedure of translating enum definitions from Python to Scala observed in both parent skills."
+    },
+    "final_profile": {
+      "candidate_id": "text_cand_147",
+      "contract_id": "enum-translation",
+      "n_units": 2,
+      "n_distinct_skills": 2,
+      "extraction_failed": false,
+      "coverage": 0.143,
+      "coverage_embed": 0.574,
+      "binding_rate": 1.0,
+      "min_binding_rate": 1.0,
+      "replacement_rate": 1.0,
+      "risk": 0.0,
+      "contract_tokens": 21,
+      "parents_covered": 2,
+      "failure_signature": {
+        "kind": "coverage",
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [
+          "anthropic_python-scala-collections",
+          "anthropic_python-scala-oop"
+        ],
+        "risk_flags": []
+      }
+    },
+    "final_reasons": [
+      "score 0.73 ≥ auto threshold 0.65",
+      "low coverage 0.14"
+    ],
+    "rounds_attempted": 0
+  }
+]

@@ -1,0 +1,1261 @@
+[
+  {
+    "candidate_id": "neg_B_same_domain_distinct_000",
+    "_neg_control_class": "B_same_domain_distinct",
+    "contract_id": null,
+    "evidence_profile": {
+      "candidate_id": "neg_B_same_domain_distinct_000",
+      "contract_id": null,
+      "n_units": 3,
+      "n_distinct_skills": 3,
+      "extraction_failed": true,
+      "coverage": 0.0,
+      "coverage_embed": null,
+      "binding_rate": 0.0,
+      "min_binding_rate": 0.0,
+      "replacement_rate": 0.0,
+      "risk": 0.0,
+      "contract_tokens": 0,
+      "parents_covered": 3,
+      "failure_signature": {
+        "kind": "extraction",
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [],
+        "risk_flags": []
+      }
+    },
+    "decision": "reject",
+    "promotion_score": 0.0,
+    "reasons": [
+      "extraction_failed: LLM refused to write a contract"
+    ]
+  },
+  {
+    "candidate_id": "neg_B_same_domain_distinct_001",
+    "_neg_control_class": "B_same_domain_distinct",
+    "contract_id": null,
+    "evidence_profile": {
+      "candidate_id": "neg_B_same_domain_distinct_001",
+      "contract_id": null,
+      "n_units": 3,
+      "n_distinct_skills": 3,
+      "extraction_failed": true,
+      "coverage": 0.0,
+      "coverage_embed": null,
+      "binding_rate": 0.0,
+      "min_binding_rate": 0.0,
+      "replacement_rate": 0.0,
+      "risk": 0.0,
+      "contract_tokens": 0,
+      "parents_covered": 3,
+      "failure_signature": {
+        "kind": "extraction",
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [],
+        "risk_flags": []
+      }
+    },
+    "decision": "reject",
+    "promotion_score": 0.0,
+    "reasons": [
+      "extraction_failed: LLM refused to write a contract"
+    ]
+  },
+  {
+    "candidate_id": "neg_B_same_domain_distinct_002",
+    "_neg_control_class": "B_same_domain_distinct",
+    "contract_id": "modify-constraint",
+    "evidence_profile": {
+      "candidate_id": "neg_B_same_domain_distinct_002",
+      "contract_id": "modify-constraint",
+      "n_units": 3,
+      "n_distinct_skills": 3,
+      "extraction_failed": false,
+      "coverage": 0.342,
+      "coverage_embed": 0.521,
+      "binding_rate": 0.0,
+      "min_binding_rate": 0.0,
+      "replacement_rate": 0.333,
+      "risk": 0.0,
+      "contract_tokens": 38,
+      "parents_covered": 3,
+      "failure_signature": {
+        "kind": "binding",
+        "unbound_inputs": [
+          "target_from",
+          "target_to",
+          "branches"
+        ],
+        "unbound_parents": [
+          "anthropic_locational-marginal-prices",
+          "anthropic_pptx",
+          "anthropic_trivy-offline-vulnerability-scanning"
+        ],
+        "low_recall_parents": [],
+        "risk_flags": []
+      }
+    },
+    "decision": "reject",
+    "promotion_score": 0.0,
+    "reasons": [
+      "binding_rate 0.00 < hard min 0.50"
+    ]
+  },
+  {
+    "candidate_id": "neg_B_same_domain_distinct_003",
+    "_neg_control_class": "B_same_domain_distinct",
+    "contract_id": null,
+    "evidence_profile": {
+      "candidate_id": "neg_B_same_domain_distinct_003",
+      "contract_id": null,
+      "n_units": 3,
+      "n_distinct_skills": 3,
+      "extraction_failed": true,
+      "coverage": 0.0,
+      "coverage_embed": null,
+      "binding_rate": 0.0,
+      "min_binding_rate": 0.0,
+      "replacement_rate": 0.0,
+      "risk": 0.0,
+      "contract_tokens": 0,
+      "parents_covered": 3,
+      "failure_signature": {
+        "kind": "extraction",
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [],
+        "risk_flags": []
+      }
+    },
+    "decision": "reject",
+    "promotion_score": 0.0,
+    "reasons": [
+      "extraction_failed: LLM refused to write a contract"
+    ]
+  },
+  {
+    "candidate_id": "neg_B_same_domain_distinct_004",
+    "_neg_control_class": "B_same_domain_distinct",
+    "contract_id": null,
+    "evidence_profile": {
+      "candidate_id": "neg_B_same_domain_distinct_004",
+      "contract_id": null,
+      "n_units": 3,
+      "n_distinct_skills": 3,
+      "extraction_failed": true,
+      "coverage": 0.0,
+      "coverage_embed": null,
+      "binding_rate": 0.0,
+      "min_binding_rate": 0.0,
+      "replacement_rate": 0.0,
+      "risk": 0.0,
+      "contract_tokens": 0,
+      "parents_covered": 3,
+      "failure_signature": {
+        "kind": "extraction",
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [],
+        "risk_flags": []
+      }
+    },
+    "decision": "reject",
+    "promotion_score": 0.0,
+    "reasons": [
+      "extraction_failed: LLM refused to write a contract"
+    ]
+  },
+  {
+    "candidate_id": "neg_B_same_domain_distinct_005",
+    "_neg_control_class": "B_same_domain_distinct",
+    "contract_id": null,
+    "evidence_profile": {
+      "candidate_id": "neg_B_same_domain_distinct_005",
+      "contract_id": null,
+      "n_units": 3,
+      "n_distinct_skills": 3,
+      "extraction_failed": true,
+      "coverage": 0.0,
+      "coverage_embed": null,
+      "binding_rate": 0.0,
+      "min_binding_rate": 0.0,
+      "replacement_rate": 0.0,
+      "risk": 0.0,
+      "contract_tokens": 0,
+      "parents_covered": 3,
+      "failure_signature": {
+        "kind": "extraction",
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [],
+        "risk_flags": []
+      }
+    },
+    "decision": "reject",
+    "promotion_score": 0.0,
+    "reasons": [
+      "extraction_failed: LLM refused to write a contract"
+    ]
+  },
+  {
+    "candidate_id": "neg_B_same_domain_distinct_006",
+    "_neg_control_class": "B_same_domain_distinct",
+    "contract_id": null,
+    "evidence_profile": {
+      "candidate_id": "neg_B_same_domain_distinct_006",
+      "contract_id": null,
+      "n_units": 3,
+      "n_distinct_skills": 3,
+      "extraction_failed": true,
+      "coverage": 0.0,
+      "coverage_embed": null,
+      "binding_rate": 0.0,
+      "min_binding_rate": 0.0,
+      "replacement_rate": 0.0,
+      "risk": 0.0,
+      "contract_tokens": 0,
+      "parents_covered": 3,
+      "failure_signature": {
+        "kind": "extraction",
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [],
+        "risk_flags": []
+      }
+    },
+    "decision": "reject",
+    "promotion_score": 0.0,
+    "reasons": [
+      "extraction_failed: LLM refused to write a contract"
+    ]
+  },
+  {
+    "candidate_id": "neg_B_same_domain_distinct_007",
+    "_neg_control_class": "B_same_domain_distinct",
+    "contract_id": "clean-object",
+    "evidence_profile": {
+      "candidate_id": "neg_B_same_domain_distinct_007",
+      "contract_id": "clean-object",
+      "n_units": 3,
+      "n_distinct_skills": 3,
+      "extraction_failed": false,
+      "coverage": 0.344,
+      "coverage_embed": 0.559,
+      "binding_rate": 0.0,
+      "min_binding_rate": 0.6667,
+      "replacement_rate": 0.333,
+      "risk": 0.0,
+      "contract_tokens": 32,
+      "parents_covered": 3,
+      "failure_signature": {
+        "kind": "binding",
+        "unbound_inputs": [
+          "object",
+          "cleaning_receptacle"
+        ],
+        "unbound_parents": [
+          "anthropic_browserbase-tool-automation"
+        ],
+        "low_recall_parents": [],
+        "risk_flags": []
+      }
+    },
+    "decision": "reject",
+    "promotion_score": 0.0,
+    "reasons": [
+      "binding_rate 0.00 < hard min 0.50"
+    ]
+  },
+  {
+    "candidate_id": "neg_B_same_domain_distinct_008",
+    "_neg_control_class": "B_same_domain_distinct",
+    "contract_id": null,
+    "evidence_profile": {
+      "candidate_id": "neg_B_same_domain_distinct_008",
+      "contract_id": null,
+      "n_units": 3,
+      "n_distinct_skills": 3,
+      "extraction_failed": true,
+      "coverage": 0.0,
+      "coverage_embed": null,
+      "binding_rate": 0.0,
+      "min_binding_rate": 0.0,
+      "replacement_rate": 0.0,
+      "risk": 0.0,
+      "contract_tokens": 0,
+      "parents_covered": 3,
+      "failure_signature": {
+        "kind": "extraction",
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [],
+        "risk_flags": []
+      }
+    },
+    "decision": "reject",
+    "promotion_score": 0.0,
+    "reasons": [
+      "extraction_failed: LLM refused to write a contract"
+    ]
+  },
+  {
+    "candidate_id": "neg_B_same_domain_distinct_009",
+    "_neg_control_class": "B_same_domain_distinct",
+    "contract_id": null,
+    "evidence_profile": {
+      "candidate_id": "neg_B_same_domain_distinct_009",
+      "contract_id": null,
+      "n_units": 3,
+      "n_distinct_skills": 3,
+      "extraction_failed": true,
+      "coverage": 0.0,
+      "coverage_embed": null,
+      "binding_rate": 0.0,
+      "min_binding_rate": 0.0,
+      "replacement_rate": 0.0,
+      "risk": 0.0,
+      "contract_tokens": 0,
+      "parents_covered": 3,
+      "failure_signature": {
+        "kind": "extraction",
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [],
+        "risk_flags": []
+      }
+    },
+    "decision": "reject",
+    "promotion_score": 0.0,
+    "reasons": [
+      "extraction_failed: LLM refused to write a contract"
+    ]
+  },
+  {
+    "candidate_id": "neg_C_near_miss_000",
+    "_neg_control_class": "C_near_miss",
+    "contract_id": "api-endpoint-generator",
+    "evidence_profile": {
+      "candidate_id": "neg_C_near_miss_000",
+      "contract_id": "api-endpoint-generator",
+      "n_units": 3,
+      "n_distinct_skills": 3,
+      "extraction_failed": false,
+      "coverage": 0.31,
+      "coverage_embed": 0.491,
+      "binding_rate": 0.0,
+      "min_binding_rate": 0.3333,
+      "replacement_rate": 0.333,
+      "risk": 0.0,
+      "contract_tokens": 42,
+      "parents_covered": 3,
+      "failure_signature": {
+        "kind": "binding",
+        "unbound_inputs": [
+          "resource"
+        ],
+        "unbound_parents": [
+          "anthropic_marker",
+          "anthropic_restclient-migration"
+        ],
+        "low_recall_parents": [],
+        "risk_flags": []
+      }
+    },
+    "decision": "reject",
+    "promotion_score": 0.0,
+    "reasons": [
+      "binding_rate 0.00 < hard min 0.50"
+    ]
+  },
+  {
+    "candidate_id": "neg_C_near_miss_001",
+    "_neg_control_class": "C_near_miss",
+    "contract_id": "retrieve-metrics-or-data",
+    "evidence_profile": {
+      "candidate_id": "neg_C_near_miss_001",
+      "contract_id": "retrieve-metrics-or-data",
+      "n_units": 3,
+      "n_distinct_skills": 3,
+      "extraction_failed": false,
+      "coverage": 0.469,
+      "coverage_embed": 0.531,
+      "binding_rate": 0.0,
+      "min_binding_rate": 0.3333,
+      "replacement_rate": 0.333,
+      "risk": 0.0,
+      "contract_tokens": 49,
+      "parents_covered": 3,
+      "failure_signature": {
+        "kind": "binding",
+        "unbound_inputs": [
+          "datasetId"
+        ],
+        "unbound_parents": [
+          "anthropic_audiobook",
+          "anthropic_customerio-automation"
+        ],
+        "low_recall_parents": [],
+        "risk_flags": []
+      }
+    },
+    "decision": "reject",
+    "promotion_score": 0.0,
+    "reasons": [
+      "binding_rate 0.00 < hard min 0.50"
+    ]
+  },
+  {
+    "candidate_id": "neg_C_near_miss_002",
+    "_neg_control_class": "C_near_miss",
+    "contract_id": "detect-silence",
+    "evidence_profile": {
+      "candidate_id": "neg_C_near_miss_002",
+      "contract_id": "detect-silence",
+      "n_units": 3,
+      "n_distinct_skills": 3,
+      "extraction_failed": false,
+      "coverage": 0.128,
+      "coverage_embed": 0.407,
+      "binding_rate": 0.0,
+      "min_binding_rate": 0.3333,
+      "replacement_rate": 0.333,
+      "risk": 0.0,
+      "contract_tokens": 39,
+      "parents_covered": 3,
+      "failure_signature": {
+        "kind": "binding",
+        "unbound_inputs": [
+          "energies",
+          "output"
+        ],
+        "unbound_parents": [
+          "anthropic_fuzzing-python",
+          "anthropic_temporal-python-testing"
+        ],
+        "low_recall_parents": [],
+        "risk_flags": []
+      }
+    },
+    "decision": "reject",
+    "promotion_score": 0.0,
+    "reasons": [
+      "binding_rate 0.00 < hard min 0.50"
+    ]
+  },
+  {
+    "candidate_id": "neg_C_near_miss_003",
+    "_neg_control_class": "C_near_miss",
+    "contract_id": "multi-pass-ocr",
+    "evidence_profile": {
+      "candidate_id": "neg_C_near_miss_003",
+      "contract_id": "multi-pass-ocr",
+      "n_units": 3,
+      "n_distinct_skills": 3,
+      "extraction_failed": false,
+      "coverage": 0.462,
+      "coverage_embed": 0.373,
+      "binding_rate": 0.0,
+      "min_binding_rate": 0.3333,
+      "replacement_rate": 0.333,
+      "risk": 0.0,
+      "contract_tokens": 26,
+      "parents_covered": 3,
+      "failure_signature": {
+        "kind": "binding",
+        "unbound_inputs": [
+          "image_path"
+        ],
+        "unbound_parents": [
+          "anthropic_pymatgen",
+          "anthropic_rdkit"
+        ],
+        "low_recall_parents": [],
+        "risk_flags": []
+      }
+    },
+    "decision": "reject",
+    "promotion_score": 0.0,
+    "reasons": [
+      "binding_rate 0.00 < hard min 0.50"
+    ]
+  },
+  {
+    "candidate_id": "neg_C_near_miss_004",
+    "_neg_control_class": "C_near_miss",
+    "contract_id": null,
+    "evidence_profile": {
+      "candidate_id": "neg_C_near_miss_004",
+      "contract_id": null,
+      "n_units": 3,
+      "n_distinct_skills": 3,
+      "extraction_failed": true,
+      "coverage": 0.0,
+      "coverage_embed": null,
+      "binding_rate": 0.0,
+      "min_binding_rate": 0.0,
+      "replacement_rate": 0.0,
+      "risk": 0.0,
+      "contract_tokens": 0,
+      "parents_covered": 3,
+      "failure_signature": {
+        "kind": "extraction",
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [],
+        "risk_flags": []
+      }
+    },
+    "decision": "reject",
+    "promotion_score": 0.0,
+    "reasons": [
+      "extraction_failed: LLM refused to write a contract"
+    ]
+  },
+  {
+    "candidate_id": "neg_C_near_miss_005",
+    "_neg_control_class": "C_near_miss",
+    "contract_id": "fetch-docs",
+    "evidence_profile": {
+      "candidate_id": "neg_C_near_miss_005",
+      "contract_id": "fetch-docs",
+      "n_units": 3,
+      "n_distinct_skills": 3,
+      "extraction_failed": false,
+      "coverage": 0.083,
+      "coverage_embed": 0.322,
+      "binding_rate": 0.0,
+      "min_binding_rate": 0.6667,
+      "replacement_rate": 0.0,
+      "risk": 0.0,
+      "contract_tokens": 48,
+      "parents_covered": 3,
+      "failure_signature": {
+        "kind": "binding",
+        "unbound_inputs": [
+          "url"
+        ],
+        "unbound_parents": [
+          "anthropic_sympy"
+        ],
+        "low_recall_parents": [],
+        "risk_flags": []
+      }
+    },
+    "decision": "reject",
+    "promotion_score": 0.0,
+    "reasons": [
+      "binding_rate 0.00 < hard min 0.50"
+    ]
+  },
+  {
+    "candidate_id": "neg_C_near_miss_006",
+    "_neg_control_class": "C_near_miss",
+    "contract_id": null,
+    "evidence_profile": {
+      "candidate_id": "neg_C_near_miss_006",
+      "contract_id": null,
+      "n_units": 3,
+      "n_distinct_skills": 3,
+      "extraction_failed": true,
+      "coverage": 0.0,
+      "coverage_embed": null,
+      "binding_rate": 0.0,
+      "min_binding_rate": 0.0,
+      "replacement_rate": 0.0,
+      "risk": 0.0,
+      "contract_tokens": 0,
+      "parents_covered": 3,
+      "failure_signature": {
+        "kind": "extraction",
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [],
+        "risk_flags": []
+      }
+    },
+    "decision": "reject",
+    "promotion_score": 0.0,
+    "reasons": [
+      "extraction_failed: LLM refused to write a contract"
+    ]
+  },
+  {
+    "candidate_id": "neg_C_near_miss_007",
+    "_neg_control_class": "C_near_miss",
+    "contract_id": null,
+    "evidence_profile": {
+      "candidate_id": "neg_C_near_miss_007",
+      "contract_id": null,
+      "n_units": 3,
+      "n_distinct_skills": 3,
+      "extraction_failed": true,
+      "coverage": 0.0,
+      "coverage_embed": null,
+      "binding_rate": 0.0,
+      "min_binding_rate": 0.0,
+      "replacement_rate": 0.0,
+      "risk": 0.0,
+      "contract_tokens": 0,
+      "parents_covered": 3,
+      "failure_signature": {
+        "kind": "extraction",
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [],
+        "risk_flags": []
+      }
+    },
+    "decision": "reject",
+    "promotion_score": 0.0,
+    "reasons": [
+      "extraction_failed: LLM refused to write a contract"
+    ]
+  },
+  {
+    "candidate_id": "neg_C_near_miss_008",
+    "_neg_control_class": "C_near_miss",
+    "contract_id": null,
+    "evidence_profile": {
+      "candidate_id": "neg_C_near_miss_008",
+      "contract_id": null,
+      "n_units": 3,
+      "n_distinct_skills": 3,
+      "extraction_failed": true,
+      "coverage": 0.0,
+      "coverage_embed": null,
+      "binding_rate": 0.0,
+      "min_binding_rate": 0.0,
+      "replacement_rate": 0.0,
+      "risk": 0.0,
+      "contract_tokens": 0,
+      "parents_covered": 3,
+      "failure_signature": {
+        "kind": "extraction",
+        "unbound_inputs": [],
+        "unbound_parents": [],
+        "low_recall_parents": [],
+        "risk_flags": []
+      }
+    },
+    "decision": "reject",
+    "promotion_score": 0.0,
+    "reasons": [
+      "extraction_failed: LLM refused to write a contract"
+    ]
+  },
+  {
+    "candidate_id": "neg_C_near_miss_009",
+    "_neg_control_class": "C_near_miss",
+    "contract_id": "data-verification",
+    "evidence_profile": {
+      "candidate_id": "neg_C_near_miss_009",
+      "contract_id": "data-verification",
+      "n_units": 3,
+      "n_distinct_skills": 3,
+      "extraction_failed": false,
+      "coverage": 0.105,
+      "coverage_embed": 0.396,
+      "binding_rate": 0.0,
+      "min_binding_rate": 0.3333,
+      "replacement_rate": 0.0,
+      "risk": 0.0,
+      "contract_tokens": 38,
+      "parents_covered": 3,
+      "failure_signature": {
+        "kind": "binding",
+        "unbound_inputs": [
+          "data",
+          "criteria"
+        ],
+        "unbound_parents": [
+          "anthropic_sympy",
+          "anthropic_data-reconciliation",
+          "anthropic_light-curve-preprocessing"
+        ],
+        "low_recall_parents": [],
+        "risk_flags": []
+      }
+    },
+    "decision": "reject",
+    "promotion_score": 0.0,
+    "reasons": [
+      "binding_rate 0.00 < hard min 0.50"
+    ]
+  },
+  {
+    "candidate_id": "neg_D_swap_000",
+    "_neg_control_class": "D_swapped_contract",
+    "contract_id": "pdf-text-table-extraction",
+    "evidence_profile": {
+      "candidate_id": "neg_D_swap_000",
+      "contract_id": "pdf-text-table-extraction",
+      "n_units": 4,
+      "n_distinct_skills": 2,
+      "extraction_failed": false,
+      "coverage": 0.057,
+      "coverage_embed": 0.124,
+      "binding_rate": 0.0,
+      "min_binding_rate": 0.5,
+      "replacement_rate": 0.0,
+      "risk": 0.0,
+      "contract_tokens": 35,
+      "parents_covered": 2,
+      "failure_signature": {
+        "kind": "binding",
+        "unbound_inputs": [
+          "pdf_path"
+        ],
+        "unbound_parents": [
+          "anthropic_pcap-analysis"
+        ],
+        "low_recall_parents": [],
+        "risk_flags": []
+      }
+    },
+    "decision": "reject",
+    "promotion_score": 0.0,
+    "reasons": [
+      "binding_rate 0.00 < hard min 0.50"
+    ]
+  },
+  {
+    "candidate_id": "neg_D_swap_001",
+    "_neg_control_class": "D_swapped_contract",
+    "contract_id": "check-receptacle-contents",
+    "evidence_profile": {
+      "candidate_id": "neg_D_swap_001",
+      "contract_id": "check-receptacle-contents",
+      "n_units": 11,
+      "n_distinct_skills": 2,
+      "extraction_failed": false,
+      "coverage": 0.033,
+      "coverage_embed": 0.164,
+      "binding_rate": 0.0,
+      "min_binding_rate": 0.0,
+      "replacement_rate": 0.0,
+      "risk": 0.0,
+      "contract_tokens": 30,
+      "parents_covered": 2,
+      "failure_signature": {
+        "kind": "binding",
+        "unbound_inputs": [
+          "receptacle"
+        ],
+        "unbound_parents": [
+          "anthropic_pause-detector",
+          "anthropic_silence-detector"
+        ],
+        "low_recall_parents": [],
+        "risk_flags": []
+      }
+    },
+    "decision": "reject",
+    "promotion_score": 0.0,
+    "reasons": [
+      "binding_rate 0.00 < hard min 0.50"
+    ]
+  },
+  {
+    "candidate_id": "neg_D_swap_002",
+    "_neg_control_class": "D_swapped_contract",
+    "contract_id": "bus-number-mapping",
+    "evidence_profile": {
+      "candidate_id": "neg_D_swap_002",
+      "contract_id": "bus-number-mapping",
+      "n_units": 8,
+      "n_distinct_skills": 2,
+      "extraction_failed": false,
+      "coverage": 0.054,
+      "coverage_embed": 0.303,
+      "binding_rate": 0.0,
+      "min_binding_rate": 0.0,
+      "replacement_rate": 0.0,
+      "risk": 0.0,
+      "contract_tokens": 37,
+      "parents_covered": 2,
+      "failure_signature": {
+        "kind": "binding",
+        "unbound_inputs": [
+          "buses",
+          "n_bus"
+        ],
+        "unbound_parents": [
+          "anthropic_harbor",
+          "anthropic_skillsbench"
+        ],
+        "low_recall_parents": [],
+        "risk_flags": []
+      }
+    },
+    "decision": "reject",
+    "promotion_score": 0.0,
+    "reasons": [
+      "binding_rate 0.00 < hard min 0.50"
+    ]
+  },
+  {
+    "candidate_id": "neg_D_swap_003",
+    "_neg_control_class": "D_swapped_contract",
+    "contract_id": "pi-pid-controller",
+    "evidence_profile": {
+      "candidate_id": "neg_D_swap_003",
+      "contract_id": "pi-pid-controller",
+      "n_units": 188,
+      "n_distinct_skills": 188,
+      "extraction_failed": false,
+      "coverage": 0.045,
+      "coverage_embed": 0.119,
+      "binding_rate": 0.0,
+      "min_binding_rate": 0.0,
+      "replacement_rate": 0.0,
+      "risk": 0.0,
+      "contract_tokens": 44,
+      "parents_covered": 188,
+      "failure_signature": {
+        "kind": "binding",
+        "unbound_inputs": [
+          "Kp",
+          "Ki",
+          "setpoint",
+          "measurement",
+          "dt"
+        ],
+        "unbound_parents": [
+          "anthropic_-21risk-automation",
+          "anthropic_abuselpdb-automation",
+          "anthropic_abyssale-automation",
+          "anthropic_addresszen-automation",
+          "anthropic_adobe-automation",
+          "anthropic_aero-workflow-automation",
+          "anthropic_aeroleads-automation",
+          "anthropic_affinda-automation",
+          "anthropic_affinity-automation",
+          "anthropic_agencyzoom-automation",
+          "anthropic_agent-mail-automation",
+          "anthropic_agentql-automation",
+          "anthropic_agility-cms-automation",
+          "anthropic_ai-ml-api-automation",
+          "anthropic_aivoov-automation",
+          "anthropic_alchemy-automation",
+          "anthropic_algodocs-automation",
+          "anthropic_algolia-automation",
+          "anthropic_all-images-ai-automation",
+          "anthropic_alpha-vantage-automation",
+          "anthropic_altoviz-automation",
+          "anthropic_alttext-ai-automation",
+          "anthropic_amazon-automation",
+          "anthropic_ambient-weather-automation",
+          "anthropic_anonyflow-automation",
+          "anthropic_apex27-automation",
+          "anthropic_api-bible-automation",
+          "anthropic_api-labz-automation",
+          "anthropic_api-ninjas-automation",
+          "anthropic_api-sports-automation",
+          "anthropic_api2pdf-automation",
+          "anthropic_apiflash-automation",
+          "anthropic_apitemplate-io-automation",
+          "anthropic_appcircle-automation",
+          "anthropic_appdrag-automation",
+          "anthropic_appointo-automation",
+          "anthropic_appsflyer-automation",
+          "anthropic_appveyor-automation",
+          "anthropic_aryn-automation",
+          "anthropic_ascora-automation",
+          "anthropic_asin-data-api-automation",
+          "anthropic_astica-ai-automation",
+          "anthropic_async-interview-automation",
+          "anthropic_atlassian-automation",
+          "anthropic_auth0-automation",
+          "anthropic_autobound-automation",
+          "anthropic_axonaut-automation",
+          "anthropic_ayrshare-automation",
+          "anthropic_backendless-automation",
+          "anthropic_bannerbear-automation",
+          "anthropic_bart-automation",
+          "anthropic_baselinker-automation",
+          "anthropic_baserow-automation",
+          "anthropic_basin-automation",
+          "anthropic_battlenet-automation",
+          "anthropic_beaconchain-automation",
+          "anthropic_beaconstac-automation",
+          "anthropic_beamer-automation",
+          "anthropic_beeminder-automation",
+          "anthropic_bench-automation",
+          "anthropic_benchmark-email-automation",
+          "anthropic_benzinga-automation",
+          "anthropic_bestbuy-automation",
+          "anthropic_better-proposals-automation",
+          "anthropic_better-stack-automation",
+          "anthropic_bidsketch-automation",
+          "anthropic_big-data-cloud-automation",
+          "anthropic_bigmailer-automation",
+          "anthropic_bigml-automation",
+          "anthropic_bigpicture-io-automation",
+          "anthropic_bitquery-automation",
+          "anthropic_bitwarden-automation",
+          "anthropic_blackbaud-automation",
+          "anthropic_blackboard-automation",
+          "anthropic_blocknative-automation",
+          "anthropic_boldsign-automation",
+          "anthropic_bolna-automation",
+          "anthropic_boloforms-automation",
+          "anthropic_bolt-iot-automation",
+          "anthropic_bonsai-automation",
+          "anthropic_bookingmood-automation",
+          "anthropic_booqable-automation",
+          "anthropic_borneo-automation",
+          "anthropic_bouncer-automation",
+          "anthropic_boxhero-automation",
+          "anthropic_brandfetch-automation",
+          "anthropic_breeze-automation",
+          "anthropic_breezy-hr-automation",
+          "anthropic_brightdata-automation",
+          "anthropic_brightpearl-automation",
+          "anthropic_brilliant-directories-automation",
+          "anthropic_browseai-automation",
+          "anthropic_btcpay-server-automation",
+          "anthropic_bubble-automation",
+          "anthropic_buildkite-automation",
+          "anthropic_builtwith-automation",
+          "anthropic_bunnycdn-automation",
+          "anthropic_byteforms-automation",
+          "anthropic_cabinpanda-automation",
+          "anthropic_cal-automation",
+          "anthropic_calendarhero-automation",
+          "anthropic_callerapi-automation",
+          "anthropic_campayn-automation",
+          "anthropic_canny-automation",
+          "anthropic_canvas-automation",
+          "anthropic_capsule_crm-automation",
+          "anthropic_carbone-automation",
+          "anthropic_castingwords-automation",
+          "anthropic_cats-automation",
+          "anthropic_cdr-platform-automation",
+          "anthropic_census-bureau-automation",
+          "anthropic_centralstationcrm-automation",
+          "anthropic_chaser-automation",
+          "anthropic_chatbotkit-automation",
+          "anthropic_chatfai-automation",
+          "anthropic_chmeetings-automation",
+          "anthropic_cincopa-automation",
+          "anthropic_claid-ai-automation",
+          "anthropic_classmarker-automation",
+          "anthropic_clearout-automation",
+          "anthropic_clickmeeting-automation",
+          "anthropic_cloudcart-automation",
+          "anthropic_cloudconvert-automation",
+          "anthropic_cloudflare-browser-rendering-automation",
+          "anthropic_cloudlayer-automation",
+          "anthropic_cloudpress-automation",
+          "anthropic_coassemble-automation",
+          "anthropic_codacy-automation",
+          "anthropic_codeinterpreter-automation",
+          "anthropic_codereadr-automation",
+          "anthropic_coinranking-automation",
+          "anthropic_college-football-data-automation",
+          "anthropic_connecteam-automation",
+          "anthropic_contentful-graphql-automation",
+          "anthropic_control-d-automation",
+          "anthropic_conversion-tools-automation",
+          "anthropic_convertapi-automation",
+          "anthropic_conveyor-automation",
+          "anthropic_convolo-ai-automation",
+          "anthropic_corrently-automation",
+          "anthropic_countdown-api-automation",
+          "anthropic_coupa-automation",
+          "anthropic_craftmypdf-automation",
+          "anthropic_crowdin-automation",
+          "anthropic_crustdata-automation",
+          "anthropic_cults-automation",
+          "anthropic_curated-automation",
+          "anthropic_currents-api-automation",
+          "anthropic_customgpt-automation",
+          "anthropic_customjs-automation",
+          "anthropic_cutt-ly-automation",
+          "anthropic_d2lbrightspace-automation",
+          "anthropic_dadata-ru-automation",
+          "anthropic_daffy-automation",
+          "anthropic_dailybot-automation",
+          "anthropic_datagma-automation",
+          "anthropic_datarobot-automation",
+          "anthropic_deadline-funnel-automation",
+          "anthropic_deel-automation",
+          "anthropic_deepgram-automation",
+          "anthropic_demio-automation",
+          "anthropic_desktime-automation",
+          "anthropic_detrack-automation",
+          "anthropic_dictionary-api-automation",
+          "anthropic_diffbot-automation",
+          "anthropic_digicert-automation",
+          "anthropic_digital-ocean-automation",
+          "anthropic_discordbot-automation",
+          "anthropic_dnsfilter-automation",
+          "anthropic_dock-certs-automation",
+          "anthropic_docsbot-ai-automation",
+          "anthropic_docugenerate-automation",
+          "anthropic_docupilot-automation",
+          "anthropic_docuseal-automation",
+          "anthropic_doppler-marketing-automation-automation",
+          "anthropic_doppler-secretops-automation",
+          "anthropic_dotsimple-automation",
+          "anthropic_dovetail-automation",
+          "anthropic_dpd2-automation",
+          "anthropic_draftable-automation",
+          "anthropic_dreamstudio-automation",
+          "anthropic_dromo-automation",
+          "anthropic_dropbox-sign-automation",
+          "anthropic_dropcontact-automation",
+          "anthropic_echtpost-automation",
+          "anthropic_elorus-automation",
+          "anthropic_emailable-automation",
+          "anthropic_emaillistverify-automation"
+        ],
+        "low_recall_parents": [],
+        "risk_flags": []
+      }
+    },
+    "decision": "reject",
+    "promotion_score": 0.0,
+    "reasons": [
+      "binding_rate 0.00 < hard min 0.50"
+    ]
+  },
+  {
+    "candidate_id": "neg_D_swap_004",
+    "_neg_control_class": "D_swapped_contract",
+    "contract_id": "dependency-analysis",
+    "evidence_profile": {
+      "candidate_id": "neg_D_swap_004",
+      "contract_id": "dependency-analysis",
+      "n_units": 2,
+      "n_distinct_skills": 2,
+      "extraction_failed": false,
+      "coverage": 0.0,
+      "coverage_embed": 0.183,
+      "binding_rate": 0.0,
+      "min_binding_rate": 0.0,
+      "replacement_rate": 0.0,
+      "risk": 0.0,
+      "contract_tokens": 39,
+      "parents_covered": 2,
+      "failure_signature": {
+        "kind": "binding",
+        "unbound_inputs": [
+          "file"
+        ],
+        "unbound_parents": [
+          "anthropic_gemini-count-in-video",
+          "anthropic_gemini-video-understanding"
+        ],
+        "low_recall_parents": [],
+        "risk_flags": []
+      }
+    },
+    "decision": "reject",
+    "promotion_score": 0.0,
+    "reasons": [
+      "binding_rate 0.00 < hard min 0.50"
+    ]
+  },
+  {
+    "candidate_id": "neg_D_swap_005",
+    "_neg_control_class": "D_swapped_contract",
+    "contract_id": "tool-discovery-execution",
+    "evidence_profile": {
+      "candidate_id": "neg_D_swap_005",
+      "contract_id": "tool-discovery-execution",
+      "n_units": 10,
+      "n_distinct_skills": 3,
+      "extraction_failed": false,
+      "coverage": 0.154,
+      "coverage_embed": 0.354,
+      "binding_rate": 0.0,
+      "min_binding_rate": 0.0,
+      "replacement_rate": 0.0,
+      "risk": 0.0,
+      "contract_tokens": 39,
+      "parents_covered": 3,
+      "failure_signature": {
+        "kind": "binding",
+        "unbound_inputs": [
+          "use_case",
+          "session_id"
+        ],
+        "unbound_parents": [
+          "anthropic_alfworld-object-cooler",
+          "anthropic_alfworld-object-state-modifier",
+          "anthropic_alfworld-temperature-regulator"
+        ],
+        "low_recall_parents": [],
+        "risk_flags": []
+      }
+    },
+    "decision": "reject",
+    "promotion_score": 0.0,
+    "reasons": [
+      "binding_rate 0.00 < hard min 0.50"
+    ]
+  },
+  {
+    "candidate_id": "neg_D_swap_006",
+    "_neg_control_class": "D_swapped_contract",
+    "contract_id": "skills-directory-management",
+    "evidence_profile": {
+      "candidate_id": "neg_D_swap_006",
+      "contract_id": "skills-directory-management",
+      "n_units": 10,
+      "n_distinct_skills": 3,
+      "extraction_failed": false,
+      "coverage": 0.107,
+      "coverage_embed": 0.312,
+      "binding_rate": 0.0,
+      "min_binding_rate": 0.0,
+      "replacement_rate": 0.0,
+      "risk": 0.0,
+      "contract_tokens": 28,
+      "parents_covered": 3,
+      "failure_signature": {
+        "kind": "binding",
+        "unbound_inputs": [
+          "skills_path"
+        ],
+        "unbound_parents": [
+          "anthropic_alfworld-object-cooler",
+          "anthropic_alfworld-object-state-modifier",
+          "anthropic_alfworld-temperature-regulator"
+        ],
+        "low_recall_parents": [],
+        "risk_flags": []
+      }
+    },
+    "decision": "reject",
+    "promotion_score": 0.0,
+    "reasons": [
+      "binding_rate 0.00 < hard min 0.50"
+    ]
+  },
+  {
+    "candidate_id": "neg_D_swap_007",
+    "_neg_control_class": "D_swapped_contract",
+    "contract_id": "first-order-model-fitting",
+    "evidence_profile": {
+      "candidate_id": "neg_D_swap_007",
+      "contract_id": "first-order-model-fitting",
+      "n_units": 22,
+      "n_distinct_skills": 9,
+      "extraction_failed": false,
+      "coverage": 0.087,
+      "coverage_embed": 0.24,
+      "binding_rate": 0.0,
+      "min_binding_rate": 0.0,
+      "replacement_rate": 0.0,
+      "risk": 0.0,
+      "contract_tokens": 46,
+      "parents_covered": 9,
+      "failure_signature": {
+        "kind": "binding",
+        "unbound_inputs": [
+          "y_initial",
+          "input_value",
+          "data"
+        ],
+        "unbound_parents": [
+          "anthropic_composio-automation",
+          "anthropic_composio-search-automation",
+          "anthropic_docmosis-automation",
+          "anthropic_docnify-automation",
+          "anthropic_docsumo-automation",
+          "anthropic_documenso-automation",
+          "anthropic_documint-automation",
+          "anthropic_docupost-automation",
+          "anthropic_docuseal-automation"
+        ],
+        "low_recall_parents": [],
+        "risk_flags": []
+      }
+    },
+    "decision": "reject",
+    "promotion_score": 0.0,
+    "reasons": [
+      "binding_rate 0.00 < hard min 0.50"
+    ]
+  },
+  {
+    "candidate_id": "neg_D_swap_008",
+    "_neg_control_class": "D_swapped_contract",
+    "contract_id": "video-frame-extraction",
+    "evidence_profile": {
+      "candidate_id": "neg_D_swap_008",
+      "contract_id": "video-frame-extraction",
+      "n_units": 6,
+      "n_distinct_skills": 3,
+      "extraction_failed": false,
+      "coverage": 0.0,
+      "coverage_embed": 0.205,
+      "binding_rate": 0.0,
+      "min_binding_rate": 0.0,
+      "replacement_rate": 0.0,
+      "risk": 0.0,
+      "contract_tokens": 34,
+      "parents_covered": 3,
+      "failure_signature": {
+        "kind": "binding",
+        "unbound_inputs": [
+          "input_video_file"
+        ],
+        "unbound_parents": [
+          "anthropic_alfworld-inventory-management",
+          "anthropic_alfworld-object-picker",
+          "anthropic_alfworld-object-transporter"
+        ],
+        "low_recall_parents": [],
+        "risk_flags": []
+      }
+    },
+    "decision": "reject",
+    "promotion_score": 0.0,
+    "reasons": [
+      "binding_rate 0.00 < hard min 0.50"
+    ]
+  },
+  {
+    "candidate_id": "neg_D_swap_009",
+    "_neg_control_class": "D_swapped_contract",
+    "contract_id": "pdf-text-table-extraction",
+    "evidence_profile": {
+      "candidate_id": "neg_D_swap_009",
+      "contract_id": "pdf-text-table-extraction",
+      "n_units": 4,
+      "n_distinct_skills": 3,
+      "extraction_failed": false,
+      "coverage": 0.114,
+      "coverage_embed": 0.205,
+      "binding_rate": 0.0,
+      "min_binding_rate": 0.0,
+      "replacement_rate": 0.0,
+      "risk": 0.0,
+      "contract_tokens": 35,
+      "parents_covered": 3,
+      "failure_signature": {
+        "kind": "binding",
+        "unbound_inputs": [
+          "pdf_path"
+        ],
+        "unbound_parents": [
+          "anthropic_gpt-multimodal",
+          "anthropic_output-validation",
+          "anthropic_video-frame-extraction"
+        ],
+        "low_recall_parents": [],
+        "risk_flags": []
+      }
+    },
+    "decision": "reject",
+    "promotion_score": 0.0,
+    "reasons": [
+      "binding_rate 0.00 < hard min 0.50"
+    ]
+  }
+]

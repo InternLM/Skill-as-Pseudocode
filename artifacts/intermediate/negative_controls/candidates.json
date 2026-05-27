@@ -1,0 +1,4006 @@
+[
+  {
+    "candidate_id": "neg_B_same_domain_distinct_000",
+    "n_units": 3,
+    "n_distinct_skills": 3,
+    "distinct_skills": [
+      "anthropic_cults-automation",
+      "anthropic_pptx",
+      "anthropic_react-best-practices"
+    ],
+    "canonical_verb": "check",
+    "canonical_objects": [
+      "connection",
+      "edit",
+      "analyze"
+    ],
+    "members": [
+      {
+        "skill_id": "anthropic_cults-automation",
+        "skill_name": "cults-automation",
+        "unit_index": 6,
+        "title": "Step 2: Check Connection",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_MANAGE_CONNECTIONS\ntoolkits: [\"cults\"]\nsession_id: \"your_session_id\"\n```"
+      },
+      {
+        "skill_id": "anthropic_pptx",
+        "skill_name": "pptx",
+        "unit_index": 1,
+        "title": "Overview",
+        "level": 2,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "A user may ask you to create, edit, or analyze the contents of a .pptx file. A .pptx file is essentially a ZIP archive containing XML files and other resources that you can read or edit. You have different tools and workflows available for different tasks."
+      },
+      {
+        "skill_id": "anthropic_react-best-practices",
+        "skill_name": "react-best-practices",
+        "unit_index": 4,
+        "title": "1. Eliminating Waterfalls (CRITICAL)",
+        "level": 3,
+        "n_bullets": 5,
+        "linked_scripts": [],
+        "text_preview": "- `async-defer-await` - Move await into branches where actually used\n- `async-parallel` - Use Promise.all() for independent operations\n- `async-dependencies` - Use better-all for partial dependencies\n- `async-api-routes` - Start promises early, await late in API routes\n- `async-suspense-boundaries` - Use Suspense to stream content"
+      }
+    ],
+    "_negative_control_class": "B_same_domain_distinct"
+  },
+  {
+    "candidate_id": "neg_B_same_domain_distinct_001",
+    "n_units": 3,
+    "n_distinct_skills": 3,
+    "distinct_skills": [
+      "anthropic_casadi-ipopt-nlp",
+      "anthropic_file-organizer",
+      "anthropic_threejs"
+    ],
+    "canonical_verb": "review",
+    "canonical_objects": [
+      "projects",
+      "directory",
+      "and"
+    ],
+    "members": [
+      {
+        "skill_id": "anthropic_file-organizer",
+        "skill_name": "file-organizer",
+        "unit_index": 10,
+        "title": "Example 3: Restructuring Projects Folder",
+        "level": 3,
+        "n_bullets": 4,
+        "linked_scripts": [],
+        "text_preview": "**User**: \"Review my ~/Projects directory and suggest improvements.\"\n\n**Output**:\n\n```markdown\n# Analysis of ~/Projects\n\n## Current Structure Issues\n- Mix of active and archived projects (3+ years old)\n- No consistent naming convention\n- Some projects at root, others in random subfolders\n- Duplicate folders (project-name, project-name-old, project-name-v2)\n\n## Proposed Structure\n\n```\n\nProjects/\n├─"
+      },
+      {
+        "skill_id": "anthropic_casadi-ipopt-nlp",
+        "skill_name": "casadi-ipopt-nlp",
+        "unit_index": 10,
+        "title": "Extracting solutions",
+        "level": 2,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```python\nx_opt = np.array(sol[\"x\"]).flatten()\n\n# Unpack by slicing (must match variable order)\nVm_sol = x_opt[:n_bus]\nVa_sol = x_opt[n_bus:2*n_bus]\nPg_sol = x_opt[2*n_bus:2*n_bus+n_gen]\nQg_sol = x_opt[2*n_bus+n_gen:]\n```"
+      },
+      {
+        "skill_id": "anthropic_threejs",
+        "skill_name": "threejs",
+        "unit_index": 3,
+        "title": "Part partitioning rules",
+        "level": 2,
+        "n_bullets": 4,
+        "linked_scripts": [],
+        "text_preview": "- Parts are **named groups** at any depth.\n- Each mesh belongs to the **nearest named ancestor**.\n- Nested named groups are separate parts; **do not merge** their meshes into parents.\n- Skip empty parts; sort part names for determinism.\n\n\n```javascript\nfunction buildPartMap(root) {\n  const parts = new Map();\n  root.traverse((obj) => {\n    if (obj.isGroup && obj.name) parts.set(obj.name, { group: o"
+      }
+    ],
+    "_negative_control_class": "B_same_domain_distinct"
+  },
+  {
+    "candidate_id": "neg_B_same_domain_distinct_002",
+    "n_units": 3,
+    "n_distinct_skills": 3,
+    "distinct_skills": [
+      "anthropic_locational-marginal-prices",
+      "anthropic_pptx",
+      "anthropic_trivy-offline-vulnerability-scanning"
+    ],
+    "canonical_verb": "modify",
+    "canonical_objects": [
+      "constraint",
+      "increase",
+      "line"
+    ],
+    "members": [
+      {
+        "skill_id": "anthropic_locational-marginal-prices",
+        "skill_name": "locational-marginal-prices",
+        "unit_index": 5,
+        "title": "Counterfactual Analysis",
+        "level": 2,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "To analyze the impact of relaxing a transmission constraint:\n\n1. **Solve base case** — record costs, LMPs, and binding lines\n2. **Modify constraint** — e.g., increase a line's thermal limit\n3. **Solve counterfactual** — with the relaxed constraint\n4. **Compute impact** — compare costs and LMPs\n\n\n```python\n# Modify line limit (e.g., increase by 20%)\nfor k in range(n_branch):\n    br_from, br_to = in"
+      },
+      {
+        "skill_id": "anthropic_trivy-offline-vulnerability-scanning",
+        "skill_name": "trivy-offline-vulnerability-scanning",
+        "unit_index": 3,
+        "title": "Challenges with Online Scanning",
+        "level": 3,
+        "n_bullets": 4,
+        "linked_scripts": [],
+        "text_preview": "- Network dependency introduces failure points\n- Database updates can cause inconsistent results across runs\n- Slower execution due to download times\n- Security policies may restrict external connections"
+      },
+      {
+        "skill_id": "anthropic_pptx",
+        "skill_name": "pptx",
+        "unit_index": 11,
+        "title": "Visual Details Options",
+        "level": 4,
+        "n_bullets": 34,
+        "linked_scripts": [],
+        "text_preview": "**Geometric Patterns**:\n- Diagonal section dividers instead of horizontal\n- Asymmetric column widths (30/70, 40/60, 25/75)\n- Rotated text headers at 90° or 270°\n- Circular/hexagonal frames for images\n- Triangular accent shapes in corners\n- Overlapping shapes for depth\n\n**Border & Frame Treatments**:\n- Thick single-color borders (10-20pt) on one side only\n- Double-line borders with contrasting colo"
+      }
+    ],
+    "_negative_control_class": "B_same_domain_distinct"
+  },
+  {
+    "candidate_id": "neg_B_same_domain_distinct_003",
+    "n_units": 3,
+    "n_distinct_skills": 3,
+    "distinct_skills": [
+      "anthropic_apitemplate-io-automation",
+      "anthropic_gmail-skill",
+      "anthropic_seismic-picker-selection"
+    ],
+    "canonical_verb": "install",
+    "canonical_objects": [
+      "dependencies",
+      "bash",
+      "claude"
+    ],
+    "members": [
+      {
+        "skill_id": "anthropic_gmail-skill",
+        "skill_name": "gmail-skill",
+        "unit_index": 1,
+        "title": "First-Time Setup",
+        "level": 2,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "Before using this skill, you must set up OAuth authentication:\n\n1. **Install dependencies:**\n   ```bash\n   cd ~/.claude/skills/gmail-skill && npm install\n   ```\n\n2. **Set up Google Cloud credentials:**\n   - Follow the guide in `docs/google-cloud-setup.md`\n   - Download `credentials.json` and save to `scripts/auth/credentials.json`\n\n3. **Authenticate:**\n   ```bash\n   cd ~/.claude/skills/gmail-skill"
+      },
+      {
+        "skill_id": "anthropic_seismic-picker-selection",
+        "skill_name": "seismic-picker-selection",
+        "unit_index": 11,
+        "title": "Limitations",
+        "level": 3,
+        "n_bullets": 3,
+        "linked_scripts": [],
+        "text_preview": "- Out-of-distribution data issues: For datasets not represented in training data, expect larger automated pick errors (0.1-0.5 s) and missed picks\n- Cannot pick phases completely buried in noise - Not quite as sensitive as template-matching\n- Sometimes misses picks from larger earthquakes that are obvious to humans, for unexplained\nreason"
+      },
+      {
+        "skill_id": "anthropic_apitemplate-io-automation",
+        "skill_name": "apitemplate-io-automation",
+        "unit_index": 7,
+        "title": "Step 3: Execute Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_MULTI_EXECUTE_TOOL\ntools: [{\n  tool_slug: \"TOOL_SLUG_FROM_SEARCH\",\n  arguments: {/* schema-compliant args from search results */}\n}]\nmemory: {}\nsession_id: \"your_session_id\"\n```"
+      }
+    ],
+    "_negative_control_class": "B_same_domain_distinct"
+  },
+  {
+    "candidate_id": "neg_B_same_domain_distinct_004",
+    "n_units": 3,
+    "n_distinct_skills": 3,
+    "distinct_skills": [
+      "anthropic_feature_engineering",
+      "anthropic_file-organizer",
+      "anthropic_seismic-picker-selection"
+    ],
+    "canonical_verb": "generate",
+    "canonical_objects": [
+      "and",
+      "documents",
+      "polynomial"
+    ],
+    "members": [
+      {
+        "skill_id": "anthropic_feature_engineering",
+        "skill_name": "feature_engineering",
+        "unit_index": 3,
+        "title": "Numerical Features (if intepretability is not a concern)",
+        "level": 4,
+        "n_bullets": 5,
+        "linked_scripts": [],
+        "text_preview": "- `scale_numerical(df, columns, method)` - Scale using 'standard', 'minmax', or 'robust'\n- `create_bins(df, columns, n_bins, strategy)` - Discretize using 'uniform', 'quantile', or 'kmeans'\n- `create_polynomial_features(df, columns, degree)` - Generate polynomial and interaction terms\n- `create_interaction_features(df, column_pairs)` - Create multiplication interactions\n- `create_log_features(df, "
+      },
+      {
+        "skill_id": "anthropic_file-organizer",
+        "skill_name": "file-organizer",
+        "unit_index": 13,
+        "title": "Downloads Cleanup",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nOrganize my Downloads folder - move documents to Documents,\nimages to Pictures, keep installers separate, and archive files\nolder than 3 months.\n```"
+      },
+      {
+        "skill_id": "anthropic_seismic-picker-selection",
+        "skill_name": "seismic-picker-selection",
+        "unit_index": 4,
+        "title": "Limitations",
+        "level": 3,
+        "n_bullets": 3,
+        "linked_scripts": [],
+        "text_preview": "- High rate of false detections during active sequences\n- Automatic picks not as precise\n- Requires manual review and refinement of picks for a quality catalog\n\n---"
+      }
+    ],
+    "_negative_control_class": "B_same_domain_distinct"
+  },
+  {
+    "candidate_id": "neg_B_same_domain_distinct_005",
+    "n_units": 3,
+    "n_distinct_skills": 3,
+    "distinct_skills": [
+      "anthropic_maven-plugin-configuration",
+      "anthropic_python-parallelization",
+      "anthropic_threejs"
+    ],
+    "canonical_verb": "select",
+    "canonical_objects": [
+      "the",
+      "appropriate",
+      "parallelization"
+    ],
+    "members": [
+      {
+        "skill_id": "anthropic_python-parallelization",
+        "skill_name": "python-parallelization",
+        "unit_index": 1,
+        "title": "Workflow",
+        "level": 2,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "1. **Analyze** the code to identify parallelization candidates\n2. **Classify** the workload type (CPU-bound, I/O-bound, or data-parallel)\n3. **Select** the appropriate parallelization strategy\n4. **Transform** the code with proper synchronization and error handling\n5. **Verify** correctness and measure expected speedup"
+      },
+      {
+        "skill_id": "anthropic_maven-plugin-configuration",
+        "skill_name": "maven-plugin-configuration",
+        "unit_index": 30,
+        "title": "Exec Plugin",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```xml\n<plugin>\n    <groupId>org.codehaus.mojo</groupId>\n    <artifactId>exec-maven-plugin</artifactId>\n    <version>3.1.1</version>\n    <executions>\n        <execution>\n            <id>run-script</id>\n            <phase>generate-sources</phase>\n            <goals>\n                <goal>exec</goal>\n            </goals>\n            <configuration>\n                <executable>bash</executable>\n     "
+      },
+      {
+        "skill_id": "anthropic_threejs",
+        "skill_name": "threejs",
+        "unit_index": 7,
+        "title": "Per-part OBJ export",
+        "level": 2,
+        "n_bullets": 3,
+        "linked_scripts": [],
+        "text_preview": "- Collect meshes owned by each part.\n- **Do not traverse into child named groups** when exporting a part.\n- Merge baked geometries per part and write `<part>.obj`.\n\nReference: `references/link-export-rules.md`."
+      }
+    ],
+    "_negative_control_class": "B_same_domain_distinct"
+  },
+  {
+    "candidate_id": "neg_B_same_domain_distinct_006",
+    "n_units": 3,
+    "n_distinct_skills": 3,
+    "distinct_skills": [
+      "anthropic_alfworld-device-operator",
+      "anthropic_casadi-ipopt-nlp",
+      "anthropic_senior-java"
+    ],
+    "canonical_verb": "do",
+    "canonical_objects": [
+      "microservice",
+      "with",
+      "spring"
+    ],
+    "members": [
+      {
+        "skill_id": "anthropic_alfworld-device-operator",
+        "skill_name": "alfworld-device-operator",
+        "unit_index": 8,
+        "title": "Example",
+        "level": 2,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "**Scenario:** Task is \"look at laptop under the desklamp.\"\n\n\n```\nThought: I need to find the desklamp first. It's likely on a sidetable or desk.\nAction: go to sidetable 1\nObservation: On the sidetable 1, you see a desklamp 1.\nThought: Found the desklamp. Now I need to find the laptop.\nAction: go to desk 1\nObservation: On the desk 1, you see a laptop 1, a pen 2.\nAction: take laptop 1 from desk 1\nOb"
+      },
+      {
+        "skill_id": "anthropic_senior-java",
+        "skill_name": "senior-java",
+        "unit_index": 9,
+        "title": "1. New Spring Boot Microservice",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "**Time:** 30-45 minutes\n\n1. **Scaffold Project** - Generate microservice with Spring Boot 3.x, Docker, and CI/CD\n   ```bash\n   python scripts/spring_project_scaffolder.py inventory-service --type microservice --db postgresql --security jwt\n   ```\n\n2. **Configure Environment** - Set up application.yml with profiles (dev, staging, prod)\n   ```bash\n   cd inventory-service\n   # Edit src/main/resources"
+      },
+      {
+        "skill_id": "anthropic_casadi-ipopt-nlp",
+        "skill_name": "casadi-ipopt-nlp",
+        "unit_index": 12,
+        "title": "Per-unit scaling",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "Work in per-unit internally, convert for output:\n\n\n```python\nbaseMVA = 100.0\nPg_pu = Pg_MW / baseMVA      # Input conversion\nPg_MW = Pg_pu * baseMVA      # Output conversion\n```\n\n\nCost functions often expect MW, not per-unit - check the formulation."
+      }
+    ],
+    "_negative_control_class": "B_same_domain_distinct"
+  },
+  {
+    "candidate_id": "neg_B_same_domain_distinct_007",
+    "n_units": 3,
+    "n_distinct_skills": 3,
+    "distinct_skills": [
+      "anthropic_alfworld-clean-object",
+      "anthropic_alfworld-object-picker",
+      "anthropic_browserbase-tool-automation"
+    ],
+    "canonical_verb": "pick",
+    "canonical_objects": [
+      "the",
+      "toiletpaper",
+      "identifier"
+    ],
+    "members": [
+      {
+        "skill_id": "anthropic_alfworld-object-picker",
+        "skill_name": "alfworld-object-picker",
+        "unit_index": 1,
+        "title": "Inputs",
+        "level": 2,
+        "n_bullets": 2,
+        "linked_scripts": [],
+        "text_preview": "- `object`: The identifier of the object to pick up (e.g., \"toiletpaper 1\").\n- `source_receptacle`: The identifier of the receptacle where the object is located (e.g., \"toilet 1\")."
+      },
+      {
+        "skill_id": "anthropic_browserbase-tool-automation",
+        "skill_name": "browserbase-tool-automation",
+        "unit_index": 8,
+        "title": "Known Pitfalls",
+        "level": 2,
+        "n_bullets": 6,
+        "linked_scripts": [],
+        "text_preview": "- **Always search first**: Tool schemas change. Never hardcode tool slugs or arguments without calling `RUBE_SEARCH_TOOLS`\n- **Check connection**: Verify `RUBE_MANAGE_CONNECTIONS` shows ACTIVE status before executing tools\n- **Schema compliance**: Use exact field names and types from the search results\n- **Memory parameter**: Always include `memory` in `RUBE_MULTI_EXECUTE_TOOL` calls, even if empt"
+      },
+      {
+        "skill_id": "anthropic_alfworld-clean-object",
+        "skill_name": "alfworld-clean-object",
+        "unit_index": 1,
+        "title": "Workflow",
+        "level": 2,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "1. **Navigate:** `go to sinkbasin 1` (or the appropriate sinkbasin in the environment)\n2. **Clean:** `clean {object} with sinkbasin 1` -- verify observation confirms \"You clean the {object}\"\n3. **Proceed:** The object is now clean. Continue with the next task step"
+      }
+    ],
+    "_negative_control_class": "B_same_domain_distinct"
+  },
+  {
+    "candidate_id": "neg_B_same_domain_distinct_008",
+    "n_units": 3,
+    "n_distinct_skills": 3,
+    "distinct_skills": [
+      "anthropic_dialogue_graph",
+      "anthropic_jax-skills",
+      "anthropic_seismic-picker-selection"
+    ],
+    "canonical_verb": "edit",
+    "canonical_objects": [
+      "and",
+      "conversation",
+      "flow"
+    ],
+    "members": [
+      {
+        "skill_id": "anthropic_dialogue_graph",
+        "skill_name": "dialogue-graph",
+        "unit_index": 1,
+        "title": "When to use",
+        "level": 2,
+        "n_bullets": 4,
+        "linked_scripts": [],
+        "text_preview": "*   **Script Parsers**: When converting text to data.\n*   **Dialogue Editors**: When building tools to edit conversation flow.\n*   **Game Logic**: When traversing a dialogue tree.\n*   **Visualization**: When generating visual diagrams of dialogue flows."
+      },
+      {
+        "skill_id": "anthropic_jax-skills",
+        "skill_name": "jax-skills",
+        "unit_index": 16,
+        "title": "`jit_run(fn, args)`",
+        "level": 3,
+        "n_bullets": 4,
+        "linked_scripts": [],
+        "text_preview": "**Description**: JIT compile and run a function using JAX.\n**Parameters**:\n- fn (callable): Function to compile.\n- args (tuple): Arguments for the function.\n\n\n```python\nresult = jx.jit_run(my_function, (arg1, arg2))\n```\n\n**Notes**:\n- Speeds up repeated function calls.\n- Input shapes must be consistent across calls."
+      },
+      {
+        "skill_id": "anthropic_seismic-picker-selection",
+        "skill_name": "seismic-picker-selection",
+        "unit_index": 4,
+        "title": "Limitations",
+        "level": 3,
+        "n_bullets": 3,
+        "linked_scripts": [],
+        "text_preview": "- High rate of false detections during active sequences\n- Automatic picks not as precise\n- Requires manual review and refinement of picks for a quality catalog\n\n---"
+      }
+    ],
+    "_negative_control_class": "B_same_domain_distinct"
+  },
+  {
+    "candidate_id": "neg_B_same_domain_distinct_009",
+    "n_units": 3,
+    "n_distinct_skills": 3,
+    "distinct_skills": [
+      "anthropic_clockify-automation",
+      "anthropic_docx",
+      "anthropic_seisbench-model-api"
+    ],
+    "canonical_verb": "unpack",
+    "canonical_objects": [
+      "unpacking",
+      "file"
+    ],
+    "members": [
+      {
+        "skill_id": "anthropic_docx",
+        "skill_name": "docx",
+        "unit_index": 9,
+        "title": "Unpacking a file",
+        "level": 4,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "`python ooxml/scripts/unpack.py <office_file> <output_directory>`"
+      },
+      {
+        "skill_id": "anthropic_seisbench-model-api",
+        "skill_name": "seisbench-model-api",
+        "unit_index": 4,
+        "title": "Speeding Up Model Application",
+        "level": 2,
+        "n_bullets": 5,
+        "linked_scripts": [],
+        "text_preview": "When applying models to large datasets, run time is often a major concern. Here are a few tips to make your model run faster:\n\n- **Run on GPU.** Execution on GPU is usually faster, even though exact speed-ups vary between models. However, we note that running on GPU is not necessarily the most economic option. For example, in cloud applications it might be cheaper (and equally fast) to pay for a h"
+      },
+      {
+        "skill_id": "anthropic_clockify-automation",
+        "skill_name": "Clockify Automation",
+        "unit_index": 1,
+        "title": "Setup",
+        "level": 2,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "1. Add the Rube MCP server to your Claude Code config with URL: `https://rube.app/mcp`\n2. When prompted, authenticate your Clockify account through the connection link provided\n3. Start automating your time tracking workflows with natural language\n\n---"
+      }
+    ],
+    "_negative_control_class": "B_same_domain_distinct"
+  },
+  {
+    "candidate_id": "neg_C_near_miss_000",
+    "n_units": 3,
+    "n_distinct_skills": 3,
+    "distinct_skills": [
+      "anthropic_marker",
+      "anthropic_restclient-migration",
+      "anthropic_senior-java"
+    ],
+    "canonical_verb": "delete",
+    "canonical_objects": [
+      "read",
+      "only",
+      "with"
+    ],
+    "members": [
+      {
+        "skill_id": "anthropic_senior-java",
+        "skill_name": "senior-java",
+        "unit_index": 16,
+        "title": "api_endpoint_generator.py",
+        "level": 3,
+        "n_bullets": 6,
+        "linked_scripts": [],
+        "text_preview": "Scaffold RESTful API endpoints with validation and documentation.\n\n**Key Features:**\n- CRUD endpoint generation\n- Request/response DTOs\n- Jakarta validation annotations\n- OpenAPI annotations\n- Pagination support\n- Error handling\n\n**Common Usage:**\n\n```bash\n# Full CRUD endpoints\npython scripts/api_endpoint_generator.py orders --methods GET,POST,PUT,DELETE\n\n# Read-only with pagination\npython scripts"
+      },
+      {
+        "skill_id": "anthropic_restclient-migration",
+        "skill_name": "restclient-migration",
+        "unit_index": 15,
+        "title": "After (RestClient)",
+        "level": 4,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```java\npublic boolean requestDataDeletion(String userId) {\n    try {\n        restClient.delete()\n            .uri(baseUrl + \"/users/{id}/data\", userId)\n            .retrieve()\n            .toBodilessEntity();\n        return true;\n    } catch (Exception e) {\n        return false;\n    }\n}\n```"
+      },
+      {
+        "skill_id": "anthropic_marker",
+        "skill_name": "marker",
+        "unit_index": 3,
+        "title": "Python API",
+        "level": 2,
+        "n_bullets": 2,
+        "linked_scripts": [],
+        "text_preview": "- `pdf_to_markdown(pdf_path, *, timeout=600, cleanup=True) -> str`\n  - Runs `marker_single --output_format markdown --disable_image_extraction`\n  - `cleanup=True`: use a temp directory and delete after reading the Markdown\n  - `cleanup=False`: keep outputs in `<pdf_stem>_marker/` next to the PDF\n  - Exceptions: `FileNotFoundError` if the PDF is missing, `RuntimeError` for marker failures, `Timeout"
+      }
+    ],
+    "_negative_control_class": "C_near_miss"
+  },
+  {
+    "candidate_id": "neg_C_near_miss_001",
+    "n_units": 3,
+    "n_distinct_skills": 3,
+    "distinct_skills": [
+      "anthropic_apify-automation",
+      "anthropic_audiobook",
+      "anthropic_customerio-automation"
+    ],
+    "canonical_verb": "fetch",
+    "canonical_objects": [
+      "paginated",
+      "delivery",
+      "metrics"
+    ],
+    "members": [
+      {
+        "skill_id": "anthropic_customerio-automation",
+        "skill_name": "Customer.io Automation",
+        "unit_index": 4,
+        "title": "2. Retrieve Message Delivery Metrics",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "Fetch paginated delivery metrics for messages with filtering by campaign, type, and time window.\n\n**Tool:** `CUSTOMERIO_GET_MESSAGES`\n\n| Parameter | Type | Required | Description |\n|-----------|------|----------|-------------|\n| `type` | string | No | Message type: `email`, `webhook`, `twilio`, `slack`, `push`, `in_app` |\n| `metric` | string | No | Metric: `attempted`, `sent`, `delivered`, `opened"
+      },
+      {
+        "skill_id": "anthropic_audiobook",
+        "skill_name": "audiobook",
+        "unit_index": 16,
+        "title": "\"Content appears to be a summary\"",
+        "level": 3,
+        "n_bullets": 3,
+        "linked_scripts": [],
+        "text_preview": "- Use `curl` directly instead of web fetch tools\n- Verify the URL is correct and accessible\n- Check if the site requires JavaScript rendering"
+      },
+      {
+        "skill_id": "anthropic_apify-automation",
+        "skill_name": "Apify Automation",
+        "unit_index": 5,
+        "title": "3. Retrieve Dataset Items",
+        "level": 3,
+        "n_bullets": 8,
+        "linked_scripts": [],
+        "text_preview": "Fetch data from a specific dataset with pagination, field selection, and filtering.\n\n**Tool:** `APIFY_GET_DATASET_ITEMS`\n\nKey parameters:\n- `datasetId` (required) -- dataset identifier\n- `limit` (default/max 1000) -- items per page\n- `offset` (default 0) -- pagination offset\n- `format` -- `json` (recommended), `csv`, `xlsx`\n- `fields` -- include only specific fields\n- `omit` -- exclude specific fi"
+      }
+    ],
+    "_negative_control_class": "C_near_miss"
+  },
+  {
+    "candidate_id": "neg_C_near_miss_002",
+    "n_units": 3,
+    "n_distinct_skills": 3,
+    "distinct_skills": [
+      "anthropic_fuzzing-python",
+      "anthropic_silence-detector",
+      "anthropic_temporal-python-testing"
+    ],
+    "canonical_verb": "setup",
+    "canonical_objects": [
+      "title",
+      "card",
+      "periods"
+    ],
+    "members": [
+      {
+        "skill_id": "anthropic_silence-detector",
+        "skill_name": "silence-detector",
+        "unit_index": 1,
+        "title": "Use Cases",
+        "level": 2,
+        "n_bullets": 3,
+        "linked_scripts": [],
+        "text_preview": "- Finding initial silence in recordings\n- Detecting pre-roll silence before content\n- Identifying setup/title card periods"
+      },
+      {
+        "skill_id": "anthropic_temporal-python-testing",
+        "skill_name": "temporal-python-testing",
+        "unit_index": 13,
+        "title": "How to Use Resources",
+        "level": 2,
+        "n_bullets": 4,
+        "linked_scripts": [],
+        "text_preview": "**Load specific resource when needed**:\n- \"Show me unit testing patterns\" → Load `resources/unit-testing.md`\n- \"How do I mock activities?\" → Load `resources/integration-testing.md`\n- \"Setup local Temporal server\" → Load `resources/local-setup.md`\n- \"Validate determinism\" → Load `resources/replay-testing.md`"
+      },
+      {
+        "skill_id": "anthropic_fuzzing-python",
+        "skill_name": "fuzzing-python",
+        "unit_index": 11,
+        "title": "API",
+        "level": 2,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "The `atheris` module provides three key functions: `instrument_imports()`, `Setup()` and `Fuzz()`.\n\nIn your source file, import all libraries you wish to fuzz inside a `with atheris.instrument_imports():`-block, like this:\n\n\n```python\n# library_a will not get instrumented\nimport library_a\n\nwith atheris.instrument_imports():\n    # library_b will get instrumented\n    import library_b\n```\n\n\nGenerally"
+      }
+    ],
+    "_negative_control_class": "C_near_miss"
+  },
+  {
+    "candidate_id": "neg_C_near_miss_003",
+    "n_units": 3,
+    "n_distinct_skills": 3,
+    "distinct_skills": [
+      "anthropic_image-ocr",
+      "anthropic_pymatgen",
+      "anthropic_rdkit"
+    ],
+    "canonical_verb": "generate",
+    "canonical_objects": [
+      "coordinates",
+      "for",
+      "depiction"
+    ],
+    "members": [
+      {
+        "skill_id": "anthropic_rdkit",
+        "skill_name": "rdkit",
+        "unit_index": 10,
+        "title": "8. 2D and 3D Coordinate Generation",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "**2D Coordinate Generation:**\n\n\n```python\nfrom rdkit.Chem import AllChem\n\n# Generate 2D coordinates for depiction\nAllChem.Compute2DCoords(mol)\n\n# Align molecule to template structure\ntemplate = Chem.MolFromSmiles('c1ccccc1')\nAllChem.Compute2DCoords(template)\nAllChem.GenerateDepictionMatching2DStructure(mol, template)\n```\n\n\n**3D Coordinate Generation and Conformers:**\n\n\n```python\n# Generate single "
+      },
+      {
+        "skill_id": "anthropic_image-ocr",
+        "skill_name": "image-ocr",
+        "unit_index": 17,
+        "title": "Multi-Pass OCR Strategy",
+        "level": 2,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "For challenging images, a single OCR pass may miss text. Use multiple passes with different configurations:\n\n1. **Try multiple PSM modes** - Different page segmentation modes work better for different layouts (e.g., `--psm 6` for blocks, `--psm 4` for columns, `--psm 11` for sparse text)\n\n2. **Try multiple preprocessing variants** - Run OCR on several preprocessed versions of the same image\n\n3. **"
+      },
+      {
+        "skill_id": "anthropic_pymatgen",
+        "skill_name": "pymatgen",
+        "unit_index": 23,
+        "title": "Surface Energy Calculation",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```python\n# 1. Get bulk energy\nbulk_vasprun = Vasprun(\"bulk/vasprun.xml\")\nbulk_E_per_atom = bulk_vasprun.final_energy / len(bulk)\n\n# 2. Generate and calculate slabs\nslabgen = SlabGenerator(bulk, (1,1,1), 10, 15)\nslab = slabgen.get_slabs()[0]\n\nMPRelaxSet(slab).write_input(\"./slab_calc\")\n\n# 3. Calculate surface energy (after calculation)\nslab_vasprun = Vasprun(\"slab_calc/vasprun.xml\")\nE_surf = (slab"
+      }
+    ],
+    "_negative_control_class": "C_near_miss"
+  },
+  {
+    "candidate_id": "neg_C_near_miss_004",
+    "n_units": 3,
+    "n_distinct_skills": 3,
+    "distinct_skills": [
+      "anthropic_maven-build-lifecycle",
+      "anthropic_spring-boot-migration",
+      "anthropic_uv-package-manager"
+    ],
+    "canonical_verb": "compile",
+    "canonical_objects": [
+      "mvn",
+      "the",
+      "project"
+    ],
+    "members": [
+      {
+        "skill_id": "anthropic_spring-boot-migration",
+        "skill_name": "spring-boot-migration",
+        "unit_index": 26,
+        "title": "Compile and Test",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```bash\n# Compile the project\nmvn clean compile\n\n# Run tests\nmvn test\n```"
+      },
+      {
+        "skill_id": "anthropic_maven-build-lifecycle",
+        "skill_name": "maven-build-lifecycle",
+        "unit_index": 9,
+        "title": "Executing Goals",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```bash\n# Execute specific goal\nmvn compiler:compile\nmvn surefire:test\nmvn jar:jar\n\n# Multiple goals\nmvn dependency:tree compiler:compile\n```"
+      },
+      {
+        "skill_id": "anthropic_uv-package-manager",
+        "skill_name": "uv-package-manager",
+        "unit_index": 39,
+        "title": "uv vs pip-tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```bash\n# pip-tools\npip-compile requirements.in\npip-sync requirements.txt\n# ~15 seconds\n\n# uv\nuv lock\nuv sync --frozen\n# ~2 seconds (7-8x faster)\n```"
+      }
+    ],
+    "_negative_control_class": "C_near_miss"
+  },
+  {
+    "candidate_id": "neg_C_near_miss_005",
+    "n_units": 3,
+    "n_distinct_skills": 3,
+    "distinct_skills": [
+      "anthropic_docs-to-skill",
+      "anthropic_pubchem-database",
+      "anthropic_sympy"
+    ],
+    "canonical_verb": "generate",
+    "canonical_objects": [
+      "python",
+      "skills",
+      "researching"
+    ],
+    "members": [
+      {
+        "skill_id": "anthropic_docs-to-skill",
+        "skill_name": "auto-skill-generator",
+        "unit_index": 0,
+        "title": "Auto Skill Generator",
+        "level": 1,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "Generate skills by researching and crawling authoritative documentation."
+      },
+      {
+        "skill_id": "anthropic_sympy",
+        "skill_name": "sympy",
+        "unit_index": 33,
+        "title": "Example 5: Generate Python Function",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```python\nfrom sympy import symbols, lambdify\nimport numpy as np\nx = symbols('x')\nexpr = x**2 + 2*x + 1\nf = lambdify(x, expr, 'numpy')\nf(np.array([1, 2, 3]))\n# array([ 4,  9, 16])\n```"
+      },
+      {
+        "skill_id": "anthropic_pubchem-database",
+        "skill_name": "pubchem-database",
+        "unit_index": 9,
+        "title": "6. Structure Visualization",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "Generate 2D structure images:\n\n\n```python\nimport pubchempy as pcp\n\n# Download compound structure as PNG\npcp.download('PNG', 'caffeine', 'name', 'caffeine.png', overwrite=True)\n\n# Using direct URL (via requests)\nimport requests\n\ncid = 2244  # Aspirin\nurl = f\"https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/{cid}/PNG?image_size=large\"\nresponse = requests.get(url)\n\nwith open('structure.png', 'w"
+      }
+    ],
+    "_negative_control_class": "C_near_miss"
+  },
+  {
+    "candidate_id": "neg_C_near_miss_006",
+    "n_units": 3,
+    "n_distinct_skills": 3,
+    "distinct_skills": [
+      "anthropic_alfworld-appliance-navigator",
+      "anthropic_apollo-automation",
+      "anthropic_file-organizer"
+    ],
+    "canonical_verb": "move",
+    "canonical_objects": [
+      "documents",
+      "the",
+      "images"
+    ],
+    "members": [
+      {
+        "skill_id": "anthropic_file-organizer",
+        "skill_name": "file-organizer",
+        "unit_index": 13,
+        "title": "Downloads Cleanup",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nOrganize my Downloads folder - move documents to Documents,\nimages to Pictures, keep installers separate, and archive files\nolder than 3 months.\n```"
+      },
+      {
+        "skill_id": "anthropic_apollo-automation",
+        "skill_name": "Apollo Automation",
+        "unit_index": 7,
+        "title": "5. Manage Contact Pipeline Stages",
+        "level": 3,
+        "n_bullets": 2,
+        "linked_scripts": [],
+        "text_preview": "List available stages and update contacts through your sales funnel.\n\n**Tools:** `APOLLO_LIST_CONTACT_STAGES`, `APOLLO_UPDATE_CONTACT_STAGE`\n\n**Example prompt:**\n> \"Move contacts X and Y to the 'Qualified' stage in Apollo\"\n\n**Key parameters for listing stages:** None required.\n\n**Key parameters for updating stage:**\n- `contact_ids` (required) -- Array of contact IDs to update\n- `contact_stage_id` "
+      },
+      {
+        "skill_id": "anthropic_alfworld-appliance-navigator",
+        "skill_name": "alfworld-appliance-navigator",
+        "unit_index": 0,
+        "title": "Instructions",
+        "level": 1,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "Use this skill when you are holding an object that needs to be processed (heated, cooled, or cleaned) and you must locate and move to the correct appliance to perform the action."
+      }
+    ],
+    "_negative_control_class": "C_near_miss"
+  },
+  {
+    "candidate_id": "neg_C_near_miss_007",
+    "n_units": 3,
+    "n_distinct_skills": 3,
+    "distinct_skills": [
+      "anthropic_openai-tts",
+      "anthropic_pptx",
+      "anthropic_whisper-transcription"
+    ],
+    "canonical_verb": "split",
+    "canonical_objects": [
+      "for",
+      "text",
+      "sentence"
+    ],
+    "members": [
+      {
+        "skill_id": "anthropic_openai-tts",
+        "skill_name": "openai-tts",
+        "unit_index": 7,
+        "title": "Best Practices",
+        "level": 2,
+        "n_bullets": 4,
+        "linked_scripts": [],
+        "text_preview": "- Use `marin` or `cedar` voices for best quality\n- Split text at sentence boundaries for long content\n- Use `wav` or `pcm` for lowest latency\n- Add `instructions` parameter to control tone/style (gpt-4o-mini-tts only)"
+      },
+      {
+        "skill_id": "anthropic_whisper-transcription",
+        "skill_name": "whisper-transcription",
+        "unit_index": 7,
+        "title": "Multi-Word Phrases",
+        "level": 2,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "For detecting phrases like \"you know\" or \"I mean\":\n\n\n```python\ndef find_phrases(transcription, phrases):\n    \"\"\"Find multi-word phrases in transcription.\"\"\"\n    matches = []\n    words = [w[\"word\"].lower().strip() for w in transcription]\n\n    for phrase in phrases:\n        phrase_words = phrase.lower().split()\n        phrase_len = len(phrase_words)\n\n        for i in range(len(words) - phrase_len + "
+      },
+      {
+        "skill_id": "anthropic_pptx",
+        "skill_name": "pptx",
+        "unit_index": 12,
+        "title": "Layout Tips",
+        "level": 3,
+        "n_bullets": 3,
+        "linked_scripts": [],
+        "text_preview": "**When creating slides with charts or tables:**\n- **Two-column layout (PREFERRED)**: Use a header spanning the full width, then two columns below - text/bullets in one column and the featured content in the other. This provides better balance and makes charts/tables more readable. Use flexbox with unequal column widths (e.g., 40%/60% split) to optimize space for each content type.\n- **Full-slide l"
+      }
+    ],
+    "_negative_control_class": "C_near_miss"
+  },
+  {
+    "candidate_id": "neg_C_near_miss_008",
+    "n_units": 3,
+    "n_distinct_skills": 3,
+    "distinct_skills": [
+      "anthropic_docx",
+      "anthropic_elevenlabs-tts",
+      "anthropic_obj-exporter"
+    ],
+    "canonical_verb": "write",
+    "canonical_objects": [
+      "obj",
+      "files",
+      "the"
+    ],
+    "members": [
+      {
+        "skill_id": "anthropic_elevenlabs-tts",
+        "skill_name": "elevenlabs-tts",
+        "unit_index": 5,
+        "title": "Python Example",
+        "level": 2,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```python\nimport os\nimport requests\n\nELEVENLABS_API_KEY = os.environ.get(\"ELEVENLABS_API_KEY\")\nVOICE_ID = \"21m00Tcm4TlvDq8ikWAM\"  # Rachel\n\ndef text_to_speech(text, output_path):\n    url = f\"https://api.elevenlabs.io/v1/text-to-speech/{VOICE_ID}\"\n\n    headers = {\n        \"xi-api-key\": ELEVENLABS_API_KEY,\n        \"Content-Type\": \"application/json\"\n    }\n\n    data = {\n        \"text\": text,\n        \""
+      },
+      {
+        "skill_id": "anthropic_obj-exporter",
+        "skill_name": "obj-exporter",
+        "unit_index": 10,
+        "title": "Output Paths",
+        "level": 2,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "Write OBJ files to the paths specified by the task instructions or a provided output root variable. Avoid hardcoding fixed directories in the skill itself."
+      },
+      {
+        "skill_id": "anthropic_docx",
+        "skill_name": "docx",
+        "unit_index": 18,
+        "title": "Code Style Guidelines",
+        "level": 2,
+        "n_bullets": 3,
+        "linked_scripts": [],
+        "text_preview": "**IMPORTANT**: When generating code for DOCX operations:\n- Write concise code\n- Avoid verbose variable names and redundant operations\n- Avoid unnecessary print statements"
+      }
+    ],
+    "_negative_control_class": "C_near_miss"
+  },
+  {
+    "candidate_id": "neg_C_near_miss_009",
+    "n_units": 3,
+    "n_distinct_skills": 3,
+    "distinct_skills": [
+      "anthropic_data-reconciliation",
+      "anthropic_light-curve-preprocessing",
+      "anthropic_sympy"
+    ],
+    "canonical_verb": "verify",
+    "canonical_objects": [
+      "your",
+      "data",
+      "format"
+    ],
+    "members": [
+      {
+        "skill_id": "anthropic_light-curve-preprocessing",
+        "skill_name": "light-curve-preprocessing",
+        "unit_index": 10,
+        "title": "Alternative formats",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```python\n# For some exported files (flag=0 is BAD):\ngood = flag != 0\ntime_clean = time[good]\nflux_clean = flux[good]\nerror_clean = error[good]\n```\n\n\n**Always verify your data format!** Check which approach gives cleaner results."
+      },
+      {
+        "skill_id": "anthropic_data-reconciliation",
+        "skill_name": "data-reconciliation",
+        "unit_index": 6,
+        "title": "5. Cross-Validation",
+        "level": 3,
+        "n_bullets": 3,
+        "linked_scripts": [],
+        "text_preview": "Always verify recovered values:\n- Do row totals match column totals?\n- Are percentage shares consistent?\n- Do YoY changes recalculate correctly?"
+      },
+      {
+        "skill_id": "anthropic_sympy",
+        "skill_name": "sympy",
+        "unit_index": 20,
+        "title": "Pattern 1: Solve and Verify",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```python\nfrom sympy import symbols, solve, simplify\nx = symbols('x')\n\n# Solve equation\nequation = x**2 - 5*x + 6\nsolutions = solve(equation, x)  # [2, 3]\n\n# Verify solutions\nfor sol in solutions:\n    result = simplify(equation.subs(x, sol))\n    assert result == 0\n```"
+      }
+    ],
+    "_negative_control_class": "C_near_miss"
+  },
+  {
+    "candidate_id": "neg_D_swap_000",
+    "n_units": 4,
+    "n_distinct_skills": 2,
+    "distinct_skills": [
+      "anthropic_pcap-analysis",
+      "anthropic_threat-detection"
+    ],
+    "canonical_verb": null,
+    "canonical_objects": [
+      "py"
+    ],
+    "members": [
+      {
+        "skill_id": "anthropic_pcap-analysis",
+        "skill_name": "pcap-analysis",
+        "unit_index": 19,
+        "title": "C2 Beaconing Detection",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "Command-and-control beaconing shows regular, periodic communication patterns.\nThis is detected by low Inter-Arrival Time coefficient of variation (CV < 0.5):\n\n\n```python\n# CV = std / mean\n# Low CV (<0.5): regular/robotic traffic (suspicious beaconing)\n# High CV (>1.0): bursty/human traffic (normal)\n"
+      },
+      {
+        "skill_id": "anthropic_threat-detection",
+        "skill_name": "threat-detection",
+        "unit_index": 9,
+        "title": "C2 Beaconing Detection",
+        "level": 2,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "Command-and-control beaconing shows regular, periodic timing."
+      },
+      {
+        "skill_id": "anthropic_threat-detection",
+        "skill_name": "threat-detection",
+        "unit_index": 10,
+        "title": "Detection Threshold",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nIAT CV (Coefficient of Variation) = std / mean\n\nBeaconing detected if: CV < 0.5\n```\n\n\nLow CV means consistent timing (robotic/automated). High CV (>1.0) is human/bursty (normal)."
+      },
+      {
+        "skill_id": "anthropic_threat-detection",
+        "skill_name": "threat-detection",
+        "unit_index": 11,
+        "title": "Implementation",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```python\nimport sys\nsys.path.insert(0, '/root/skills/pcap-analysis')\nfrom pcap_utils import detect_beaconing\n\nhas_beaconing = detect_beaconing(iat_cv)  # Returns True/False\n```\n\n\nOr manually:\n\n\n```python\ndef detect_beaconing(iat_cv):\n    \"\"\"Regular timing (CV < 0.5) suggests C2 beaconing.\"\"\"\n    re"
+      }
+    ],
+    "_negative_control_class": "D_swapped_contract",
+    "_swap_source_contract_from": "text_cand_022",
+    "_swap_member_cluster": "text_cand_113"
+  },
+  {
+    "candidate_id": "neg_D_swap_001",
+    "n_units": 11,
+    "n_distinct_skills": 2,
+    "distinct_skills": [
+      "anthropic_pause-detector",
+      "anthropic_silence-detector"
+    ],
+    "canonical_verb": "format",
+    "canonical_objects": [
+      "json",
+      "data",
+      "py",
+      "file"
+    ],
+    "members": [
+      {
+        "skill_id": "anthropic_pause-detector",
+        "skill_name": "pause-detector",
+        "unit_index": 0,
+        "title": "Pause Detector",
+        "level": 1,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "Detects pauses and low-energy segments using local dynamic thresholds on pre-computed energy data. Unlike global threshold methods, this compares energy to surrounding context, avoiding false positives when speaker volume varies."
+      },
+      {
+        "skill_id": "anthropic_pause-detector",
+        "skill_name": "pause-detector",
+        "unit_index": 2,
+        "title": "Usage",
+        "level": 2,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```bash\npython3 /root/.claude/skills/pause-detector/scripts/detect_pauses.py \\\n    --energies /path/to/energies.json \\\n    --output /path/to/pauses.json\n```"
+      },
+      {
+        "skill_id": "anthropic_pause-detector",
+        "skill_name": "pause-detector",
+        "unit_index": 3,
+        "title": "Parameters",
+        "level": 3,
+        "n_bullets": 6,
+        "linked_scripts": [],
+        "text_preview": "- `--energies`: Path to energy JSON file (from energy-calculator)\n- `--output`: Path to output JSON file\n- `--start-time`: Start analyzing from this second (default: 0)\n- `--threshold-ratio`: Ratio of local average for low energy (default: 0.5)\n- `--min-duration`: Minimum pause duration in seconds ("
+      },
+      {
+        "skill_id": "anthropic_pause-detector",
+        "skill_name": "pause-detector",
+        "unit_index": 4,
+        "title": "Output Format",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```json\n{\n  \"method\": \"local_dynamic_threshold\",\n  \"segments\": [\n    {\"start\": 610, \"end\": 613, \"duration\": 3},\n    {\"start\": 720, \"end\": 724, \"duration\": 4}\n  ],\n  \"total_segments\": 11,\n  \"total_duration_seconds\": 28,\n  \"parameters\": {\n    \"threshold_ratio\": 0.5,\n    \"window_size\": 30,\n    \"min_dur"
+      },
+      {
+        "skill_id": "anthropic_pause-detector",
+        "skill_name": "pause-detector",
+        "unit_index": 5,
+        "title": "How It Works",
+        "level": 2,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "1. Load pre-computed energy data\n2. Calculate local average using sliding window\n3. Mark seconds where energy < local_avg × threshold_ratio\n4. Group consecutive low-energy seconds into segments\n5. Filter segments by minimum duration"
+      },
+      {
+        "skill_id": "anthropic_pause-detector",
+        "skill_name": "pause-detector",
+        "unit_index": 7,
+        "title": "Example",
+        "level": 2,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```bash\n# Detect pauses after opening (start at 221s)\npython3 /root/.claude/skills/pause-detector/scripts/detect_pauses.py \\\n    --energies energies.json \\\n    --start-time 221 \\\n    --output pauses.json\n\n# Result: Found 11 pauses totaling 28 seconds\n```"
+      },
+      {
+        "skill_id": "anthropic_pause-detector",
+        "skill_name": "pause-detector",
+        "unit_index": 9,
+        "title": "Notes",
+        "level": 2,
+        "n_bullets": 3,
+        "linked_scripts": [],
+        "text_preview": "- Requires energy data from energy-calculator skill\n- Use --start-time to skip detected opening\n- Local threshold adapts to varying speaker volume"
+      },
+      {
+        "skill_id": "anthropic_silence-detector",
+        "skill_name": "silence-detector",
+        "unit_index": 2,
+        "title": "Usage",
+        "level": 2,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```bash\npython3 /root/.claude/skills/silence-detector/scripts/detect_silence.py \\\n    --energies /path/to/energies.json \\\n    --output /path/to/silence.json\n```"
+      },
+      {
+        "skill_id": "anthropic_silence-detector",
+        "skill_name": "silence-detector",
+        "unit_index": 3,
+        "title": "Parameters",
+        "level": 3,
+        "n_bullets": 5,
+        "linked_scripts": [],
+        "text_preview": "- `--energies`: Path to energy JSON file (from energy-calculator)\n- `--output`: Path to output JSON file\n- `--threshold-multiplier`: Energy threshold multiplier (default: 1.5)\n- `--initial-window`: Seconds for baseline calculation (default: 60)\n- `--smoothing-window`: Moving average window (default:"
+      },
+      {
+        "skill_id": "anthropic_silence-detector",
+        "skill_name": "silence-detector",
+        "unit_index": 4,
+        "title": "Output Format",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```json\n{\n  \"method\": \"energy_threshold\",\n  \"segments\": [\n    {\"start\": 0, \"end\": 120, \"duration\": 120}\n  ],\n  \"total_segments\": 1,\n  \"total_duration_seconds\": 120,\n  \"parameters\": {\n    \"threshold_multiplier\": 1.5,\n    \"initial_window\": 60,\n    \"smoothing_window\": 30\n  }\n}\n```"
+      },
+      {
+        "skill_id": "anthropic_silence-detector",
+        "skill_name": "silence-detector",
+        "unit_index": 7,
+        "title": "Example",
+        "level": 2,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```bash\n# Detect initial silence from energy data\npython3 /root/.claude/skills/silence-detector/scripts/detect_silence.py \\\n    --energies energies.json \\\n    --threshold-multiplier 1.5 \\\n    --output silence.json\n\n# Result: Initial silence detected and saved to silence.json\n```"
+      }
+    ],
+    "_negative_control_class": "D_swapped_contract",
+    "_swap_source_contract_from": "text_cand_133",
+    "_swap_member_cluster": "text_cand_017"
+  },
+  {
+    "candidate_id": "neg_D_swap_002",
+    "n_units": 8,
+    "n_distinct_skills": 2,
+    "distinct_skills": [
+      "anthropic_harbor",
+      "anthropic_skillsbench"
+    ],
+    "canonical_verb": "copy",
+    "canonical_objects": [
+      "metadata",
+      "code"
+    ],
+    "members": [
+      {
+        "skill_id": "anthropic_harbor",
+        "skill_name": "harbor",
+        "unit_index": 4,
+        "title": "SkillsBench Task Structure",
+        "level": 2,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\ntasks/<task-id>/\n  task.toml           # Metadata\n  instruction.md      # Agent instructions\n  environment/\n    Dockerfile        # Container + COPY skills to all agent locations\n    skills/           # Skills for agents\n  tests/\n    test.sh           # Runs pytest, writes reward.txt\n    test_ou"
+      },
+      {
+        "skill_id": "anthropic_harbor",
+        "skill_name": "harbor",
+        "unit_index": 6,
+        "title": "Agent Skill Support",
+        "level": 2,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "Skills are copied to agent-specific locations in task Dockerfiles. Place skills in `environment/skills/` and they'll be copied to:"
+      },
+      {
+        "skill_id": "anthropic_harbor",
+        "skill_name": "harbor",
+        "unit_index": 7,
+        "title": "Supported by Harbor (benchmarkable)",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "| Agent | Skills Directory | Docs |\n|-------|-----------------|------|\n| Claude Code | `.claude/skills/` | [docs](https://docs.anthropic.com/en/docs/claude-code/skills) |\n| Codex (OpenAI) | `.codex/skills/` | [docs](https://openai.github.io/codex/) |\n| OpenCode | `.opencode/skill/` or `.claude/skill"
+      },
+      {
+        "skill_id": "anthropic_harbor",
+        "skill_name": "harbor",
+        "unit_index": 8,
+        "title": "Not yet supported by Harbor",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "| Agent | Skills Directory | Docs |\n|-------|-----------------|------|\n| Amp | `.agents/skills/` or `.claude/skills/` | [docs](https://ampcode.com/manual#manual-installation) |\n| Letta | `.skills/` | [docs](https://docs.letta.com/letta-code/skills) |"
+      },
+      {
+        "skill_id": "anthropic_harbor",
+        "skill_name": "harbor",
+        "unit_index": 9,
+        "title": "Adding Skills to Tasks",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```dockerfile\n# Copy skills to ALL agent paths in Dockerfile\nCOPY skills /root/.claude/skills\nCOPY skills /root/.codex/skills\nCOPY skills /root/.opencode/skill\nCOPY skills /root/.goose/skills\nCOPY skills /root/.factory/skills\nCOPY skills /root/.agents/skills\nCOPY skills /root/.github/skills\n```"
+      },
+      {
+        "skill_id": "anthropic_skillsbench",
+        "skill_name": "skillsbench",
+        "unit_index": 1,
+        "title": "Official Resources",
+        "level": 2,
+        "n_bullets": 3,
+        "linked_scripts": [],
+        "text_preview": "- **GitHub**: https://github.com/benchflow-ai/skillsbench\n- **Harbor Docs**: https://harborframework.com/docs\n- **Terminal-Bench Task Guide**: https://www.tbench.ai/docs/task-quickstart"
+      },
+      {
+        "skill_id": "anthropic_skillsbench",
+        "skill_name": "skillsbench",
+        "unit_index": 2,
+        "title": "Repo Structure",
+        "level": 2,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\ntasks/<task-id>/          # Benchmark tasks\n.claude/skills/           # Contributor skills (harbor, skill-creator)\nCONTRIBUTING.md           # Full contribution guide\n```"
+      },
+      {
+        "skill_id": "anthropic_skillsbench",
+        "skill_name": "skillsbench",
+        "unit_index": 6,
+        "title": "References",
+        "level": 2,
+        "n_bullets": 3,
+        "linked_scripts": [],
+        "text_preview": "- Full guide: [CONTRIBUTING.md](../../../../CONTRIBUTING.md)\n- Harbor commands: See harbor skill\n- Task ideas: [references/task-ideas.md](references/task-ideas.md)"
+      }
+    ],
+    "_negative_control_class": "D_swapped_contract",
+    "_swap_source_contract_from": "text_cand_025",
+    "_swap_member_cluster": "text_cand_059"
+  },
+  {
+    "candidate_id": "neg_D_swap_003",
+    "n_units": 188,
+    "n_distinct_skills": 188,
+    "distinct_skills": [
+      "anthropic_-21risk-automation",
+      "anthropic_abuselpdb-automation",
+      "anthropic_abyssale-automation",
+      "anthropic_addresszen-automation",
+      "anthropic_adobe-automation",
+      "anthropic_aero-workflow-automation",
+      "anthropic_aeroleads-automation",
+      "anthropic_affinda-automation",
+      "anthropic_affinity-automation",
+      "anthropic_agencyzoom-automation",
+      "anthropic_agent-mail-automation",
+      "anthropic_agentql-automation",
+      "anthropic_agility-cms-automation",
+      "anthropic_ai-ml-api-automation",
+      "anthropic_aivoov-automation",
+      "anthropic_alchemy-automation",
+      "anthropic_algodocs-automation",
+      "anthropic_algolia-automation",
+      "anthropic_all-images-ai-automation",
+      "anthropic_alpha-vantage-automation",
+      "anthropic_altoviz-automation",
+      "anthropic_alttext-ai-automation",
+      "anthropic_amazon-automation",
+      "anthropic_ambient-weather-automation",
+      "anthropic_anonyflow-automation",
+      "anthropic_apex27-automation",
+      "anthropic_api-bible-automation",
+      "anthropic_api-labz-automation",
+      "anthropic_api-ninjas-automation",
+      "anthropic_api-sports-automation",
+      "anthropic_api2pdf-automation",
+      "anthropic_apiflash-automation",
+      "anthropic_apitemplate-io-automation",
+      "anthropic_appcircle-automation",
+      "anthropic_appdrag-automation",
+      "anthropic_appointo-automation",
+      "anthropic_appsflyer-automation",
+      "anthropic_appveyor-automation",
+      "anthropic_aryn-automation",
+      "anthropic_ascora-automation",
+      "anthropic_asin-data-api-automation",
+      "anthropic_astica-ai-automation",
+      "anthropic_async-interview-automation",
+      "anthropic_atlassian-automation",
+      "anthropic_auth0-automation",
+      "anthropic_autobound-automation",
+      "anthropic_axonaut-automation",
+      "anthropic_ayrshare-automation",
+      "anthropic_backendless-automation",
+      "anthropic_bannerbear-automation",
+      "anthropic_bart-automation",
+      "anthropic_baselinker-automation",
+      "anthropic_baserow-automation",
+      "anthropic_basin-automation",
+      "anthropic_battlenet-automation",
+      "anthropic_beaconchain-automation",
+      "anthropic_beaconstac-automation",
+      "anthropic_beamer-automation",
+      "anthropic_beeminder-automation",
+      "anthropic_bench-automation",
+      "anthropic_benchmark-email-automation",
+      "anthropic_benzinga-automation",
+      "anthropic_bestbuy-automation",
+      "anthropic_better-proposals-automation",
+      "anthropic_better-stack-automation",
+      "anthropic_bidsketch-automation",
+      "anthropic_big-data-cloud-automation",
+      "anthropic_bigmailer-automation",
+      "anthropic_bigml-automation",
+      "anthropic_bigpicture-io-automation",
+      "anthropic_bitquery-automation",
+      "anthropic_bitwarden-automation",
+      "anthropic_blackbaud-automation",
+      "anthropic_blackboard-automation",
+      "anthropic_blocknative-automation",
+      "anthropic_boldsign-automation",
+      "anthropic_bolna-automation",
+      "anthropic_boloforms-automation",
+      "anthropic_bolt-iot-automation",
+      "anthropic_bonsai-automation",
+      "anthropic_bookingmood-automation",
+      "anthropic_booqable-automation",
+      "anthropic_borneo-automation",
+      "anthropic_bouncer-automation",
+      "anthropic_boxhero-automation",
+      "anthropic_brandfetch-automation",
+      "anthropic_breeze-automation",
+      "anthropic_breezy-hr-automation",
+      "anthropic_brightdata-automation",
+      "anthropic_brightpearl-automation",
+      "anthropic_brilliant-directories-automation",
+      "anthropic_browseai-automation",
+      "anthropic_btcpay-server-automation",
+      "anthropic_bubble-automation",
+      "anthropic_buildkite-automation",
+      "anthropic_builtwith-automation",
+      "anthropic_bunnycdn-automation",
+      "anthropic_byteforms-automation",
+      "anthropic_cabinpanda-automation",
+      "anthropic_cal-automation",
+      "anthropic_calendarhero-automation",
+      "anthropic_callerapi-automation",
+      "anthropic_campayn-automation",
+      "anthropic_canny-automation",
+      "anthropic_canvas-automation",
+      "anthropic_capsule_crm-automation",
+      "anthropic_carbone-automation",
+      "anthropic_castingwords-automation",
+      "anthropic_cats-automation",
+      "anthropic_cdr-platform-automation",
+      "anthropic_census-bureau-automation",
+      "anthropic_centralstationcrm-automation",
+      "anthropic_chaser-automation",
+      "anthropic_chatbotkit-automation",
+      "anthropic_chatfai-automation",
+      "anthropic_chmeetings-automation",
+      "anthropic_cincopa-automation",
+      "anthropic_claid-ai-automation",
+      "anthropic_classmarker-automation",
+      "anthropic_clearout-automation",
+      "anthropic_clickmeeting-automation",
+      "anthropic_cloudcart-automation",
+      "anthropic_cloudconvert-automation",
+      "anthropic_cloudflare-browser-rendering-automation",
+      "anthropic_cloudlayer-automation",
+      "anthropic_cloudpress-automation",
+      "anthropic_coassemble-automation",
+      "anthropic_codacy-automation",
+      "anthropic_codeinterpreter-automation",
+      "anthropic_codereadr-automation",
+      "anthropic_coinranking-automation",
+      "anthropic_college-football-data-automation",
+      "anthropic_connecteam-automation",
+      "anthropic_contentful-graphql-automation",
+      "anthropic_control-d-automation",
+      "anthropic_conversion-tools-automation",
+      "anthropic_convertapi-automation",
+      "anthropic_conveyor-automation",
+      "anthropic_convolo-ai-automation",
+      "anthropic_corrently-automation",
+      "anthropic_countdown-api-automation",
+      "anthropic_coupa-automation",
+      "anthropic_craftmypdf-automation",
+      "anthropic_crowdin-automation",
+      "anthropic_crustdata-automation",
+      "anthropic_cults-automation",
+      "anthropic_curated-automation",
+      "anthropic_currents-api-automation",
+      "anthropic_customgpt-automation",
+      "anthropic_customjs-automation",
+      "anthropic_cutt-ly-automation",
+      "anthropic_d2lbrightspace-automation",
+      "anthropic_dadata-ru-automation",
+      "anthropic_daffy-automation",
+      "anthropic_dailybot-automation",
+      "anthropic_datagma-automation",
+      "anthropic_datarobot-automation",
+      "anthropic_deadline-funnel-automation",
+      "anthropic_deel-automation",
+      "anthropic_deepgram-automation",
+      "anthropic_demio-automation",
+      "anthropic_desktime-automation",
+      "anthropic_detrack-automation",
+      "anthropic_dictionary-api-automation",
+      "anthropic_diffbot-automation",
+      "anthropic_digicert-automation",
+      "anthropic_digital-ocean-automation",
+      "anthropic_discordbot-automation",
+      "anthropic_dnsfilter-automation",
+      "anthropic_dock-certs-automation",
+      "anthropic_docsbot-ai-automation",
+      "anthropic_docugenerate-automation",
+      "anthropic_docupilot-automation",
+      "anthropic_docuseal-automation",
+      "anthropic_doppler-marketing-automation-automation",
+      "anthropic_doppler-secretops-automation",
+      "anthropic_dotsimple-automation",
+      "anthropic_dovetail-automation",
+      "anthropic_dpd2-automation",
+      "anthropic_draftable-automation",
+      "anthropic_dreamstudio-automation",
+      "anthropic_dromo-automation",
+      "anthropic_dropbox-sign-automation",
+      "anthropic_dropcontact-automation",
+      "anthropic_echtpost-automation",
+      "anthropic_elorus-automation",
+      "anthropic_emailable-automation",
+      "anthropic_emaillistverify-automation"
+    ],
+    "canonical_verb": "search",
+    "canonical_objects": [
+      "data",
+      "pdf",
+      "email"
+    ],
+    "members": [
+      {
+        "skill_id": "anthropic_-21risk-automation",
+        "skill_name": "-21risk-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific 21risk task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_abuselpdb-automation",
+        "skill_name": "abuselpdb-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Abuselpdb task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_abyssale-automation",
+        "skill_name": "abyssale-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Abyssale task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_addresszen-automation",
+        "skill_name": "addresszen-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Addresszen task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_adobe-automation",
+        "skill_name": "adobe-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Adobe task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_aero-workflow-automation",
+        "skill_name": "aero-workflow-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Aero Workflow task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_aeroleads-automation",
+        "skill_name": "aeroleads-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Aeroleads task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_affinda-automation",
+        "skill_name": "affinda-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Affinda task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_affinity-automation",
+        "skill_name": "affinity-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Affinity task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_agencyzoom-automation",
+        "skill_name": "agencyzoom-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Agencyzoom task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_agent-mail-automation",
+        "skill_name": "agent-mail-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Agent Mail task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_agentql-automation",
+        "skill_name": "agentql-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Agentql task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_agility-cms-automation",
+        "skill_name": "agility-cms-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Agility CMS task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_ai-ml-api-automation",
+        "skill_name": "ai-ml-api-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific AI ML API task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_aivoov-automation",
+        "skill_name": "aivoov-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Aivoov task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_alchemy-automation",
+        "skill_name": "alchemy-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Alchemy task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_algodocs-automation",
+        "skill_name": "algodocs-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Algodocs task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_algolia-automation",
+        "skill_name": "algolia-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Algolia task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_all-images-ai-automation",
+        "skill_name": "all-images-ai-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific All Images AI task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_alpha-vantage-automation",
+        "skill_name": "alpha-vantage-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Alpha Vantage task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_altoviz-automation",
+        "skill_name": "altoviz-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Altoviz task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_alttext-ai-automation",
+        "skill_name": "alttext-ai-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Alttext AI task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_amazon-automation",
+        "skill_name": "amazon-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Amazon task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_ambient-weather-automation",
+        "skill_name": "ambient-weather-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Ambient Weather task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_anonyflow-automation",
+        "skill_name": "anonyflow-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Anonyflow task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_apex27-automation",
+        "skill_name": "apex27-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Apex27 task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_api-bible-automation",
+        "skill_name": "api-bible-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific API Bible task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_api-labz-automation",
+        "skill_name": "api-labz-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific API Labz task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_api-ninjas-automation",
+        "skill_name": "api-ninjas-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific API Ninjas task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_api-sports-automation",
+        "skill_name": "api-sports-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific API Sports task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_api2pdf-automation",
+        "skill_name": "api2pdf-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Api2pdf task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_apiflash-automation",
+        "skill_name": "apiflash-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Apiflash task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_apitemplate-io-automation",
+        "skill_name": "apitemplate-io-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Apitemplate IO task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_appcircle-automation",
+        "skill_name": "appcircle-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Appcircle task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_appdrag-automation",
+        "skill_name": "appdrag-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Appdrag task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_appointo-automation",
+        "skill_name": "appointo-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Appointo task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_appsflyer-automation",
+        "skill_name": "appsflyer-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Appsflyer task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_appveyor-automation",
+        "skill_name": "appveyor-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Appveyor task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_aryn-automation",
+        "skill_name": "aryn-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Aryn task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_ascora-automation",
+        "skill_name": "ascora-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Ascora task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_asin-data-api-automation",
+        "skill_name": "asin-data-api-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Asin Data API task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_astica-ai-automation",
+        "skill_name": "astica-ai-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Astica AI task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_async-interview-automation",
+        "skill_name": "async-interview-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Async Interview task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_atlassian-automation",
+        "skill_name": "atlassian-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Atlassian task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_auth0-automation",
+        "skill_name": "auth0-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Auth0 task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_autobound-automation",
+        "skill_name": "autobound-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Autobound task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_axonaut-automation",
+        "skill_name": "axonaut-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Axonaut task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_ayrshare-automation",
+        "skill_name": "ayrshare-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Ayrshare task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_backendless-automation",
+        "skill_name": "backendless-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Backendless task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_bannerbear-automation",
+        "skill_name": "bannerbear-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Bannerbear task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_bart-automation",
+        "skill_name": "bart-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Bart task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_baselinker-automation",
+        "skill_name": "baselinker-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Baselinker task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_baserow-automation",
+        "skill_name": "baserow-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Baserow task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_basin-automation",
+        "skill_name": "basin-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Basin task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_battlenet-automation",
+        "skill_name": "battlenet-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Battlenet task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_beaconchain-automation",
+        "skill_name": "beaconchain-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Beaconchain task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_beaconstac-automation",
+        "skill_name": "beaconstac-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Beaconstac task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_beamer-automation",
+        "skill_name": "beamer-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Beamer task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_beeminder-automation",
+        "skill_name": "beeminder-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Beeminder task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_bench-automation",
+        "skill_name": "bench-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Bench task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_benchmark-email-automation",
+        "skill_name": "benchmark-email-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Benchmark Email task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_benzinga-automation",
+        "skill_name": "benzinga-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Benzinga task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_bestbuy-automation",
+        "skill_name": "bestbuy-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Bestbuy task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_better-proposals-automation",
+        "skill_name": "better-proposals-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Better Proposals task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_better-stack-automation",
+        "skill_name": "better-stack-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Better Stack task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_bidsketch-automation",
+        "skill_name": "bidsketch-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Bidsketch task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_big-data-cloud-automation",
+        "skill_name": "big-data-cloud-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Big Data Cloud task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_bigmailer-automation",
+        "skill_name": "bigmailer-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Bigmailer task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_bigml-automation",
+        "skill_name": "bigml-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Bigml task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_bigpicture-io-automation",
+        "skill_name": "bigpicture-io-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Bigpicture IO task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_bitquery-automation",
+        "skill_name": "bitquery-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Bitquery task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_bitwarden-automation",
+        "skill_name": "bitwarden-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Bitwarden task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_blackbaud-automation",
+        "skill_name": "blackbaud-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Blackbaud task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_blackboard-automation",
+        "skill_name": "blackboard-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Blackboard task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_blocknative-automation",
+        "skill_name": "blocknative-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Blocknative task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_boldsign-automation",
+        "skill_name": "boldsign-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Boldsign task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_bolna-automation",
+        "skill_name": "bolna-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Bolna task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_boloforms-automation",
+        "skill_name": "boloforms-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Boloforms task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_bolt-iot-automation",
+        "skill_name": "bolt-iot-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Bolt Iot task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_bonsai-automation",
+        "skill_name": "bonsai-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Bonsai task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_bookingmood-automation",
+        "skill_name": "bookingmood-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Bookingmood task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_booqable-automation",
+        "skill_name": "booqable-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Booqable task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_borneo-automation",
+        "skill_name": "borneo-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Borneo task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_bouncer-automation",
+        "skill_name": "bouncer-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Bouncer task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_boxhero-automation",
+        "skill_name": "boxhero-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Boxhero task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_brandfetch-automation",
+        "skill_name": "brandfetch-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Brandfetch task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_breeze-automation",
+        "skill_name": "breeze-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Breeze task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_breezy-hr-automation",
+        "skill_name": "breezy-hr-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Breezy HR task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_brightdata-automation",
+        "skill_name": "brightdata-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Brightdata task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_brightpearl-automation",
+        "skill_name": "brightpearl-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Brightpearl task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_brilliant-directories-automation",
+        "skill_name": "brilliant-directories-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Brilliant Directories task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_browseai-automation",
+        "skill_name": "browseai-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Browseai task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_btcpay-server-automation",
+        "skill_name": "btcpay-server-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Btcpay Server task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_bubble-automation",
+        "skill_name": "bubble-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Bubble task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_buildkite-automation",
+        "skill_name": "buildkite-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Buildkite task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_builtwith-automation",
+        "skill_name": "builtwith-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Builtwith task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_bunnycdn-automation",
+        "skill_name": "bunnycdn-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Bunnycdn task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_byteforms-automation",
+        "skill_name": "byteforms-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Byteforms task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_cabinpanda-automation",
+        "skill_name": "cabinpanda-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Cabinpanda task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_cal-automation",
+        "skill_name": "cal-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Cal task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_calendarhero-automation",
+        "skill_name": "calendarhero-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Calendarhero task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_callerapi-automation",
+        "skill_name": "callerapi-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Callerapi task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_campayn-automation",
+        "skill_name": "campayn-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Campayn task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_canny-automation",
+        "skill_name": "canny-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Canny task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_canvas-automation",
+        "skill_name": "canvas-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Canvas task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_capsule_crm-automation",
+        "skill_name": "capsule_crm-automation",
+        "unit_index": 5,
+        "title": "1. Discover Available Capsule CRM Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS:\n  queries:\n    - use_case: \"list all available Capsule CRM tools and capabilities\"\n```\n\n\nReview the returned tools, their descriptions, and input schemas before proceeding."
+      },
+      {
+        "skill_id": "anthropic_carbone-automation",
+        "skill_name": "carbone-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Carbone task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_castingwords-automation",
+        "skill_name": "castingwords-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Castingwords task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_cats-automation",
+        "skill_name": "cats-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Cats task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_cdr-platform-automation",
+        "skill_name": "cdr-platform-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Cdr Platform task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_census-bureau-automation",
+        "skill_name": "census-bureau-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Census Bureau task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_centralstationcrm-automation",
+        "skill_name": "centralstationcrm-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Centralstationcrm task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_chaser-automation",
+        "skill_name": "chaser-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Chaser task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_chatbotkit-automation",
+        "skill_name": "chatbotkit-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Chatbotkit task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_chatfai-automation",
+        "skill_name": "chatfai-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Chatfai task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_chmeetings-automation",
+        "skill_name": "chmeetings-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Chmeetings task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_cincopa-automation",
+        "skill_name": "cincopa-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Cincopa task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_claid-ai-automation",
+        "skill_name": "claid-ai-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Claid AI task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_classmarker-automation",
+        "skill_name": "classmarker-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Classmarker task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_clearout-automation",
+        "skill_name": "clearout-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Clearout task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_clickmeeting-automation",
+        "skill_name": "clickmeeting-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Clickmeeting task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_cloudcart-automation",
+        "skill_name": "cloudcart-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Cloudcart task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_cloudconvert-automation",
+        "skill_name": "cloudconvert-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Cloudconvert task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_cloudflare-browser-rendering-automation",
+        "skill_name": "cloudflare-browser-rendering-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Cloudflare Browser Rendering task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_cloudlayer-automation",
+        "skill_name": "cloudlayer-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Cloudlayer task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_cloudpress-automation",
+        "skill_name": "cloudpress-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Cloudpress task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_coassemble-automation",
+        "skill_name": "coassemble-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Coassemble task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_codacy-automation",
+        "skill_name": "codacy-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Codacy task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_codeinterpreter-automation",
+        "skill_name": "codeinterpreter-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Codeinterpreter task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_codereadr-automation",
+        "skill_name": "codereadr-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Codereadr task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_coinranking-automation",
+        "skill_name": "coinranking-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Coinranking task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_college-football-data-automation",
+        "skill_name": "college-football-data-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific College Football Data task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_connecteam-automation",
+        "skill_name": "connecteam-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Connecteam task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_contentful-graphql-automation",
+        "skill_name": "contentful-graphql-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Contentful Graphql task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_control-d-automation",
+        "skill_name": "control-d-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Control D task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_conversion-tools-automation",
+        "skill_name": "conversion-tools-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Conversion Tools task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_convertapi-automation",
+        "skill_name": "convertapi-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Convertapi task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_conveyor-automation",
+        "skill_name": "conveyor-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Conveyor task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_convolo-ai-automation",
+        "skill_name": "convolo-ai-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Convolo AI task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_corrently-automation",
+        "skill_name": "corrently-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Corrently task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_countdown-api-automation",
+        "skill_name": "countdown-api-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Countdown API task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_coupa-automation",
+        "skill_name": "coupa-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Coupa task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_craftmypdf-automation",
+        "skill_name": "craftmypdf-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Craftmypdf task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_crowdin-automation",
+        "skill_name": "crowdin-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Crowdin task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_crustdata-automation",
+        "skill_name": "crustdata-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Crustdata task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_cults-automation",
+        "skill_name": "cults-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Cults task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_curated-automation",
+        "skill_name": "curated-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Curated task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_currents-api-automation",
+        "skill_name": "currents-api-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Currents API task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_customgpt-automation",
+        "skill_name": "customgpt-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Customgpt task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_customjs-automation",
+        "skill_name": "customjs-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Customjs task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_cutt-ly-automation",
+        "skill_name": "cutt-ly-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Cutt Ly task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_d2lbrightspace-automation",
+        "skill_name": "d2lbrightspace-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific D2lbrightspace task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_dadata-ru-automation",
+        "skill_name": "dadata-ru-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Dadata Ru task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_daffy-automation",
+        "skill_name": "daffy-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Daffy task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_dailybot-automation",
+        "skill_name": "dailybot-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Dailybot task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_datagma-automation",
+        "skill_name": "datagma-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Datagma task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_datarobot-automation",
+        "skill_name": "datarobot-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Datarobot task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_deadline-funnel-automation",
+        "skill_name": "deadline-funnel-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Deadline Funnel task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_deel-automation",
+        "skill_name": "deel-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Deel task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_deepgram-automation",
+        "skill_name": "deepgram-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Deepgram task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_demio-automation",
+        "skill_name": "demio-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Demio task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_desktime-automation",
+        "skill_name": "desktime-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Desktime task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_detrack-automation",
+        "skill_name": "detrack-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Detrack task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_dictionary-api-automation",
+        "skill_name": "dictionary-api-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Dictionary API task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_diffbot-automation",
+        "skill_name": "diffbot-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Diffbot task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_digicert-automation",
+        "skill_name": "digicert-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Digicert task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_digital-ocean-automation",
+        "skill_name": "digital-ocean-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific DigitalOcean task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_discordbot-automation",
+        "skill_name": "discordbot-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Discordbot task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_dnsfilter-automation",
+        "skill_name": "dnsfilter-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Dnsfilter task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_dock-certs-automation",
+        "skill_name": "dock-certs-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Dock Certs task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_docsbot-ai-automation",
+        "skill_name": "docsbot-ai-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Docsbot AI task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_docugenerate-automation",
+        "skill_name": "docugenerate-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Docugenerate task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_docupilot-automation",
+        "skill_name": "docupilot-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Docupilot task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_docuseal-automation",
+        "skill_name": "docuseal-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Docuseal task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_doppler-marketing-automation-automation",
+        "skill_name": "doppler-marketing-automation-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Doppler Marketing Automation task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_doppler-secretops-automation",
+        "skill_name": "doppler-secretops-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Doppler Secretops task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_dotsimple-automation",
+        "skill_name": "dotsimple-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Dotsimple task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_dovetail-automation",
+        "skill_name": "dovetail-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Dovetail task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_dpd2-automation",
+        "skill_name": "dpd2-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Dpd2 task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_draftable-automation",
+        "skill_name": "draftable-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Draftable task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_dreamstudio-automation",
+        "skill_name": "dreamstudio-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Dreamstudio task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_dromo-automation",
+        "skill_name": "dromo-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Dromo task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_dropbox-sign-automation",
+        "skill_name": "dropbox-sign-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Dropbox Sign task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_dropcontact-automation",
+        "skill_name": "dropcontact-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Dropcontact task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_echtpost-automation",
+        "skill_name": "echtpost-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Echtpost task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_elorus-automation",
+        "skill_name": "elorus-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Elorus task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_emailable-automation",
+        "skill_name": "emailable-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Emailable task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_emaillistverify-automation",
+        "skill_name": "emaillistverify-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Emaillistverify task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      }
+    ],
+    "_negative_control_class": "D_swapped_contract",
+    "_swap_source_contract_from": "text_cand_098",
+    "_swap_member_cluster": "text_cand_038"
+  },
+  {
+    "candidate_id": "neg_D_swap_004",
+    "n_units": 2,
+    "n_distinct_skills": 2,
+    "distinct_skills": [
+      "anthropic_gemini-count-in-video",
+      "anthropic_gemini-video-understanding"
+    ],
+    "canonical_verb": null,
+    "canonical_objects": [],
+    "members": [
+      {
+        "skill_id": "anthropic_gemini-count-in-video",
+        "skill_name": "gemini-count-in-video",
+        "unit_index": 3,
+        "title": "Required Libraries",
+        "level": 2,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "The following Python libraries are required:\n\n\n```python\nfrom google import genai\nfrom google.genai import types\nimport os\nimport time\n```"
+      },
+      {
+        "skill_id": "anthropic_gemini-video-understanding",
+        "skill_name": "gemini-video-understanding",
+        "unit_index": 3,
+        "title": "Required Libraries",
+        "level": 2,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "The following Python libraries are required:\n\n\n```python\nfrom google import genai\nfrom google.genai import types\nimport os\nimport time\n```"
+      }
+    ],
+    "_negative_control_class": "D_swapped_contract",
+    "_swap_source_contract_from": "text_cand_023",
+    "_swap_member_cluster": "text_cand_010"
+  },
+  {
+    "candidate_id": "neg_D_swap_005",
+    "n_units": 10,
+    "n_distinct_skills": 3,
+    "distinct_skills": [
+      "anthropic_alfworld-object-cooler",
+      "anthropic_alfworld-object-state-modifier",
+      "anthropic_alfworld-temperature-regulator"
+    ],
+    "canonical_verb": "verify",
+    "canonical_objects": [],
+    "members": [
+      {
+        "skill_id": "anthropic_alfworld-object-cooler",
+        "skill_name": "alfworld-object-cooler",
+        "unit_index": 3,
+        "title": "Core Action",
+        "level": 2,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "Execute the `cool` action with the format: `cool {obj} with {recep}`."
+      },
+      {
+        "skill_id": "anthropic_alfworld-object-cooler",
+        "skill_name": "alfworld-object-cooler",
+        "unit_index": 5,
+        "title": "Example from Trajectory",
+        "level": 2,
+        "n_bullets": 3,
+        "linked_scripts": [],
+        "text_preview": "*   **State:** Holding `pot 1`, at `fridge 1`.\n*   **Action:** `cool pot 1 with fridge 1`\n*   **Result:** Observation: \"You cool the pot 1 using the fridge 1.\""
+      },
+      {
+        "skill_id": "anthropic_alfworld-object-cooler",
+        "skill_name": "alfworld-object-cooler",
+        "unit_index": 6,
+        "title": "Next Steps",
+        "level": 2,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "After successful cooling, the object is ready for the next task step (e.g., `put {obj} in/on {recep}`)."
+      },
+      {
+        "skill_id": "anthropic_alfworld-object-state-modifier",
+        "skill_name": "alfworld-object-state-modifier",
+        "unit_index": 4,
+        "title": "Example",
+        "level": 2,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "**Scenario:** You need to cool a tomato using the fridge.\n\n\n```\nThought: I'm holding tomato 1 and need to cool it. I'll go to the fridge.\nAction: go to fridge 1\nObservation: The fridge 1 is closed.\nAction: open fridge 1\nObservation: You open the fridge 1. The fridge 1 is open. In it, you see a lettu"
+      },
+      {
+        "skill_id": "anthropic_alfworld-temperature-regulator",
+        "skill_name": "alfworld-temperature-regulator",
+        "unit_index": 0,
+        "title": "Instructions",
+        "level": 1,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "This skill executes a sequence to change an object's temperature by placing it in a specific receptacle (e.g., fridge for cooling, microwave for heating) and then relocating it to a final target location."
+      },
+      {
+        "skill_id": "anthropic_alfworld-temperature-regulator",
+        "skill_name": "alfworld-temperature-regulator",
+        "unit_index": 1,
+        "title": "1. Input Validation & Planning",
+        "level": 2,
+        "n_bullets": 3,
+        "linked_scripts": [],
+        "text_preview": "*   **Inputs Required:** The `object` identifier (e.g., `bread 1`) and the `temperature_receptacle` identifier (e.g., `fridge 1` for cooling, `microwave 1` for heating). The final `target_receptacle` (e.g., `diningtable 1`) is also required.\n*   **Verify** the provided object and receptacles exist i"
+      },
+      {
+        "skill_id": "anthropic_alfworld-temperature-regulator",
+        "skill_name": "alfworld-temperature-regulator",
+        "unit_index": 2,
+        "title": "2. Execution Sequence",
+        "level": 2,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "Follow this core logic. Use deterministic scripts for error-prone steps (see `scripts/`).\n1.  **Acquire Object:** `go to` the object's location, then `take {object} from {recep}`.\n2.  **Apply Temperature Effect:**\n    *   `go to {temperature_receptacle}`.\n    *   If the receptacle is reported as \"cl"
+      },
+      {
+        "skill_id": "anthropic_alfworld-temperature-regulator",
+        "skill_name": "alfworld-temperature-regulator",
+        "unit_index": 3,
+        "title": "3. Error Handling & Observations",
+        "level": 2,
+        "n_bullets": 3,
+        "linked_scripts": [],
+        "text_preview": "*   If an action results in \"Nothing happened\", consult the troubleshooting guide in `references/troubleshooting.md`.\n*   Always verify the state change after each action (e.g., \"You pick up...\", \"You open...\", \"You put...\").\n*   If the object is not at the expected location, pause execution and re-"
+      },
+      {
+        "skill_id": "anthropic_alfworld-temperature-regulator",
+        "skill_name": "alfworld-temperature-regulator",
+        "unit_index": 4,
+        "title": "4. Example",
+        "level": 2,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "**Task:** \"Cool some bread and put it on the diningtable.\"\n\n**Input:** `object: bread 1`, `temperature_receptacle: fridge 1`, `target_receptacle: diningtable 1`\n\n**Sequence:**\n1. `go to countertop 1` → Observation: \"You are at countertop 1. You see bread 1, ...\"\n2. `take bread 1 from countertop 1` →"
+      },
+      {
+        "skill_id": "anthropic_alfworld-temperature-regulator",
+        "skill_name": "alfworld-temperature-regulator",
+        "unit_index": 5,
+        "title": "5. Completion",
+        "level": 2,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "The skill is complete when the object has been placed into the `temperature_receptacle` and subsequently placed onto the `target_receptacle`. Confirm the final observation states the object is on the target."
+      }
+    ],
+    "_negative_control_class": "D_swapped_contract",
+    "_swap_source_contract_from": "text_cand_000",
+    "_swap_member_cluster": "text_cand_087"
+  },
+  {
+    "candidate_id": "neg_D_swap_006",
+    "n_units": 10,
+    "n_distinct_skills": 3,
+    "distinct_skills": [
+      "anthropic_alfworld-object-cooler",
+      "anthropic_alfworld-object-state-modifier",
+      "anthropic_alfworld-temperature-regulator"
+    ],
+    "canonical_verb": "verify",
+    "canonical_objects": [],
+    "members": [
+      {
+        "skill_id": "anthropic_alfworld-object-cooler",
+        "skill_name": "alfworld-object-cooler",
+        "unit_index": 3,
+        "title": "Core Action",
+        "level": 2,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "Execute the `cool` action with the format: `cool {obj} with {recep}`."
+      },
+      {
+        "skill_id": "anthropic_alfworld-object-cooler",
+        "skill_name": "alfworld-object-cooler",
+        "unit_index": 5,
+        "title": "Example from Trajectory",
+        "level": 2,
+        "n_bullets": 3,
+        "linked_scripts": [],
+        "text_preview": "*   **State:** Holding `pot 1`, at `fridge 1`.\n*   **Action:** `cool pot 1 with fridge 1`\n*   **Result:** Observation: \"You cool the pot 1 using the fridge 1.\""
+      },
+      {
+        "skill_id": "anthropic_alfworld-object-cooler",
+        "skill_name": "alfworld-object-cooler",
+        "unit_index": 6,
+        "title": "Next Steps",
+        "level": 2,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "After successful cooling, the object is ready for the next task step (e.g., `put {obj} in/on {recep}`)."
+      },
+      {
+        "skill_id": "anthropic_alfworld-object-state-modifier",
+        "skill_name": "alfworld-object-state-modifier",
+        "unit_index": 4,
+        "title": "Example",
+        "level": 2,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "**Scenario:** You need to cool a tomato using the fridge.\n\n\n```\nThought: I'm holding tomato 1 and need to cool it. I'll go to the fridge.\nAction: go to fridge 1\nObservation: The fridge 1 is closed.\nAction: open fridge 1\nObservation: You open the fridge 1. The fridge 1 is open. In it, you see a lettu"
+      },
+      {
+        "skill_id": "anthropic_alfworld-temperature-regulator",
+        "skill_name": "alfworld-temperature-regulator",
+        "unit_index": 0,
+        "title": "Instructions",
+        "level": 1,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "This skill executes a sequence to change an object's temperature by placing it in a specific receptacle (e.g., fridge for cooling, microwave for heating) and then relocating it to a final target location."
+      },
+      {
+        "skill_id": "anthropic_alfworld-temperature-regulator",
+        "skill_name": "alfworld-temperature-regulator",
+        "unit_index": 1,
+        "title": "1. Input Validation & Planning",
+        "level": 2,
+        "n_bullets": 3,
+        "linked_scripts": [],
+        "text_preview": "*   **Inputs Required:** The `object` identifier (e.g., `bread 1`) and the `temperature_receptacle` identifier (e.g., `fridge 1` for cooling, `microwave 1` for heating). The final `target_receptacle` (e.g., `diningtable 1`) is also required.\n*   **Verify** the provided object and receptacles exist i"
+      },
+      {
+        "skill_id": "anthropic_alfworld-temperature-regulator",
+        "skill_name": "alfworld-temperature-regulator",
+        "unit_index": 2,
+        "title": "2. Execution Sequence",
+        "level": 2,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "Follow this core logic. Use deterministic scripts for error-prone steps (see `scripts/`).\n1.  **Acquire Object:** `go to` the object's location, then `take {object} from {recep}`.\n2.  **Apply Temperature Effect:**\n    *   `go to {temperature_receptacle}`.\n    *   If the receptacle is reported as \"cl"
+      },
+      {
+        "skill_id": "anthropic_alfworld-temperature-regulator",
+        "skill_name": "alfworld-temperature-regulator",
+        "unit_index": 3,
+        "title": "3. Error Handling & Observations",
+        "level": 2,
+        "n_bullets": 3,
+        "linked_scripts": [],
+        "text_preview": "*   If an action results in \"Nothing happened\", consult the troubleshooting guide in `references/troubleshooting.md`.\n*   Always verify the state change after each action (e.g., \"You pick up...\", \"You open...\", \"You put...\").\n*   If the object is not at the expected location, pause execution and re-"
+      },
+      {
+        "skill_id": "anthropic_alfworld-temperature-regulator",
+        "skill_name": "alfworld-temperature-regulator",
+        "unit_index": 4,
+        "title": "4. Example",
+        "level": 2,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "**Task:** \"Cool some bread and put it on the diningtable.\"\n\n**Input:** `object: bread 1`, `temperature_receptacle: fridge 1`, `target_receptacle: diningtable 1`\n\n**Sequence:**\n1. `go to countertop 1` → Observation: \"You are at countertop 1. You see bread 1, ...\"\n2. `take bread 1 from countertop 1` →"
+      },
+      {
+        "skill_id": "anthropic_alfworld-temperature-regulator",
+        "skill_name": "alfworld-temperature-regulator",
+        "unit_index": 5,
+        "title": "5. Completion",
+        "level": 2,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "The skill is complete when the object has been placed into the `temperature_receptacle` and subsequently placed onto the `target_receptacle`. Confirm the final observation states the object is on the target."
+      }
+    ],
+    "_negative_control_class": "D_swapped_contract",
+    "_swap_source_contract_from": "text_cand_059",
+    "_swap_member_cluster": "text_cand_087"
+  },
+  {
+    "candidate_id": "neg_D_swap_007",
+    "n_units": 22,
+    "n_distinct_skills": 9,
+    "distinct_skills": [
+      "anthropic_composio-automation",
+      "anthropic_composio-search-automation",
+      "anthropic_docmosis-automation",
+      "anthropic_docnify-automation",
+      "anthropic_docsumo-automation",
+      "anthropic_documenso-automation",
+      "anthropic_documint-automation",
+      "anthropic_docupost-automation",
+      "anthropic_docuseal-automation"
+    ],
+    "canonical_verb": "search",
+    "canonical_objects": [],
+    "members": [
+      {
+        "skill_id": "anthropic_composio-automation",
+        "skill_name": "composio-automation",
+        "unit_index": 6,
+        "title": "Step 2: Check Connection",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_MANAGE_CONNECTIONS\ntoolkits: [\"composio\"]\nsession_id: \"your_session_id\"\n```"
+      },
+      {
+        "skill_id": "anthropic_composio-search-automation",
+        "skill_name": "composio-search-automation",
+        "unit_index": 6,
+        "title": "Step 2: Check Connection",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_MANAGE_CONNECTIONS\ntoolkits: [\"composio_search\"]\nsession_id: \"your_session_id\"\n```"
+      },
+      {
+        "skill_id": "anthropic_docmosis-automation",
+        "skill_name": "docmosis-automation",
+        "unit_index": 1,
+        "title": "Prerequisites",
+        "level": 2,
+        "n_bullets": 3,
+        "linked_scripts": [],
+        "text_preview": "- Rube MCP must be connected (RUBE_SEARCH_TOOLS available)\n- Active Docmosis connection via `RUBE_MANAGE_CONNECTIONS` with toolkit `docmosis`\n- Always call `RUBE_SEARCH_TOOLS` first to get current tool schemas"
+      },
+      {
+        "skill_id": "anthropic_docmosis-automation",
+        "skill_name": "docmosis-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Docmosis task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_docnify-automation",
+        "skill_name": "docnify-automation",
+        "unit_index": 1,
+        "title": "Prerequisites",
+        "level": 2,
+        "n_bullets": 3,
+        "linked_scripts": [],
+        "text_preview": "- Rube MCP must be connected (RUBE_SEARCH_TOOLS available)\n- Active Docnify connection via `RUBE_MANAGE_CONNECTIONS` with toolkit `docnify`\n- Always call `RUBE_SEARCH_TOOLS` first to get current tool schemas"
+      },
+      {
+        "skill_id": "anthropic_docnify-automation",
+        "skill_name": "docnify-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Docnify task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_docsumo-automation",
+        "skill_name": "docsumo-automation",
+        "unit_index": 0,
+        "title": "Docsumo Automation via Rube MCP",
+        "level": 1,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "Automate Docsumo operations through Composio's Docsumo toolkit via Rube MCP.\n\n**Toolkit docs**: [composio.dev/toolkits/docsumo](https://composio.dev/toolkits/docsumo)"
+      },
+      {
+        "skill_id": "anthropic_docsumo-automation",
+        "skill_name": "docsumo-automation",
+        "unit_index": 1,
+        "title": "Prerequisites",
+        "level": 2,
+        "n_bullets": 3,
+        "linked_scripts": [],
+        "text_preview": "- Rube MCP must be connected (RUBE_SEARCH_TOOLS available)\n- Active Docsumo connection via `RUBE_MANAGE_CONNECTIONS` with toolkit `docsumo`\n- Always call `RUBE_SEARCH_TOOLS` first to get current tool schemas"
+      },
+      {
+        "skill_id": "anthropic_docsumo-automation",
+        "skill_name": "docsumo-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Docsumo task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_docsumo-automation",
+        "skill_name": "docsumo-automation",
+        "unit_index": 6,
+        "title": "Step 2: Check Connection",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_MANAGE_CONNECTIONS\ntoolkits: [\"docsumo\"]\nsession_id: \"your_session_id\"\n```"
+      },
+      {
+        "skill_id": "anthropic_documenso-automation",
+        "skill_name": "documenso-automation",
+        "unit_index": 0,
+        "title": "Documenso Automation via Rube MCP",
+        "level": 1,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "Automate Documenso operations through Composio's Documenso toolkit via Rube MCP.\n\n**Toolkit docs**: [composio.dev/toolkits/documenso](https://composio.dev/toolkits/documenso)"
+      },
+      {
+        "skill_id": "anthropic_documenso-automation",
+        "skill_name": "documenso-automation",
+        "unit_index": 1,
+        "title": "Prerequisites",
+        "level": 2,
+        "n_bullets": 3,
+        "linked_scripts": [],
+        "text_preview": "- Rube MCP must be connected (RUBE_SEARCH_TOOLS available)\n- Active Documenso connection via `RUBE_MANAGE_CONNECTIONS` with toolkit `documenso`\n- Always call `RUBE_SEARCH_TOOLS` first to get current tool schemas"
+      },
+      {
+        "skill_id": "anthropic_documenso-automation",
+        "skill_name": "documenso-automation",
+        "unit_index": 2,
+        "title": "Setup",
+        "level": 2,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "**Get Rube MCP**: Add `https://rube.app/mcp` as an MCP server in your client configuration. No API keys needed — just add the endpoint and it works.\n\n1. Verify Rube MCP is available by confirming `RUBE_SEARCH_TOOLS` responds\n2. Call `RUBE_MANAGE_CONNECTIONS` with toolkit `documenso`\n3. If connection"
+      },
+      {
+        "skill_id": "anthropic_documenso-automation",
+        "skill_name": "documenso-automation",
+        "unit_index": 4,
+        "title": "Core Workflow Pattern",
+        "level": 2,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": ""
+      },
+      {
+        "skill_id": "anthropic_documenso-automation",
+        "skill_name": "documenso-automation",
+        "unit_index": 6,
+        "title": "Step 2: Check Connection",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_MANAGE_CONNECTIONS\ntoolkits: [\"documenso\"]\nsession_id: \"your_session_id\"\n```"
+      },
+      {
+        "skill_id": "anthropic_documint-automation",
+        "skill_name": "documint-automation",
+        "unit_index": 0,
+        "title": "Documint Automation via Rube MCP",
+        "level": 1,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "Automate Documint operations through Composio's Documint toolkit via Rube MCP.\n\n**Toolkit docs**: [composio.dev/toolkits/documint](https://composio.dev/toolkits/documint)"
+      },
+      {
+        "skill_id": "anthropic_documint-automation",
+        "skill_name": "documint-automation",
+        "unit_index": 1,
+        "title": "Prerequisites",
+        "level": 2,
+        "n_bullets": 3,
+        "linked_scripts": [],
+        "text_preview": "- Rube MCP must be connected (RUBE_SEARCH_TOOLS available)\n- Active Documint connection via `RUBE_MANAGE_CONNECTIONS` with toolkit `documint`\n- Always call `RUBE_SEARCH_TOOLS` first to get current tool schemas"
+      },
+      {
+        "skill_id": "anthropic_documint-automation",
+        "skill_name": "documint-automation",
+        "unit_index": 2,
+        "title": "Setup",
+        "level": 2,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "**Get Rube MCP**: Add `https://rube.app/mcp` as an MCP server in your client configuration. No API keys needed — just add the endpoint and it works.\n\n1. Verify Rube MCP is available by confirming `RUBE_SEARCH_TOOLS` responds\n2. Call `RUBE_MANAGE_CONNECTIONS` with toolkit `documint`\n3. If connection "
+      },
+      {
+        "skill_id": "anthropic_documint-automation",
+        "skill_name": "documint-automation",
+        "unit_index": 4,
+        "title": "Core Workflow Pattern",
+        "level": 2,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": ""
+      },
+      {
+        "skill_id": "anthropic_documint-automation",
+        "skill_name": "documint-automation",
+        "unit_index": 6,
+        "title": "Step 2: Check Connection",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_MANAGE_CONNECTIONS\ntoolkits: [\"documint\"]\nsession_id: \"your_session_id\"\n```"
+      },
+      {
+        "skill_id": "anthropic_docupost-automation",
+        "skill_name": "docupost-automation",
+        "unit_index": 5,
+        "title": "Step 1: Discover Available Tools",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "```\nRUBE_SEARCH_TOOLS\nqueries: [{use_case: \"your specific Docupost task\"}]\nsession: {id: \"existing_session_id\"}\n```"
+      },
+      {
+        "skill_id": "anthropic_docuseal-automation",
+        "skill_name": "docuseal-automation",
+        "unit_index": 1,
+        "title": "Prerequisites",
+        "level": 2,
+        "n_bullets": 3,
+        "linked_scripts": [],
+        "text_preview": "- Rube MCP must be connected (RUBE_SEARCH_TOOLS available)\n- Active Docuseal connection via `RUBE_MANAGE_CONNECTIONS` with toolkit `docuseal`\n- Always call `RUBE_SEARCH_TOOLS` first to get current tool schemas"
+      }
+    ],
+    "_negative_control_class": "D_swapped_contract",
+    "_swap_source_contract_from": "text_cand_075",
+    "_swap_member_cluster": "text_cand_001"
+  },
+  {
+    "candidate_id": "neg_D_swap_008",
+    "n_units": 6,
+    "n_distinct_skills": 3,
+    "distinct_skills": [
+      "anthropic_alfworld-inventory-management",
+      "anthropic_alfworld-object-picker",
+      "anthropic_alfworld-object-transporter"
+    ],
+    "canonical_verb": "format",
+    "canonical_objects": [],
+    "members": [
+      {
+        "skill_id": "anthropic_alfworld-inventory-management",
+        "skill_name": "alfworld-inventory-management",
+        "unit_index": 6,
+        "title": "4. Per-Object Cycle",
+        "level": 3,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "For each object instance found, follow this exact sequence:\n1. `take {object} from {current_receptacle}`\n2. `go to {target_receptacle}`\n3. `put {object} in/on {target_receptacle}`\n4. Update counter: `collected += 1`\n5. If `collected < needed`, navigate to next unsearched receptacle"
+      },
+      {
+        "skill_id": "anthropic_alfworld-object-picker",
+        "skill_name": "alfworld-object-picker",
+        "unit_index": 1,
+        "title": "Inputs",
+        "level": 2,
+        "n_bullets": 2,
+        "linked_scripts": [],
+        "text_preview": "- `object`: The identifier of the object to pick up (e.g., \"toiletpaper 1\").\n- `source_receptacle`: The identifier of the receptacle where the object is located (e.g., \"toilet 1\")."
+      },
+      {
+        "skill_id": "anthropic_alfworld-object-picker",
+        "skill_name": "alfworld-object-picker",
+        "unit_index": 3,
+        "title": "Output",
+        "level": 2,
+        "n_bullets": 2,
+        "linked_scripts": [],
+        "text_preview": "- The specified object is transferred to the agent's inventory.\n- The agent receives an observation confirming the successful pickup (e.g., \"You pick up the {object} from the {source_receptacle}\")."
+      },
+      {
+        "skill_id": "anthropic_alfworld-object-transporter",
+        "skill_name": "alfworld-object-transporter",
+        "unit_index": 0,
+        "title": "Instructions",
+        "level": 1,
+        "n_bullets": 0,
+        "linked_scripts": [],
+        "text_preview": "Pick up an object from its current location and transport it to a destination receptacle."
+      },
+      {
+        "skill_id": "anthropic_alfworld-object-transporter",
+        "skill_name": "alfworld-object-transporter",
+        "unit_index": 2,
+        "title": "Action Format",
+        "level": 2,
+        "n_bullets": 3,
+        "linked_scripts": [],
+        "text_preview": "- `go to {receptacle}`\n- `take {object} from {receptacle}`\n- `put {object} in/on {receptacle}`"
+      },
+      {
+        "skill_id": "anthropic_alfworld-object-transporter",
+        "skill_name": "alfworld-object-transporter",
+        "unit_index": 3,
+        "title": "Error Recovery",
+        "level": 2,
+        "n_bullets": 3,
+        "linked_scripts": [],
+        "text_preview": "- \"Nothing happened\" on take: verify you are at the correct receptacle and the object name matches the observation\n- \"Nothing happened\" on put: verify you are holding the object and at the correct destination\n- Object not visible: re-scan the environment to locate it before retrying"
+      }
+    ],
+    "_negative_control_class": "D_swapped_contract",
+    "_swap_source_contract_from": "text_cand_031",
+    "_swap_member_cluster": "text_cand_099"
+  },
+  {
+    "candidate_id": "neg_D_swap_009",
+    "n_units": 4,
+    "n_distinct_skills": 3,
+    "distinct_skills": [
+      "anthropic_gpt-multimodal",
+      "anthropic_output-validation",
+      "anthropic_video-frame-extraction"
+    ],
+    "canonical_verb": "check",
+    "canonical_objects": [
+      "json",
+      "video",
+      "metadata"
+    ],
+    "members": [
+      {
+        "skill_id": "anthropic_gpt-multimodal",
+        "skill_name": "gpt-multimodal",
+        "unit_index": 30,
+        "title": "Quality Self-Check",
+        "level": 2,
+        "n_bullets": 8,
+        "linked_scripts": [],
+        "text_preview": "Before returning results, verify:\n\n- [ ] Output is valid JSON (use `json.loads()` to validate)\n- [ ] All required fields are present and properly typed\n- [ ] API errors are caught and handled gracefully\n- [ ] Token usage is tracked and within limits\n- [ ] Image formats are supported (JPG, PNG, WEBP,"
+      },
+      {
+        "skill_id": "anthropic_output-validation",
+        "skill_name": "output-validation",
+        "unit_index": 1,
+        "title": "Checks",
+        "level": 1,
+        "n_bullets": 5,
+        "linked_scripts": [],
+        "text_preview": "- **Key format**: every key is `\"{start}->{end}\"`, integers only, `start<=end`.\n- **Coverage**: max frame index ≤ video total-1; consistent with your sampling policy.\n- **Frame count**: NPZ `f_{i}_*` count equals sampled frame count; no gaps or missing components.\n- **CSR integrity**: each frame has"
+      },
+      {
+        "skill_id": "anthropic_output-validation",
+        "skill_name": "output-validation",
+        "unit_index": 3,
+        "title": "Self-check list",
+        "level": 1,
+        "n_bullets": 4,
+        "linked_scripts": [],
+        "text_preview": "- [ ] JSON keys/values pass format checks.\n- [ ] Max frame index within video range and near sampled max.\n- [ ] NPZ frame count matches sampling; keys consecutive.\n- [ ] CSR structure and `shape` validated."
+      },
+      {
+        "skill_id": "anthropic_video-frame-extraction",
+        "skill_name": "video-frame-extraction",
+        "unit_index": 21,
+        "title": "Quality Self-Check",
+        "level": 2,
+        "n_bullets": 7,
+        "linked_scripts": [],
+        "text_preview": "Before returning results, verify:\n\n- [ ] Output is valid JSON (use `json.loads()` to validate)\n- [ ] All required fields are present (`success`, `source_video`, `frames_extracted`, `video_metadata`)\n- [ ] Output directory was created successfully\n- [ ] Extracted frame count matches expected value ba"
+      }
+    ],
+    "_negative_control_class": "D_swapped_contract",
+    "_swap_source_contract_from": "text_cand_022",
+    "_swap_member_cluster": "text_cand_083"
+  }
+]

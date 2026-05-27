@@ -1,0 +1,14 @@
+================================================================================
+  Negative Controls — False Positive Report
+================================================================================
+
+  n_total: 30
+  by tier: auto=0  review=0  reject=30
+
+  False-positive rate (auto_promote on negative):       0.0%  (target ≤ 5%)
+  False-positive rate (auto OR review on negative):     0.0%
+
+  Per class:
+    B_same_domain_distinct          auto= 0  review= 0  reject=10  |  fp(auto)=0%  (n=10)
+    C_near_miss                     auto= 0  review= 0  reject=10  |  fp(auto)=0%  (n=10)
+    D_swapped_contract              auto= 0  review= 0  reject=10  |  fp(auto)=0%  (n=10)

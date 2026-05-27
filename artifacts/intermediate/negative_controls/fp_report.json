@@ -1,0 +1,39 @@
+{
+  "n_total": 30,
+  "n_by_tier": {
+    "auto_promote": 0,
+    "review": 0,
+    "reject": 30
+  },
+  "n_by_class_tier": {
+    "B_same_domain_distinct": {
+      "auto_promote": 0,
+      "review": 0,
+      "reject": 10
+    },
+    "C_near_miss": {
+      "auto_promote": 0,
+      "review": 0,
+      "reject": 10
+    },
+    "D_swapped_contract": {
+      "auto_promote": 0,
+      "review": 0,
+      "reject": 10
+    }
+  },
+  "fp_rate_auto": 0.0,
+  "fp_rate_auto_or_review": 0.0,
+  "policy": {
+    "hard_risk_max": 0.8,
+    "hard_min_binding_rate": 0.5,
+    "w_binding": 1.0,
+    "w_coverage": 0.7,
+    "w_replacement": 0.5,
+    "w_risk": 1.0,
+    "auto_promote_threshold": 0.65,
+    "review_threshold": 0.35,
+    "soft_min_coverage": 0.3,
+    "soft_min_replacement": 0.3
+  }
+}
