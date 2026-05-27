@@ -1,6 +1,15 @@
-# Skill-as-Pseudocode (SaP)
+<p align="center">
+  <h1 align="center">Skill-as-Pseudocode: Refactoring Skill Libraries to Pseudocode for LLM Agents.</h1>
+    <p align="center">
+    <a href="https://lixinze777.github.io/"><strong>Xinze Li</strong></a>
+    ·
+    <a href="https://yuhangzang.github.io/"><strong>Yuhang Zang</strong></a>
+    ·
+    <a href="https://sites.google.com/view/yixin-homepage"><strong>Yixin Cao</strong></a>
+    ·
+    <a href="https://personal.ntu.edu.sg/axsun/"><strong>Aixin Sun</strong></a>
+  </p>
 
-**Refactoring Skill Libraries to Pseudocode for LLM Agents.**
 
 This repository contains the reference implementation of SaP — a verified
 pipeline that converts free-form markdown skill libraries into typed
