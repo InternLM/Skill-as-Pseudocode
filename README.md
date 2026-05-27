@@ -148,13 +148,3 @@ defaults) so it can be relocated without code edits:
 | `OPENAI_BASE_URL` | —                | Optional, for an OpenAI-compatible proxy.                               |
 
 ---
-
-## Citation
-
-```bibtex
-@inproceedings{...,
-  title  = {Skill-as-Pseudocode: Refactoring Skill Libraries to Pseudocode for LLM Agents},
-  author = {...},
-  year   = {2026},
-}
-```
