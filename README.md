@@ -8,8 +8,7 @@ pseudocode contracts, plus the evaluation hooks used to measure SaP against
 the [Graph-of-Skills](https://github.com/...) retrieval baseline on ALFWorld
 and SkillsBench.
 
-> If you use this code, please cite our paper. *(BibTeX entry to be added.)*
-
+> If you use this code, please cite our paper. 
 ---
 
 ## Repository layout
