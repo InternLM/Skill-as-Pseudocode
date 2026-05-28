@@ -156,3 +156,17 @@ defaults) so it can be relocated without code edits:
 | `OPENAI_BASE_URL` | —                | Optional, for an OpenAI-compatible proxy.                               |
 
 ---
+
+## Citation
+
+If you find this work useful, please cite our paper:
+
+```bibtex
+@article{li2026sap,
+  title   = {Skill-as-Pseudocode: Refactoring Skill Libraries to Pseudocode for LLM Agents},
+  author  = {Li, Xinze and Zang, Yuhang and Cao, Yixin and Sun, Aixin},
+  journal = {arXiv preprint arXiv:2605.27955},
+  year    = {2026},
+  url     = {https://arxiv.org/abs/2605.27955}
+}
+```
