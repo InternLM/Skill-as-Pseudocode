@@ -9,15 +9,24 @@
     ·
     <a href="https://personal.ntu.edu.sg/axsun/"><strong>Aixin Sun</strong></a>
   </p>
-
+  <p align="center">
+    <a href="https://arxiv.org/abs/2605.27955"><img src="https://img.shields.io/badge/arXiv-2605.27955-b31b1b.svg" alt="arXiv"></a>
+    <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
+  </p>
+</p>
 
 This repository contains the reference implementation of SaP — a verified
 pipeline that converts free-form markdown skill libraries into typed
 pseudocode contracts, plus the evaluation hooks used to measure SaP against
-the [Graph-of-Skills](https://github.com/...) retrieval baseline on ALFWorld
+the [Graph-of-Skills](https://github.com/) retrieval baseline on ALFWorld
 and SkillsBench.
 
-> If you use this code, please cite our paper. 
+<p align="center">
+  <img src="figures/pipeline.png" alt="SaP pipeline overview" width="95%">
+</p>
+<p align="center"><em>SaP as verified refactoring. Repeated prose spans in parent skills (A) feed a numbered, checked pipeline (B): form a candidate cluster, draft a child contract κ, verify it, bind concrete arguments and clean residual conflicts, then emit an agent-facing pseudocode skill. The resulting representation (C) separates what the skill does (typed signature), what local arguments this parent supplies (grounded <code>invoke</code>), and how the environment is actually called (concrete action template).</em></p>
+
+> If you use this code, please cite [our paper](#citation).
 ---
 
 ## Repository layout
